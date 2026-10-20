@@ -1,0 +1,93 @@
+[
+  {
+    "id": "bms-12",
+    "subject": "Chemie",
+    "title": "Atombau und Periodensystem",
+    "topic": "Grundlagen",
+    "paragraphs": [
+      "Atome bestehen aus einem positiv geladenen Kern und einer Elektronenhülle. Die Ordnungszahl entspricht der Protonenzahl. Die Massenzahl ist die Summe aus Protonen und Neutronen. Isotope eines Elements unterscheiden sich in der Neutronenzahl. Ionen entstehen durch Elektronenaufnahme oder -abgabe.",
+      "Das Periodensystem ordnet Elemente nach der Ordnungszahl. Elemente einer Hauptgruppe haben ähnliche Valenzelektronenkonfigurationen. Die Elektronegativität nimmt innerhalb einer Periode tendenziell nach rechts zu und innerhalb einer Gruppe nach unten ab; die Trends besitzen Ausnahmen.",
+      "Beispiel: ²³Na besitzt 11 Protonen und 12 Neutronen. Na⁺ besitzt 10 Elektronen. Die positive Ladung entsteht durch Elektronenabgabe, nicht durch die Aufnahme eines Protons."
+    ],
+    "question": "Wie viele Elektronen hat ein neutrales Atom mit Ordnungszahl 8?",
+    "answer": "Acht Elektronen."
+  },
+  {
+    "id": "bms-13",
+    "subject": "Chemie",
+    "title": "Bindungen und zwischenmolekulare Kräfte",
+    "topic": "Struktur",
+    "paragraphs": [
+      "Bei kovalenten Bindungen teilen Atome Elektronenpaare. Ionenbindungen beruhen auf elektrostatischer Anziehung entgegengesetzt geladener Ionen. Metallische Bindung wird durch delokalisierte Elektronen beschrieben. Die räumliche Molekülgestalt beeinflusst Polarität und Reaktivität.",
+      "London-Kräfte wirken zwischen allen Teilchen. Permanente Dipole können Dipol-Dipol-Wechselwirkungen ausbilden. Wasserstoffbrücken entstehen insbesondere bei geeigneten Bindungen mit N, O oder F und freien Elektronenpaaren eines Partners. Sie sind schwächer als typische kovalente Bindungen, aber für biologische Strukturen entscheidend.",
+      "Beispiel: CO₂ besitzt polare C=O-Bindungen, ist aufgrund seiner linearen symmetrischen Gestalt insgesamt jedoch kein permanentes Dipolmolekül. Wasser ist gewinkelt und polar."
+    ],
+    "question": "Warum bedeutet eine polare Bindung nicht automatisch ein polares Molekül?",
+    "answer": "Weil sich die Bindungsdipole je nach Molekülgeometrie gegenseitig aufheben können."
+  },
+  {
+    "id": "bms-14",
+    "subject": "Chemie",
+    "title": "Stoffmenge, Konzentration und Stöchiometrie",
+    "topic": "Rechnen",
+    "paragraphs": [
+      "Die Stoffmenge n wird in mol angegeben. Ein Mol enthält exakt 6,02214076 × 10²³ elementare Einheiten. Mit der molaren Masse M gilt n = m/M. Die Stoffmengenkonzentration ist c = n/V. Einheiten müssen vor dem Einsetzen zueinander passen.",
+      "Reaktionsgleichungen geben Stoffmengenverhältnisse an. Zuerst wird die Gleichung ausgeglichen, dann mit den Koeffizienten gerechnet. Bei mehreren Edukten begrenzt der limitierende Reaktand die maximal mögliche Produktmenge. Bei Verdünnung ohne Stoffverlust gilt c₁V₁ = c₂V₂.",
+      "Beispiel: 5,85 g NaCl mit M ≈ 58,5 g/mol entsprechen 0,10 mol. In 0,50 l Lösung ergibt das c = 0,20 mol/l."
+    ],
+    "question": "Wie viel Wasser muss man zu 100 ml einer 1-molaren Lösung geben, um 0,5 mol/l zu erhalten, bei additiven Volumina?",
+    "answer": "Auf 200 ml Gesamtvolumen auffüllen, also etwa 100 ml Wasser zugeben."
+  },
+  {
+    "id": "bms-15",
+    "subject": "Chemie",
+    "title": "Reaktionsenergie, Kinetik und Gleichgewicht",
+    "topic": "Reaktionen",
+    "paragraphs": [
+      "Die Reaktionsenthalpie beschreibt bei konstantem Druck den Wärmeumsatz. Exotherme Reaktionen geben Wärme ab, endotherme nehmen sie auf. Ob ein Prozess thermodynamisch begünstigt ist, hängt von der freien Enthalpie ab: ΔG = ΔH − TΔS. Eine begünstigte Reaktion kann trotzdem langsam sein.",
+      "Die Geschwindigkeit hängt unter anderem von Temperatur, Konzentration und Aktivierungsenergie ab. Im dynamischen Gleichgewicht laufen Hin- und Rückreaktion gleich schnell. Das Massenwirkungsgesetz beschreibt die Gleichgewichtszusammensetzung über Aktivitäten. Katalysatoren beschleunigen beide Richtungen und ändern die Gleichgewichtskonstante nicht.",
+      "Beispiel: Entfernt man bei geeigneten Bedingungen ein Reaktionsprodukt, kann sich das Gleichgewicht zur Produktseite verschieben. Eine Temperaturänderung kann dagegen die Gleichgewichtskonstante verändern."
+    ],
+    "question": "Ist eine exotherme Reaktion immer schnell?",
+    "answer": "Nein. Reaktionsgeschwindigkeit und Wärmeumsatz beschreiben verschiedene Eigenschaften."
+  },
+  {
+    "id": "bms-16",
+    "subject": "Chemie",
+    "title": "Säuren, Basen und Puffer",
+    "topic": "Säure–Base",
+    "paragraphs": [
+      "Nach Brønsted sind Säuren Protonendonatoren und Basen Protonenakzeptoren. Eine starke Säure reagiert in Wasser weitgehend vollständig, eine schwache nur teilweise. Säurestärke und Konzentration sind verschiedene Begriffe. pH = −log₁₀ a(H₃O⁺); für verdünnte ideale Lösungen kann man näherungsweise Konzentrationen verwenden.",
+      "Bei 25 °C gilt in verdünnter wässriger Lösung näherungsweise pH + pOH = 14. Ein Puffer enthält eine schwache Säure und ihre konjugierte Base oder das entsprechende Basensystem. Er dämpft begrenzte Säure- oder Basenzugaben, hat aber eine endliche Kapazität.",
+      "Beispiel: 0,001 mol/l einer vollständig dissoziierten einprotonigen starken Säure ergibt näherungsweise pH 3. Eine zehnfache Verdünnung erhöht hier den pH näherungsweise um 1."
+    ],
+    "question": "Ist eine konzentrierte schwache Säure automatisch eine starke Säure?",
+    "answer": "Nein. Die Stärke wird durch das Protolysegleichgewicht bestimmt."
+  },
+  {
+    "id": "bms-17",
+    "subject": "Chemie",
+    "title": "Redoxreaktionen und Elektrochemie",
+    "topic": "Elektronen",
+    "paragraphs": [
+      "Oxidation ist Elektronenabgabe, Reduktion Elektronenaufnahme. Beide Vorgänge treten gekoppelt auf. Das Oxidationsmittel nimmt Elektronen auf und wird selbst reduziert. Das Reduktionsmittel gibt Elektronen ab und wird oxidiert. Oxidationszahlen helfen beim Bilanzieren.",
+      "In einer galvanischen Zelle wird chemische Energie in elektrische Energie umgewandelt. An der Anode findet immer Oxidation statt, an der Kathode Reduktion. Die Vorzeichen der Elektroden unterscheiden sich zwischen galvanischer Zelle und Elektrolyse; die Definition über den Reaktionstyp bleibt gültig.",
+      "Beispiel: Zn → Zn²⁺ + 2 e⁻ ist eine Oxidation. Cu²⁺ + 2 e⁻ → Cu ist eine Reduktion. Die Elektronenanzahl muss in der Gesamtgleichung ausgeglichen sein."
+    ],
+    "question": "Was geschieht mit der Oxidationszahl bei einer Oxidation?",
+    "answer": "Sie steigt."
+  },
+  {
+    "id": "bms-18",
+    "subject": "Chemie",
+    "title": "Organische Chemie und funktionelle Gruppen",
+    "topic": "Organik",
+    "paragraphs": [
+      "Kohlenstoff bildet häufig vier kovalente Bindungen und kann Ketten sowie Ringe aufbauen. Alkane besitzen nur C–C-Einfachbindungen, Alkene mindestens eine C=C-Doppelbindung, Alkine mindestens eine C≡C-Dreifachbindung. Struktur und funktionelle Gruppen bestimmen viele Stoffeigenschaften.",
+      "Alkohole besitzen Hydroxygruppen, Aldehyde und Ketone Carbonylgruppen, Carbonsäuren Carboxygruppen und Amine stickstoffhaltige funktionelle Gruppen. Ester können durch Reaktion einer Carbonsäure mit einem Alkohol entstehen. Isomere besitzen dieselbe Summenformel, aber unterschiedliche Struktur oder räumliche Anordnung.",
+      "Beispiel: Ethanol kann zu Ethanal und weiter zu Ethansäure oxidiert werden. Eine Aminosäure besitzt mindestens eine Amino- und eine Carboxygruppe; Peptidbindungen verknüpfen Aminosäuren."
+    ],
+    "question": "Welche zwei Stoffklassen reagieren bei einer einfachen Veresterung?",
+    "answer": "Eine Carbonsäure und ein Alkohol; dabei entsteht typischerweise auch Wasser."
+  }
+]

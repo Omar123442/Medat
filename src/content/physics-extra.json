@@ -1,0 +1,65 @@
+[
+  {
+    "id": "phys-lenses",
+    "subject": "Physik",
+    "title": "Linsen und Strahlengänge",
+    "topic": "Optik",
+    "keywords": [
+      "linse",
+      "strahlengang",
+      "brennweite",
+      "abbildung",
+      "dioptrie"
+    ],
+    "diagram": "optics",
+    "prerequisites": ["Geradlinige Lichtausbreitung", "Bruchrechnung"],
+    "introduction": "Du konstruierst einfache Abbildungen an einer dünnen Sammellinse und deutest Brennweite und Brechkraft.",
+    "paragraphs": [
+      "Eine ideale Sammellinse bündelt achsenparallele Strahlen im bildseitigen Brennpunkt. Ein Strahl durch den objektseitigen Brennpunkt verlässt die Linse näherungsweise parallel. Ein Strahl durch die optische Mitte wird im Dünnlinsenmodell näherungsweise nicht abgelenkt.",
+      "Liegt ein Gegenstand außerhalb der Brennweite, können sich austretende Strahlen real schneiden. Ein reelles Bild kann auf einem Schirm aufgefangen werden und ist bei einer einzelnen Sammellinse in dieser Konstellation umgekehrt. Bei einem Gegenstand innerhalb der Brennweite laufen die Strahlen auseinander; ihre rückwärtigen Verlängerungen ergeben ein virtuelles aufrechtes Bild.",
+      "Für das einfache Dünnlinsenmodell gilt bei der üblichen Konvention 1/f = 1/g + 1/b. g ist die Gegenstandsweite, b die Bildweite, f die Brennweite. Die lineare Vergrößerung im Betrag ist |B/G|=|b/g|. Vorzeichenregeln müssen zur gewählten Konvention passen.",
+      "Die Brechkraft D=1/f hat die Einheit m⁻¹ beziehungsweise Dioptrie. Bei Kontakt zweier dünner Linsen addieren sich ihre Brechkräfte näherungsweise. Eine Zerstreuungslinse besitzt nach üblicher Konvention eine negative Brennweite."
+    ],
+    "formula": [
+      "1/f = 1/g + 1/b; D = 1/f",
+      "Alle Längen in zueinander passenden Einheiten; für Dioptrien f in Metern."
+    ],
+    "example": "Beispiel: f=10 cm, g=30 cm. Dann 1/b=1/10−1/30=1/15 cm⁻¹ und b=15 cm. Das Bild ist reell; sein Betrag der Vergrößerung ist 15/30=0,5.",
+    "mistake": "Ein virtueller Bildpunkt ist kein Ort, an dem die tatsächlichen austretenden Strahlen zusammenlaufen. Er entsteht durch ihre gedachten rückwärtigen Verlängerungen.",
+    "question": "Welche Brechkraft hat eine Sammellinse mit f=25 cm?",
+    "answer": "D = 1/0,25 m = 4 dpt.",
+    "summary": [
+      "Du konstruierst einfache Abbildungen an einer dünnen Sammellinse und deutest Brennweite und Brechkraft.",
+      "Ein virtueller Bildpunkt ist kein Ort, an dem die tatsächlichen austretenden Strahlen zusammenlaufen. Er entsteht durch ihre gedachten rückwärtigen Verlängerungen."
+    ]
+  },
+  {
+    "id": "phys-torque",
+    "subject": "Physik",
+    "title": "Drehmoment und Hebel",
+    "topic": "Mechanik",
+    "keywords": [
+      "drehmoment",
+      "hebel",
+      "hebelarm",
+      "gleichgewicht",
+      "schwerpunkt"
+    ],
+    "prerequisites": ["Kraft und Kräftegleichgewicht", "Geometrie"],
+    "introduction": "Du berechnest die Drehwirkung einer Kraft und trennst Kraftgleichgewicht von Momentengleichgewicht.",
+    "paragraphs": [
+      "Eine Kraft kann einen Körper nicht nur beschleunigen, sondern auch eine Drehbewegung verändern. Das Drehmoment hängt von Betrag, Angriffspunkt und Richtung der Kraft ab. Sein Betrag ist M=rF sin α, wobei α der Winkel zwischen Ortsvektor und Kraft ist. Gleichwertig kann man den senkrechten Abstand der Wirkungslinie vom Drehpunkt als Hebelarm verwenden.",
+      "Greift die Kraft entlang einer Wirkungslinie durch den Drehpunkt an, ist der Hebelarm null und damit auch das Moment um diesen Punkt. Für statisches Gleichgewicht eines starren Körpers müssen sowohl die resultierende Kraft als auch die Summe der Drehmomente null sein.",
+      "Bei einem einfachen zweiseitigen Hebel im Gleichgewicht gilt bei senkrecht angreifenden Kräften F₁l₁=F₂l₂. Der längere Hebelarm erlaubt bei gleichem Moment eine kleinere Kraft. Dafür muss der Angriffspunkt bei einer Bewegung einen größeren Weg zurücklegen. Das Hebelgesetz erzeugt keine Energie aus dem Nichts.",
+      "Das Drehmoment besitzt die Einheit N·m. Obwohl das dimensionsgleich mit dem Joule ist, bezeichnet ein Drehmoment keine Arbeit. Arbeit bei einer Drehbewegung hängt zusätzlich vom Drehwinkel und vom Verlauf des Moments ab."
+    ],
+    "example": "Beispiel: Links greifen 40 N in 0,30 m Abstand senkrecht an. Rechts in 0,60 m Abstand reichen 20 N für dasselbe Moment von 12 N·m. Eine eventuelle Gewichtskraft des Hebels muss zusätzlich berücksichtigt werden.",
+    "mistake": "Der Abstand zum Angriffspunkt ist nicht immer der wirksame Hebelarm. Entscheidend ist der senkrechte Abstand zur Wirkungslinie der Kraft.",
+    "question": "Wie groß ist das Moment einer Kraft, deren Wirkungslinie durch den Drehpunkt geht?",
+    "answer": "Null.",
+    "summary": [
+      "Du berechnest die Drehwirkung einer Kraft und trennst Kraftgleichgewicht von Momentengleichgewicht.",
+      "Der Abstand zum Angriffspunkt ist nicht immer der wirksame Hebelarm. Entscheidend ist der senkrechte Abstand zur Wirkungslinie der Kraft."
+    ]
+  }
+]

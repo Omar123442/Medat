@@ -1,0 +1,93 @@
+[
+  {
+    "id": "bms-26",
+    "subject": "Mathematik",
+    "title": "Zahlen, Brüche und Prozentrechnung",
+    "topic": "Grundlagen",
+    "paragraphs": [
+      "Bei Brüchen muss zum Addieren ein gemeinsamer Nenner gebildet werden. Beim Multiplizieren werden Zähler und Nenner jeweils multipliziert. Division durch einen Bruch entspricht Multiplikation mit dessen Kehrwert. Durch null darf nicht dividiert werden.",
+      "Ein Prozent entspricht 1/100. Prozentwert = Grundwert · Prozentsatz. Prozentuale Änderungen beziehen sich jeweils auf den aktuellen Grundwert. Bei proportionalen Größen ist der Quotient konstant; bei antiproportionalen Größen das Produkt.",
+      "Beispiel: Nach +20 % und anschließend −20 % bleiben 1,2 · 0,8 = 0,96, also 96 % des ursprünglichen Wertes. Die Änderungen heben sich nicht auf."
+    ],
+    "question": "Wie viel sind 15 % von 240?",
+    "answer": "36, denn 0,15 · 240 = 36."
+  },
+  {
+    "id": "bms-27",
+    "subject": "Mathematik",
+    "title": "Potenzen, Wurzeln und Logarithmen",
+    "topic": "Algebra",
+    "paragraphs": [
+      "Für geeignete Definitionsbereiche gilt aᵐ·aⁿ = aᵐ⁺ⁿ und (aᵐ)ⁿ = aᵐⁿ. Eine negative Potenz beschreibt den Kehrwert. Wurzeln lassen sich als gebrochene Potenzen schreiben. Im Reellen sind gerade Wurzeln negativer Zahlen nicht definiert.",
+      "Der Logarithmus ist die Umkehrung der Exponentialfunktion: log_b(x) = y bedeutet bʸ = x. Es gilt log_b(xy) = log_b(x) + log_b(y), aber nicht log_b(x+y) = log_b(x) + log_b(y). Das Argument muss positiv sein, die Basis positiv und ungleich 1.",
+      "Beispiel: log₁₀(1000) = 3. √(x²) = |x| und nicht allgemein x. Für x = −3 ergibt sich √9 = 3."
+    ],
+    "question": "Was ist 10⁻³?",
+    "answer": "0,001 beziehungsweise 1/1000."
+  },
+  {
+    "id": "bms-28",
+    "subject": "Mathematik",
+    "title": "Gleichungen und Ungleichungen",
+    "topic": "Algebra",
+    "paragraphs": [
+      "Äquivalenzumformungen erhalten die Lösungsmenge. Dieselbe Zahl darf auf beiden Seiten addiert werden; mit einer von null verschiedenen Zahl darf multipliziert oder dividiert werden. Vor dem Kürzen muss ein Produkt vorliegen. Definitionsausschlüsse müssen erhalten bleiben.",
+      "Bei Ungleichungen kehrt sich das Zeichen um, wenn man mit einer negativen Zahl multipliziert oder durch sie dividiert. Quadratische Gleichungen ax² + bx + c = 0 besitzen für a ≠ 0 die Lösungen (−b ± √(b²−4ac))/(2a), sofern die Diskriminante nicht negativ ist.",
+      "Beispiel: −2x < 6 ergibt x > −3. Die Gleichung x² = 9 hat zwei reelle Lösungen: x = 3 und x = −3."
+    ],
+    "question": "Was muss man nach dem Quadrieren einer Gleichung beachten?",
+    "answer": "Es können Scheinlösungen entstehen. Alle Kandidaten müssen in der ursprünglichen Gleichung geprüft werden."
+  },
+  {
+    "id": "bms-29",
+    "subject": "Mathematik",
+    "title": "Funktionen und Diagramme",
+    "topic": "Funktionen",
+    "paragraphs": [
+      "Eine Funktion ordnet jedem Element ihres Definitionsbereichs genau einen Funktionswert zu. Bei y = mx + b beschreibt m die Steigung und b den y-Achsenabschnitt. Die Nullstelle ist die Stelle x mit f(x) = 0. Die quadratische Funktion ergibt eine Parabel.",
+      "Exponentielles Wachstum bedeutet einen konstanten Faktor pro gleich langem Zeitintervall, lineares Wachstum einen konstanten Zuwachs. Diagramme müssen anhand von Achsen, Einheiten und Skalierung gelesen werden. Ein logarithmischer Maßstab zeigt gleiche Faktoren als gleiche Abstände.",
+      "Beispiel: f(x) = 2x − 6 hat die Steigung 2 und die Nullstelle x = 3. Bei Verdopplung alle drei Stunden beträgt der Faktor nach sechs Stunden 4."
+    ],
+    "question": "Woran erkennt man lineares Wachstum in einer Wertetabelle mit gleichen x-Abständen?",
+    "answer": "An konstanten Differenzen der zugehörigen y-Werte."
+  },
+  {
+    "id": "bms-30",
+    "subject": "Mathematik",
+    "title": "Geometrie und Trigonometrie",
+    "topic": "Geometrie",
+    "paragraphs": [
+      "Für Rechtecke gilt A = a·b, für Dreiecke A = g·h/2, für Kreise A = πr² und U = 2πr. Ein Quader hat V = a·b·c, ein Zylinder V = πr²h und eine Kugel V = 4πr³/3. Flächen und Volumina benötigen quadrierte beziehungsweise kubierte Einheiten.",
+      "Im rechtwinkligen Dreieck gilt a² + b² = c² mit der Hypotenuse c. Sinus ist Gegenkathete/Hypotenuse, Kosinus Ankathete/Hypotenuse und Tangens Gegenkathete/Ankathete. Bei Formeln muss zwischen Gradmaß und Bogenmaß unterschieden werden; 180° entsprechen π rad.",
+      "Beispiel: Werden alle Längen verdoppelt, vervierfachen sich Flächen und verachtfachen sich Volumina. Ein rechtwinkliges Dreieck mit Katheten 3 und 4 besitzt die Hypotenuse 5."
+    ],
+    "question": "Wie viele Quadratzentimeter sind ein Quadratmeter?",
+    "answer": "10.000 cm², denn (100 cm)² = 10.000 cm²."
+  },
+  {
+    "id": "bms-31",
+    "subject": "Mathematik",
+    "title": "Vektoren und analytische Geometrie",
+    "topic": "Vektoren",
+    "paragraphs": [
+      "Vektoren beschreiben gerichtete Größen und können komponentenweise addiert werden. Der Betrag eines ebenen Vektors (x,y) ist √(x²+y²). Multiplikation mit einem Skalar verändert Betrag und gegebenenfalls Richtung. Ortsvektoren beschreiben Punkte relativ zu einem Ursprung.",
+      "Das Skalarprodukt ist sowohl a₁b₁ + a₂b₂ + a₃b₃ als auch |a||b|cos α. Für zwei von null verschiedene orthogonale Vektoren ist es null. Eine Gerade kann durch einen Stützvektor und einen Richtungsvektor parametrisiert werden.",
+      "Beispiel: (1,2) + (3,−1) = (4,1). Die Vektoren (1,0) und (0,2) sind orthogonal, da ihr Skalarprodukt null ist."
+    ],
+    "question": "Welchen Betrag hat der Vektor (3,4)?",
+    "answer": "5."
+  },
+  {
+    "id": "bms-32",
+    "subject": "Mathematik",
+    "title": "Wahrscheinlichkeit und Statistik",
+    "topic": "Stochastik",
+    "paragraphs": [
+      "Wahrscheinlichkeiten liegen zwischen 0 und 1. Für das Gegenereignis gilt P(nicht A) = 1 − P(A). Bei unabhängigen Ereignissen gilt P(A und B) = P(A)P(B). Allgemein muss bei einer Verknüpfung die bedingte Wahrscheinlichkeit berücksichtigt werden.",
+      "Das arithmetische Mittel ist Summe der Werte geteilt durch ihre Anzahl. Der Median teilt die sortierten Werte in zwei Hälften und ist weniger empfindlich gegenüber Extremwerten. Eine Korrelation beweist keine Kausalität. Bei diagnostischen Tests sind Sensitivität, Spezifität und positiver Vorhersagewert unterschiedliche Größen.",
+      "Beispiel: Beim zweimaligen Werfen einer fairen Münze ist P(zweimal Kopf) = 1/4. Der Mittelwert von 1, 2 und 9 ist 4; der Median ist 2."
+    ],
+    "question": "Wie groß ist die Wahrscheinlichkeit für mindestens einmal Kopf bei zwei unabhängigen fairen Münzwürfen?",
+    "answer": "1 − P(kein Kopf) = 1 − 1/4 = 3/4."
+  }
+]

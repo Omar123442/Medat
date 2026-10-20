@@ -1,0 +1,111 @@
+const book = (id, title, slug, subject) => ({
+  id,
+  title,
+  url: `https://openstax.org/details/books/${slug}`,
+  subject,
+  kind: "Referenzempfehlung",
+  license: "Nicht einzeln verifiziert; keine Texte oder Bilder übernommen",
+  verified: false,
+});
+export const sources = [
+  book("biology", "OpenStax Biology 2e", "biology-2e", "Biologie"),
+  book(
+    "anatomy",
+    "OpenStax Anatomy & Physiology 2e",
+    "anatomy-and-physiology-2e",
+    "Biologie",
+  ),
+  book("microbiology", "OpenStax Microbiology", "microbiology", "Biologie"),
+  book(
+    "concepts",
+    "OpenStax Concepts of Biology",
+    "concepts-biology",
+    "Biologie",
+  ),
+  book("chemistry", "OpenStax Chemistry 2e", "chemistry-2e", "Chemie"),
+  book("organic", "OpenStax Organic Chemistry", "organic-chemistry", "Chemie"),
+  book(
+    "physics",
+    "OpenStax College Physics 2e",
+    "college-physics-2e",
+    "Physik",
+  ),
+  book(
+    "algebra",
+    "OpenStax Algebra and Trigonometry 2e",
+    "algebra-and-trigonometry-2e",
+    "Mathematik",
+  ),
+  book(
+    "precalculus",
+    "OpenStax Precalculus 2e",
+    "precalculus-2e",
+    "Mathematik",
+  ),
+  book("psychology", "OpenStax Psychology 2e", "psychology-2e", "KFF"),
+  book(
+    "statistics",
+    "OpenStax Introductory Statistics 2e",
+    "introductory-statistics-2e",
+    "KFF",
+  ),
+  book(
+    "contemporary",
+    "OpenStax Contemporary Mathematics",
+    "contemporary-mathematics",
+    "KFF",
+  ),
+  ...Object.entries({ Biologie: "bio", Chemie: "chem", Physik: "phys" }).map(
+    ([subject, domain]) => ({
+      id: domain + "-libre",
+      title: subject + " LibreTexts",
+      url: `https://${domain}.libretexts.org/`,
+      subject,
+      license: "Lizenz pro Beitrag zu prüfen; keine Übernahme",
+      verified: false,
+    }),
+  ),
+  {
+    id: "official",
+    title: "Offizielle MedAT-Vorbereitung",
+    url: "https://www.medizinstudieren.at/",
+    subject: "Alle",
+    license: "Offizielle Prüfungsunterlagen; keine Originalaufgaben übernommen",
+    verified: false,
+  },
+  {
+    id: "openlogic",
+    title: "Open Logic Project",
+    url: "https://openlogicproject.org/",
+    subject: "KFF",
+    license: "Nicht einzeln verifiziert; keine Übernahme",
+    verified: false,
+  },
+  {
+    id: "geogebra",
+    title: "GeoGebra",
+    url: "https://www.geogebra.org/",
+    subject: "Visualisierung",
+    license: "Keine Applets oder Inhalte eingebunden",
+    verified: false,
+  },
+  {
+    id: "commons",
+    title: "Wikimedia Commons",
+    url: "https://commons.wikimedia.org/",
+    subject: "Visualisierung",
+    license: "Lizenz pro Datei zu prüfen; keine fremden Bilder eingebunden",
+    verified: false,
+  },
+];
+export const subjectSources = {
+  Biologie: ["biology", "anatomy", "concepts", "microbiology", "bio-libre"],
+  Chemie: ["chemistry", "organic", "chem-libre"],
+  Physik: ["physics", "phys-libre"],
+  Mathematik: ["algebra", "precalculus"],
+};
+export const sourceStatus = {
+  checkedAt: "2026-10-20",
+  officialVerified: false,
+  note: "Die externen Referenzen und der aktuelle offizielle Stoffkatalog konnten wegen der Netzwerksperre nicht inhaltlich geprüft werden. Inhalte sind eigenständige Erklärungen, keine Übersetzungen der verlinkten Bücher. Ein externes fachliches Prüfdatum wird erst nach einer tatsächlichen Prüfung gesetzt.",
+};

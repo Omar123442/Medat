@@ -1,48 +1,55 @@
 # MedAT Campus
 
-Deutschsprachiges React-Lernstudio für BMS mit lokalem Anki-Import.
+Kostenloses deutschsprachiges React-/Vite-Lernstudio mit lokalem Anki-Import, BMS-Bibliothek, KFF-Grundlagentraining und langfristigen FSRS-Wiederholungen.
 
-## Start
+## Lokal starten
 
 Node.js 24 und npm verwenden. Im vorhandenen Checkout arbeiten.
 
 ```sh
-npm ci --cache /tmp/medat-npm
-npm run dev -- --port 5173
+npm ci
+npm run dev
 ```
 
-`npm run build` erstellt die statische Website in `dist/`. `npm run preview` startet den Produktionsbuild lokal. `public/sql-wasm.wasm` ist die lokale SQL.js-Laufzeit. Kein Backend und keine Zugangsdaten erforderlich.
+In der Cloud bei Bedarf `npm ci --cache /tmp/medat-npm` verwenden. Vite zeigt die lokale Adresse an. Die hochgeladene `MedAT-Tanki_2024.apkg` wird über „Importieren“ im Browser ausgewählt. Die vier Beispielkarten sind nicht aus diesem Deck.
 
-## Lernablauf
+## Produktionsbuild und Offlinebetrieb
 
-- **Zuerst verstehen:** 33 ergänzende Grundlagenkapitel in Biologie, Chemie, Physik und Mathematik mit Erklärungen, Beispielen, Verständnisfragen und gespeichertem Lesefortschritt. Alternativ ist das gesamte importierte Deck als Fragen-und-Antworten-Lesestoff zugänglich.
-- **Lernkarten:** Alle tatsächlich in der Anki-Tabelle `cards` gespeicherten Karten, inklusive mehrerer Karten je Notiz. Der Importbericht zeigt Notizen, Karten und Warnungen. Unterdecks können ausgewählt werden. Suche durchsucht Frage, Antwort, Fach, Deck und Tags. Die Liste hat Seiten mit je 50 Karten, der Lesemodus mit je 20; es gibt keine Gesamtbegrenzung.
-- **Sitzung:** Anzahl frei wählen; `0` oder „Alle Karten“ bedeutet alle ausgewählten Karten. Standardmäßig folgt ein Lesedurchgang mit zehn Karten je Seite, dann das aktive Abrufen. Erfahrene Nutzer können den Leseschritt abwählen. „Noch einmal“ hängt die Karte ohne feste Wiederholungsobergrenze an.
-- **Tagesziel:** Frei wählbares Motivationsziel, keine Begrenzung der Sitzung.
+```sh
+npm run build
+npm run preview
+```
 
-Das Originaldeck wird nach Import in IndexedDB gespeichert und beim Öffnen wiederhergestellt. Tagesziel, Wiederholungszahlen, Sitzungsgröße und Lesefortschritt bleiben im localStorage dieses Browsers. Löschen der Websitedaten entfernt diese Speicherung. Bei fehlender Speicherquote funktioniert der Import für die laufende Sitzung und zeigt einen Hinweis. Auf unterschiedlichen Ports/Domains gelten getrennte Browserspeicher.
+Die statische Website liegt in `dist/` und wird am Domain-Wurzelpfad gehostet. `scripts/build-offline.cjs` erzeugt den Service Worker aus den gebauten Dateien. Nach einem erfolgreichen ersten Online-Start und abgeschlossenem Service-Worker-Setup kann der Produktionsbuild ohne Netzwerk wieder geöffnet werden, einschließlich Anki-WASM und KFF-Module. HTTPS oder localhost erforderlich. Der Entwicklungsserver ist kein Offlinebuild. Quelllinks benötigen Netz; die Lernfunktionen benötigen kein Backend. Externe Schriftabhängigkeiten wurden entfernt.
+
+## Lernen
+
+- **Zuerst verstehen:** 49 strukturierte Kapitel; 33 bestehende IDs erhalten, 16 vertiefende Kapitel ergänzt. Eigene Grafiken und interaktive Parameter. Unter „Dein Deck als Lesestoff“ ist das vollständige importierte Deck lesbar.
+- **Stoffabdeckung & Quellen:** interner Katalog mit Lernstatus, Quellenregister, eigene aktuelle Themenlisten und manuelle Kapitelverknüpfung. Kein verifizierter offizieller Stoffkatalog.
+- **Kartenzuordnung:** Vorschläge aus Decknamen, Tags und Inhalt, sichtbar unsichere Zuordnungen und manuelle Korrektur. Keine Karte wird dadurch entfernt.
+- **Lernkarten:** tatsächliche Anki-Karten statt bloßer Notizen; alle über Seiten erreichbar. Suche und Unterdeckfilter. Frei wählbare Sitzungsgröße, `0` bedeutet alle Karten. Optionaler vorgeschalteter Lesedurchgang. Tagesziel begrenzt die Sitzung nicht.
+- **Wiederholungen:** FSRS über `ts-fsrs` mit gespeicherten Reviewzuständen, nächsten Terminen, fälligen/neuen Karten und Rückfallvorschlägen. Kein Import vorhandener Anki-Terminpläne.
+- **KFF-Training:** Zahlenfolgen (36 Aufgaben), Figuren (18), Wortflüssigkeit (24) und fiktive Ausweise für Gedächtnis. Lern-/Zeitmodus, Erklärungen und gespeicherte Ergebnisübersichten.
+- **Implikationen erkennen:** bestehender separater Logiktrainer (30 Varianten), Grundlagen, Musterlösungen und Gegenbeispiele.
+
+## Datenhaltung
+
+Original-Deck und FSRS-Reviewzustände liegen in IndexedDB auf diesem Gerät. Tagesziel, Zuordnungen, Lesestatus und Ergebnisübersichten liegen in localStorage. Kein Upload von Deckinhalten. Bei fehlender Speicherquote erfolgt ein Hinweis; Datensicherung und Gerätesynchronisation sind nicht implementiert. Löschen der Websitedaten entfernt diese Speicherung. Andere Domains/Ports haben getrennte Speicher. Laufende KFF-Sitzungen werden nicht wiederhergestellt; abgeschlossene Übersichten bleiben gespeichert.
 
 ## Tests
 
-`npm test` prüft Import und vollständige Erreichbarkeit von 129 Karten aus 127 Notizen, Unterdecks, umgekehrte Karten, getrennte Cloze-Karten, HTML-Sicherheit, einen modernen Zstandard-/Protobuf-Export mit Bildern, Wiederherstellung nach Neuladen, freie Sitzungsgrößen, den vorgeschalteten Leseschritt, Wiederholungen, Lesefortschritt und Mobilnavigation. Die Fixtures werden in den Tests erzeugt.
+```sh
+npm test
+```
 
-Die Playwright-Konfiguration nutzt `/usr/bin/chromium` im Cloud-System. Auf anderen Rechnern den Browserpfad anpassen. Die Kompression der modernen Testfixture benötigt Node.js 24.
+Baut die Website und führt 25 Playwright-Tests aus. Die Konfiguration startet Entwicklungs- und Produktionsserver und verwendet `/usr/bin/chromium`. Auf anderen Rechnern den Browserpfad in `playwright.config.js` anpassen. Node.js 24 wird auch für die moderne Anki-Kompression der Testfixtures benötigt. Die Testdateien werden synthetisch erzeugt; das Originaldeck war wegen des 32-MB-Transferlimits nicht direkt zugänglich.
 
-## Import und Grenzen
+## Importgrenzen
 
-Unterstützt werden SQLite-basierte APKG-Sammlungen (`collection.anki2`, `collection.anki21`, `collection.anki21b`), Zstandard-Kompression, JSON- und Protobuf-Medienverzeichnisse, alte JSON- und neue tabellarische Notiztypen, einfache Anki-Vorlagen einschließlich Feldbedingungen und Cloze-Ordinals. Quellen der Protobuf-Strukturen:
+APKG mit SQLite (`collection.anki2`, `.anki21`, `.anki21b`), Zstandard, JSON-/Protobuf-Medien, alte und neue Notiztypen, einfache Bedingungen, Rückseiten- und Cloze-Karten werden unterstützt. Image-Occlusion-Logik, beliebiges Vorlagen-JavaScript, komplexe Filter und Audio sind nicht vollständig reproduziert. Importiertes HTML wird als Text behandelt; Bilder werden aus lokalen Medien getrennt angezeigt. Unbekannte Vorlagen verwenden eine gekennzeichnete Feldansicht. Nicht erkannte Karten bleiben zugänglich.
 
-- https://github.com/ankitects/anki/blob/main/proto/anki/notetypes.proto
-- https://github.com/ankitects/anki/blob/main/proto/anki/import_export.proto
+## Quellen und Qualität
 
-Karten werden aus `cards`, nicht aus `notes` gezählt. Keine Karte wird wegen fehlenden Fragetexts ausgefiltert; reine Bildkarten bleiben erhalten. Ohne passende Vorlage wird eine gekennzeichnete Feldansicht verwendet. Fachzuordnung erfolgt anhand von Decknamen und Tags. Nicht zuordenbare Karten bleiben unter „Import“ sowie in „Alle“ erreichbar.
+Der aktuelle offizielle MedAT-Stoff und die exakten aktuellen KFF-Formate konnten wegen HTTP-403-Netzwerksperren nicht geprüft werden. Zeiten und Aufgabenformen sind ausdrücklich Trainingsvorgaben. Die verlinkten Lehrbücher sind Referenzempfehlungen, keine Behauptung einer erfolgten Lizenz- oder Inhaltsprüfung. Keine Buchtexte, Originalprüfungsfragen oder Fremdbilder wurden übernommen. Die 49 Kapitel sind eigenständig verfasste Erklärungen mit offenem externem Fachprüfstatus. Keine Aussage über vollständige offizielle Stoffabdeckung.
 
-Beliebiges JavaScript in Anki-Vorlagen, verschachtelte Spezialfilter, Image-Occlusion-Maskierungslogik und Audio werden nicht vollständig reproduziert. Solche Spezialkarten können zur korrekten Prüfung Anki erfordern. Importiertes HTML wird als Text behandelt; lokale Bildmedien werden separat angezeigt. Es gibt keine automatische offizielle Stoffabdeckungsprüfung und noch keine langfristige Spaced-Repetition-Terminierung.
-
-Die vier Beispielkarten stammen nicht aus dem Tanki-Deck. Die hochgeladene Originaldatei überschreitet das 32-MB-Transferlimit der Agent-Umgebung und konnte deshalb hier nicht direkt untersucht werden. Sie muss im Browser importiert werden; ihre spezifische Darstellung wurde nicht geprüft. Die Testdateien belegen die unterstützten Importfälle, nicht die Vollständigkeit einer unbekannten Originaldatei.
-
-Die 33 Grundlagenkapitel sind ergänzendes Lernmaterial, kein als vollständig oder fachlich unabhängig geprüft ausgewiesenes Lehrbuch. Die aktuelle offizielle BMS-Stichwortliste unter https://www.medizinstudieren.at/ bleibt der Maßstab für die Vorbereitung. Inhalte aus dem importierten Deck sind im separaten Lesemodus zugänglich. KFF, TV und SEK sind nicht Teil dieses BMS-Lernstudios.
-
-## KFF: Implikationen erkennen
-
-Über die Navigation erreichbar. Fünf Grundlagenlektionen, 30 eigene Aufgabenvarianten aus zehn logischen Mustern, Lernmodus ohne Zeitdruck und ein zeitbegrenzter Prüfungsmodus mit automatischer Auswertung. Der Aufgabenpool wird mittels endlicher Mengenmodelle auf zwingende Schlüsse geprüft. Details zu Formatstand, Semantik, Quellen und Grenzen stehen in `src/logic/README.md`. Das aktuelle offizielle MedAT-H-Format konnte wegen HTTP-403-Zugriffssperren nicht verifiziert werden; Voreinstellungen sind als Trainingsvorgaben gekennzeichnet. `npm test` führt jetzt auch die Logik- und Timerprüfungen aus.
+Der vollständige Umsetzungsstand und konkrete offene Punkte stehen in [docs/IMPLEMENTATION.md](docs/IMPLEMENTATION.md). Der bestehende Logiktrainer ist unter [src/logic/README.md](src/logic/README.md) dokumentiert.

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "math-formulas",
+    "subject": "Mathematik",
+    "title": "Formeln umstellen und Textaufgaben lösen",
+    "topic": "Algebra",
+    "keywords": [
+      "formelumstellung",
+      "textaufgabe",
+      "einheitenprüfung",
+      "dreisatz"
+    ],
+    "diagram": null,
+    "prerequisites": ["Bruchrechnung", "Lineare Gleichungen"],
+    "introduction": "Du übersetzt eine Fragestellung in Größen, stellst eine passende Beziehung auf und kontrollierst dein Ergebnis.",
+    "paragraphs": [
+      "Beginne mit der gesuchten Größe und schreibe die gegebenen Größen mit Einheiten auf. Suche danach eine Beziehung, deren Voraussetzungen zur Situation passen. Eine Formel ist kein allgemeingültiger Automatismus: s=vt gilt beispielsweise für konstante Geschwindigkeit.",
+      "Beim Umstellen müssen dieselben erlaubten Operationen auf beiden Seiten erfolgen. Steht die gesuchte Größe im Nenner, multipliziere zunächst mit dem Nenner und beachte dessen Definitionsausschluss. Beim Wurzelziehen und Quadrieren muss man mögliche zusätzliche Lösungen beziehungsweise Vorzeichen beachten.",
+      "Eine Einheitenprüfung kann viele Fehler erkennen. Für t=s/v ergibt sich m/(m/s)=s. Für Energie E=½mv² ergibt sich kg·m²/s²=J. Die Prüfung ersetzt keine inhaltliche Begründung, denn unterschiedliche Formeln können dieselbe Dimension besitzen.",
+      "Kontrolliere abschließend Größenordnung, Vorzeichen und Grenzfälle. Ein Ergebnis kann rechnerisch aus einer falschen Annahme folgen und trotzdem sauber aussehen. Runde erst am Ende und nur so genau, wie es die Eingaben rechtfertigen."
+    ],
+    "formula": [
+      "Aus c = n/V folgt V = n/c für c ≠ 0",
+      "Die Einheiten von n und c müssen zusammenpassen: mol geteilt durch mol/l ergibt l."
+    ],
+    "example": "Beispiel: 0,20 mol sollen eine Lösung von 0,50 mol/l ergeben. V=n/c=0,20/0,50 l=0,40 l. Gesucht ist das Endvolumen der Lösung; es ist nicht automatisch die Menge des hinzuzufügenden Wassers.",
+    "mistake": "Zahlen ohne Einheiten und unzulässiges Kürzen von Summen sind häufige Fehler. In (a+b)/a darf a nicht einfach in beiden Summanden verschwinden.",
+    "question": "Wie stellst du P=W/t nach t um?",
+    "answer": "Mit t multiplizieren: Pt=W. Dann durch P teilen: t=W/P, sofern P ≠ 0.",
+    "summary": [
+      "Du übersetzt eine Fragestellung in Größen, stellst eine passende Beziehung auf und kontrollierst dein Ergebnis.",
+      "Zahlen ohne Einheiten und unzulässiges Kürzen von Summen sind häufige Fehler. In (a+b)/a darf a nicht einfach in beiden Summanden verschwinden."
+    ]
+  },
+  {
+    "id": "math-combinatorics",
+    "subject": "Mathematik",
+    "title": "Kombinatorik mit und ohne Wiederholung",
+    "topic": "Stochastik",
+    "keywords": [
+      "kombinatorik",
+      "permutation",
+      "kombination",
+      "binomialkoeffizient",
+      "fakultät"
+    ],
+    "prerequisites": ["Multiplikationsregel", "Potenzen"],
+    "introduction": "Du entscheidest zuerst, ob die Reihenfolge zählt und ob ein Element mehrfach vorkommen darf.",
+    "paragraphs": [
+      "Für eine Folge aus k Plätzen mit jeweils n unabhängig frei wählbaren Symbolen gibt es nᵏ Möglichkeiten, wenn Wiederholung erlaubt ist. Ohne Wiederholung und mit beachteter Reihenfolge ergibt sich n!/(n−k)!. Für die Anordnung aller n verschiedenen Elemente ist das n!.",
+      "Wenn nur die Auswahl von k Elementen aus n verschiedenen Elementen zählt und keine Wiederholung erlaubt ist, wird die zuvor mehrfach gezählte Reihenfolge herausgerechnet. Es entstehen C(n,k)=n!/[k!(n−k)!] Kombinationen. Die Auswahl eines Teams ist daher eine andere Aufgabe als die Vergabe unterschiedlicher Ämter.",
+      "Bei Kombinationen mit Wiederholung und ohne Reihenfolge gilt C(n+k−1,k), wenn n verschiedene Sorten zur Auswahl stehen und jede Sorte beliebig oft verwendet werden darf. Diese Formel setzt ein anderes Modell voraus als das Ziehen verschiedener Personen ohne Zurücklegen.",
+      "Die Formelwahl hängt von der konkreten Fragestellung ab. Bei Wahrscheinlichkeiten muss außerdem geprüft werden, ob alle gezählten elementaren Ergebnisse gleich wahrscheinlich sind. Eine Anzahl allein ist noch keine Wahrscheinlichkeit."
+    ],
+    "example": "Beispiel: Aus fünf Personen werden drei für ein Team gewählt: C(5,3)=10. Werden stattdessen drei verschiedene Ämter vergeben, zählen die Rollen: 5·4·3=60 Möglichkeiten.",
+    "mistake": "Nicht automatisch mit n! rechnen. „Reihenfolge zählt“ und „Wiederholung erlaubt“ sind zwei getrennte Entscheidungen.",
+    "question": "Wie viele dreistellige PIN-Folgen aus den Ziffern 0 bis 9 gibt es, wenn Wiederholung und führende Null erlaubt sind?",
+    "answer": "10³ = 1000.",
+    "summary": [
+      "Du entscheidest zuerst, ob die Reihenfolge zählt und ob ein Element mehrfach vorkommen darf.",
+      "Nicht automatisch mit n! rechnen. „Reihenfolge zählt“ und „Wiederholung erlaubt“ sind zwei getrennte Entscheidungen."
+    ]
+  }
+]

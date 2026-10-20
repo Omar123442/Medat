@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, lazy, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import {
   ArrowUpRight,
@@ -31,8 +31,15 @@ import {
 } from "lucide-react";
 import { importAnki } from "./import";
 import "./style.css";
+import "./logic/logic.css";
+import "./offline";
 import Learn, { Preparation } from "./Learn";
-import LogicTrainer from "./logic/LogicTrainer";
+const LogicTrainer = lazy(() => import("./logic/LogicTrainer"));
+const KffHub = lazy(() => import("./kff/KffHub"));
+import ReviewDashboard from "./learning/ReviewDashboard";
+import { cardKey } from "./learning/mapping";
+import { reviewCard } from "./learning/scheduler";
+import { loadReviews, saveReview } from "./storage";
 import { loadDeck, saveDeck } from "./storage";
 const demo = [
   {
@@ -99,6 +106,7 @@ function read(k, f) {
 }
 function App() {
   const [cards, setCards] = useState(demo),
+    [reviews, setReviews] = useState({}),
     [report, setReport] = useState(null),
     [deckFilter, setDeckFilter] = useState("Alle"),
     [listPage, setListPage] = useState(0),
@@ -170,6 +178,11 @@ function App() {
     };
   }, []);
   useEffect(() => setListPage(0), [query, deckFilter]);
+  useEffect(() => {
+    loadReviews()
+      .then(setReviews)
+      .catch(() => setError("Lernverlauf konnte nicht geladen werden."));
+  }, []);
   async function upload(e) {
     const f = e.target.files[0];
     if (!f) return;
@@ -227,6 +240,12 @@ function App() {
     else begin(selected);
   }
   function rate(level) {
+    const card = session[index];
+    const record = reviewCard(card, reviews[cardKey(card)], level);
+    setReviews((previous) => ({ ...previous, [record.key]: record }));
+    saveReview(record).catch(() =>
+      setError("FSRS-Lernverlauf konnte nicht dauerhaft gespeichert werden."),
+    );
     const s = { ...stats, [today]: (stats[today] || 0) + 1 };
     setStats(s);
     localStorage.setItem("medat-progress", JSON.stringify(s));
@@ -260,10 +279,12 @@ function App() {
             [LayoutDashboard, "Übersicht"],
             [BookOpen, "Zuerst verstehen"],
             [Target, "Implikationen erkennen"],
+            [Play, "KFF-Training"],
             [Layers, "Lernkarten"],
             [BookOpen, "Fachbereiche"],
             [ChartNoAxesCombined, "Fortschritt"],
             [CalendarDays, "Lernplan"],
+            [Clock, "Wiederholungen"],
           ].map(([Icon, label]) => (
             <button
               key={label}
@@ -630,9 +651,18 @@ function App() {
             </div>
           )}
           {page === "Zuerst verstehen" && (
-            <Learn cards={cards} onPractice={start} />
+            <Learn cards={cards} onPractice={start} reviews={reviews} />
           )}
-          {page === "Implikationen erkennen" && <LogicTrainer />}
+          {page === "Implikationen erkennen" && (
+            <Suspense fallback={<p>Lade Logiktrainer …</p>}>
+              <LogicTrainer />
+            </Suspense>
+          )}
+          {page === "KFF-Training" && (
+            <Suspense fallback={<p>Lade KFF-Training …</p>}>
+              <KffHub onLogic={() => setPage("Implikationen erkennen")} />
+            </Suspense>
+          )}
           {page === "Lernkarten" && (
             <section className="library">
               <div className="section-heading">
@@ -724,6 +754,13 @@ function App() {
                 </button>
               </div>
             </section>
+          )}
+          {page === "Wiederholungen" && (
+            <ReviewDashboard
+              cards={cards}
+              reviews={reviews}
+              onPractice={start}
+            />
           )}
           {page === "Fortschritt" && (
             <>
@@ -1008,6 +1045,7 @@ function App() {
                       <button onClick={() => rate(2)}>
                         Gewusst <Check size={16} />
                       </button>
+                      <button onClick={() => rate(3)}>Leicht</button>
                     </div>
                   </>
                 ) : (

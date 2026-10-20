@@ -32,4 +32,4 @@ Das Zeitlimit basiert auf einer absoluten Deadline und wird beim Sichtbarwerden 
 
 ## Größerer Projektauftrag
 
-Der angehängte Projektauftrag dient als Kontext für die langfristige BMS-/KFF-Roadmap. Diese Änderung implementiert ausdrücklich den in der Chatnachricht angefragten Teil E. Zahlenfolgen, Figuren zusammensetzen, Wortflüssigkeit, Gedächtnistraining, vollständige BMS-Stoffabdeckung, neue Anki-Zuordnung und FSRS sind damit nicht als umgesetzt ausgewiesen.
+Die weiteren BMS-/KFF-Module und FSRS sind inzwischen separat ergänzt. Der aktuelle modulare Umsetzungsstand, offene offizielle Formatprüfung und die Grenzen der Aufgabenpools stehen in [../../docs/IMPLEMENTATION.md](../../docs/IMPLEMENTATION.md). Dieser Logiktrainer bleibt ein eigenständiges Modul und führt weiterhin einen separaten Ergebnisverlauf.

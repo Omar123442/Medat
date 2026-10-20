@@ -7,6 +7,9 @@ import {
   ChevronRight,
 } from "lucide-react";
 import { curriculum } from "./curriculum";
+import Lesson from "./content/Lesson";
+import Coverage from "./learning/Coverage";
+import CardLinks from "./learning/CardLinks";
 export function CardReading({ card }) {
   return (
     <article className="reading-card">
@@ -98,7 +101,7 @@ export function Preparation({ cards, onStart, onClose }) {
     </div>
   );
 }
-export default function Learn({ cards, onPractice }) {
+export default function Learn({ cards, onPractice, reviews = {} }) {
   const [subject, setSubject] = useState("Alle"),
     [selected, setSelected] = useState(null),
     [tab, setTab] = useState("course"),
@@ -131,6 +134,10 @@ export default function Learn({ cards, onPractice }) {
     const updated = [...new Set([...read, selected.id])];
     setRead(updated);
     localStorage.setItem("medat-lessons", JSON.stringify(updated));
+    localStorage.setItem(
+      "medat-lesson-due-" + selected.id,
+      new Date(Date.now() + 7 * 86400000).toISOString(),
+    );
   }
   return (
     <section className="panel learn-panel">
@@ -163,6 +170,36 @@ export default function Learn({ cards, onPractice }) {
           Dein Deck als Lesestoff · {cards.length}
         </button>
       </div>
+      <div className="learning-tabs secondary-tabs">
+        <button
+          className={tab === "coverage" ? "selected" : ""}
+          onClick={() => {
+            setTab("coverage");
+            setSelected(null);
+          }}
+        >
+          Stoffabdeckung & Quellen
+        </button>
+        <button
+          className={tab === "mapping" ? "selected" : ""}
+          onClick={() => {
+            setTab("mapping");
+            setSelected(null);
+          }}
+        >
+          Kartenzuordnung
+        </button>
+      </div>
+      {tab === "coverage" && (
+        <Coverage
+          reviews={reviews}
+          onOpen={(c) => {
+            setSelected(c);
+            setTab("course");
+          }}
+        />
+      )}
+      {tab === "mapping" && <CardLinks cards={cards} onPractice={onPractice} />}
       <div className="filter-row">
         <select
           aria-label="Lernfach"
@@ -205,44 +242,15 @@ export default function Learn({ cards, onPractice }) {
             ab.
           </p>
           {selected ? (
-            <article className="lesson">
-              <button className="text-button" onClick={() => setSelected(null)}>
-                <ChevronLeft size={15} />
-                Alle Kapitel
-              </button>
-              <small className="eyebrow">
-                {selected.subject} / {selected.topic}
-              </small>
-              <h2>{selected.title}</h2>
-              {selected.paragraphs.map((p, i) => (
-                <p key={i}>{p}</p>
-              ))}
-              <div className="comprehension">
-                <strong>Verständnischeck</strong>
-                <p>{selected.question}</p>
-                <button
-                  className="outline-button"
-                  onClick={() => setAnswer(!answer)}
-                >
-                  {answer ? "Antwort ausblenden" : "Lösung ansehen"}
-                </button>
-                {answer && <p>{selected.answer}</p>}
-              </div>
-              <div className="lesson-actions">
-                <button className="outline-button" onClick={mark}>
-                  {read.includes(selected.id)
-                    ? "Als gelesen markiert"
-                    : "Verstanden und gelesen"}
-                  <Check size={16} />
-                </button>
-                <button
-                  className="primary"
-                  onClick={() => onPractice(selected.subject)}
-                >
-                  Passende Fachkarten üben <ArrowRight size={16} />
-                </button>
-              </div>
-            </article>
+            <Lesson
+              key={selected.id}
+              chapter={selected}
+              cards={cards}
+              onPractice={onPractice}
+              onBack={() => setSelected(null)}
+              read={read.includes(selected.id)}
+              onMark={mark}
+            />
           ) : (
             <div className="lesson-grid">
               {lessons.map((l) => (

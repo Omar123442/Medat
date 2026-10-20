@@ -1,0 +1,158 @@
+[
+  {
+    "id": "bms-0",
+    "subject": "Biologie",
+    "title": "Zelle und Organellen",
+    "topic": "Zellbiologie",
+    "paragraphs": [
+      "Zellen sind die kleinsten selbstständig lebensfähigen Einheiten. Prokaryoten besitzen keinen membranumhüllten Zellkern, Eukaryoten dagegen schon. Tierische und pflanzliche Zellen gehören zu den Eukaryoten. Pflanzen besitzen zusätzlich unter anderem eine Zellwand, Chloroplasten und meist eine große Zentralvakuole.",
+      "Der Zellkern enthält den Großteil der DNA. Ribosomen übersetzen mRNA in Proteine. Am rauen endoplasmatischen Retikulum werden viele Membran- und Exportproteine hergestellt. Der Golgi-Apparat verändert und sortiert sie. Lysosomen bauen Material ab; Mitochondrien tragen wesentlich zur ATP-Bildung bei.",
+      "Beispiel: Eine stark proteinsekretierende Zelle benötigt besonders viel raues ER und einen ausgeprägten Golgi-Apparat. Viel Energiebedarf geht häufig mit vielen Mitochondrien einher."
+    ],
+    "question": "Worin unterscheiden sich Ribosomen und Mitochondrien funktionell?",
+    "answer": "Ribosomen synthetisieren Proteine. Mitochondrien gewinnen durch Stoffwechselprozesse Energie in Form von ATP."
+  },
+  {
+    "id": "bms-1",
+    "subject": "Biologie",
+    "title": "Membran und Stofftransport",
+    "topic": "Zellbiologie",
+    "paragraphs": [
+      "Die Zellmembran besteht überwiegend aus einer Phospholipid-Doppelschicht mit eingelagerten Proteinen. Die hydrophilen Köpfe zeigen zum Wasser, die hydrophoben Schwänze nach innen. Kleine unpolare Moleküle passieren die Membran leichter als geladene Teilchen.",
+      "Diffusion verläuft entlang eines Konzentrationsgefälles. Erleichterte Diffusion nutzt Kanäle oder Carrier und benötigt keine direkt eingesetzte Stoffwechselenergie. Aktiver Transport bewegt Stoffe gegen ihr elektrochemisches Gefälle. Osmose bezeichnet den Nettofluss von Wasser durch eine semipermeable Membran.",
+      "Beispiel: In einer stark hypotonen Umgebung strömt Wasser in eine tierische Zelle. Sie kann anschwellen und platzen. Die Natrium-Kalium-Pumpe transportiert pro ATP typischerweise drei Na⁺ nach außen und zwei K⁺ nach innen."
+    ],
+    "question": "Warum schrumpfen Erythrozyten in einer hypertonen Lösung?",
+    "answer": "Wasser verlässt die Zellen osmotisch, da die Konzentration osmotisch wirksamer Teilchen außen höher ist."
+  },
+  {
+    "id": "bms-2",
+    "subject": "Biologie",
+    "title": "Biomoleküle und Enzyme",
+    "topic": "Stoffwechsel",
+    "paragraphs": [
+      "Kohlenhydrate dienen unter anderem als Energiequelle und Strukturmaterial. Lipide sind wichtige Bestandteile von Membranen und Energiespeichern. Proteine bestehen aus Aminosäuren; ihre räumliche Struktur bestimmt ihre Funktion. Nukleinsäuren bestehen aus Nukleotiden und speichern oder vermitteln genetische Information.",
+      "Enzyme beschleunigen Reaktionen, indem sie die Aktivierungsenergie senken. Sie verändern weder die Gleichgewichtslage noch die freie Gesamtenergiedifferenz der Reaktion. Temperatur und pH beeinflussen ihre Aktivität. Bei Denaturierung kann die funktionsfähige Struktur verloren gehen.",
+      "Beispiel: Bei kompetitiver Hemmung konkurriert ein Hemmstoff mit dem Substrat um die Bindung. Eine Erhöhung der Substratkonzentration kann den Effekt bei idealer kompetitiver Hemmung abschwächen."
+    ],
+    "question": "Verändert ein Enzym die Gleichgewichtskonstante einer Reaktion?",
+    "answer": "Nein. Es beschleunigt die Einstellung des Gleichgewichts, verändert aber nicht dessen Lage."
+  },
+  {
+    "id": "bms-3",
+    "subject": "Biologie",
+    "title": "DNA, RNA und Proteinbiosynthese",
+    "topic": "Genetik",
+    "paragraphs": [
+      "DNA enthält Desoxyribose und die Basen A, T, G und C. Im Doppelstrang paart A mit T und G mit C; die Stränge verlaufen antiparallel. RNA enthält Ribose und statt Thymin Uracil. Vor einer Zellteilung wird DNA semikonservativ repliziert.",
+      "Bei der Transkription wird anhand eines DNA-Matrizenstranges RNA hergestellt. In Eukaryoten wird die prä-mRNA unter anderem durch Spleißen verarbeitet. Bei der Translation liest das Ribosom mRNA-Codons. tRNAs bringen passende Aminosäuren. Der genetische Code ist degeneriert: Mehrere Codons können dieselbe Aminosäure codieren.",
+      "Beispiel: Zum DNA-Matrizenabschnitt 3′-TAC-5′ gehört die mRNA-Sequenz 5′-AUG-3′. AUG codiert Methionin und dient häufig als Startcodon."
+    ],
+    "question": "Wo findet Translation statt?",
+    "answer": "An Ribosomen im Cytosol oder an Ribosomen des rauen ER; außerdem existieren eigene Translationssysteme in Mitochondrien und Chloroplasten."
+  },
+  {
+    "id": "bms-4",
+    "subject": "Biologie",
+    "title": "Zellteilung und Vererbung",
+    "topic": "Genetik",
+    "paragraphs": [
+      "Der Zellzyklus umfasst G1-, S-, G2- und M-Phase. In der S-Phase wird die DNA verdoppelt. Die Mitose verteilt Schwesterchromatiden auf zwei Tochterzellen. Die Meiose erzeugt haploide Zellen: In Meiose I werden homologe Chromosomen getrennt, in Meiose II die Schwesterchromatiden.",
+      "Bei einem monohybriden Erbgang Aa × Aa entstehen unter den üblichen Mendel-Annahmen die Genotypen AA, Aa und aa im Verhältnis 1:2:1. Bei vollständiger Dominanz ergibt sich phänotypisch 3:1. Unabhängige Verteilung gilt nicht uneingeschränkt für gekoppelte Gene.",
+      "Beispiel: Zwei heterozygote Träger einer autosomal-rezessiven Krankheit haben pro Schwangerschaft eine Wahrscheinlichkeit von 25 % für ein betroffenes Kind. Jede Schwangerschaft ist ein neues Ereignis."
+    ],
+    "question": "Wie viele Chromosomensätze besitzt eine normale menschliche Keimzelle?",
+    "answer": "Einen haploiden Satz mit 23 Chromosomen."
+  },
+  {
+    "id": "bms-5",
+    "subject": "Biologie",
+    "title": "Gewebe, Haut und Bewegungsapparat",
+    "topic": "Mensch",
+    "paragraphs": [
+      "Die vier grundlegenden Gewebetypen sind Epithel-, Binde- und Stütz-, Muskel- sowie Nervengewebe. Epithelien bedecken Oberflächen und bilden Drüsen. Bindegewebe enthält vergleichsweise viel extrazelluläre Matrix. Knochen und Knorpel sind spezialisierte Stützgewebe.",
+      "Die Haut besteht aus Epidermis und Dermis; darunter liegt die Subcutis. Knochen werden fortlaufend umgebaut: Osteoblasten bauen Knochenmatrix auf, Osteoklasten bauen sie ab. Skelettmuskeln kontrahieren durch das Gleiten von Aktin und Myosin unter ATP-Verbrauch und Calciumregulation.",
+      "Beispiel: Ein Muskel kann aktiv ziehen, aber nicht aktiv drücken. Gegenspieler wie Beuger und Strecker ermöglichen entgegengesetzte Gelenkbewegungen."
+    ],
+    "question": "Welche Zellen bauen Knochen ab?",
+    "answer": "Osteoklasten. Osteoblasten sind für den Aufbau zuständig."
+  },
+  {
+    "id": "bms-6",
+    "subject": "Biologie",
+    "title": "Herz, Kreislauf und Atmung",
+    "topic": "Mensch",
+    "paragraphs": [
+      "Die rechte Herzhälfte pumpt Blut in den Lungenkreislauf, die linke in den Körperkreislauf. Arterien führen Blut vom Herzen weg, Venen zum Herzen hin. Diese Benennung ist unabhängig vom Sauerstoffgehalt. Herzklappen sichern bei normalen Druckverhältnissen den gerichteten Blutstrom.",
+      "In den Alveolen diffundiert Sauerstoff ins Blut und Kohlendioxid in die Ausatemluft. Hämoglobin transportiert den größten Teil des Sauerstoffs. Das Zwerchfell kontrahiert bei der Einatmung und vergrößert den Brustraum. Das Herzzeitvolumen ist Herzfrequenz mal Schlagvolumen.",
+      "Beispiel: 70 Schläge/min × 70 ml/Schlag ergeben 4,9 l/min. Die Lungenarterie führt beim Erwachsenen sauerstoffarmes Blut zur Lunge."
+    ],
+    "question": "Warum ist die linke Herzkammer muskulöser?",
+    "answer": "Sie muss den höheren Druck für den Körperkreislauf erzeugen."
+  },
+  {
+    "id": "bms-7",
+    "subject": "Biologie",
+    "title": "Verdauung, Niere und Energiehaushalt",
+    "topic": "Mensch",
+    "paragraphs": [
+      "Verdauung zerlegt Nährstoffe in resorbierbare Bestandteile. Proteasen spalten Proteine, Lipasen Fette und Amylasen bestimmte Kohlenhydrate. Ein großer Teil der Resorption erfolgt im Dünndarm. Die Leber übernimmt unter anderem Stoffwechsel-, Speicher- und Entgiftungsfunktionen; Galle unterstützt die Fettverdauung.",
+      "Die Niere reguliert Wasser, Elektrolyte und Säure-Basen-Haushalt. Im Glomerulus entsteht ein Ultrafiltrat; im Tubulussystem werden Stoffe rückresorbiert oder sezerniert. ADH erhöht unter geeigneten Bedingungen die Wasserrückresorption im Sammelrohr. Insulin fördert die Senkung erhöhter Blutzuckerwerte.",
+      "Beispiel: Glucose wird normalerweise filtriert und anschließend fast vollständig rückresorbiert. Bei Überschreiten der Transportkapazität kann Glucose im Urin erscheinen."
+    ],
+    "question": "Ist der Primärharn mit dem ausgeschiedenen Urin identisch?",
+    "answer": "Nein. Durch Rückresorption und Sekretion wird seine Zusammensetzung stark verändert."
+  },
+  {
+    "id": "bms-8",
+    "subject": "Biologie",
+    "title": "Nerven, Sinne und Hormone",
+    "topic": "Mensch",
+    "paragraphs": [
+      "Das Ruhepotential beruht auf Ionengradienten und selektiver Membranpermeabilität. Ein Aktionspotential entsteht bei Überschreiten einer Schwelle. Bei typischen Nervenzellen führt ein Na⁺-Einstrom zur schnellen Depolarisation; K⁺-Ströme tragen zur Repolarisation bei. Myelin ermöglicht schnelle saltatorische Erregungsleitung.",
+      "An chemischen Synapsen löst Calcium-Einstrom die Freisetzung von Neurotransmittern aus. Hormone wirken über Rezeptoren; wasserlösliche Hormone häufig über Membranrezeptoren, lipophile häufig über intrazelluläre Rezeptoren. Negative Rückkopplung stabilisiert viele Regelkreise.",
+      "Beispiel: Steigende Schilddrüsenhormonspiegel hemmen bei intaktem Regelkreis die übergeordneten Signale TRH und TSH. Im Auge bündeln Hornhaut und Linse Licht auf die Netzhaut."
+    ],
+    "question": "Was unterscheidet eine stärkere Reizung von einem stärkeren einzelnen Aktionspotential?",
+    "answer": "Typischerweise steigt die Frequenz der Aktionspotentiale, nicht die Amplitude eines einzelnen Aktionspotentials."
+  },
+  {
+    "id": "bms-9",
+    "subject": "Biologie",
+    "title": "Immunsystem und Blut",
+    "topic": "Mensch",
+    "paragraphs": [
+      "Erythrozyten transportieren Atemgase, Leukozyten übernehmen Immunfunktionen und Thrombozyten tragen zur Blutstillung bei. Die angeborene Abwehr reagiert rasch und umfasst Barrieren, Phagozyten und weitere Mechanismen. Die adaptive Abwehr bildet hochspezifische Antworten und immunologisches Gedächtnis.",
+      "B-Zellen können zu antikörperproduzierenden Plasmazellen werden. T-Helferzellen koordinieren Antworten; zytotoxische T-Zellen erkennen und bekämpfen unter passenden Bedingungen infizierte Zellen. Aktive Immunisierung regt die eigene Immunantwort an; passive Immunisierung liefert fertige Antikörper.",
+      "Beispiel: Eine Auffrischimpfung kann durch Gedächtniszellen eine raschere und stärkere spezifische Antwort auslösen als der erste Antigenkontakt."
+    ],
+    "question": "Welche Immunisierung erzeugt üblicherweise eigenes immunologisches Gedächtnis?",
+    "answer": "Die aktive Immunisierung."
+  },
+  {
+    "id": "bms-10",
+    "subject": "Biologie",
+    "title": "Fortpflanzung und Entwicklung",
+    "topic": "Entwicklung",
+    "paragraphs": [
+      "Bei der Befruchtung vereinigen sich die haploiden Kerne von Ei- und Samenzelle zur diploiden Zygote. Nach Furchungsteilungen folgen unter anderem Blastozystenbildung und Einnistung. Aus den drei Keimblättern entstehen verschiedene Gewebe und Organsysteme.",
+      "Der Menstruationszyklus wird durch das Zusammenspiel von Hypothalamus, Hypophyse und Ovar reguliert. FSH fördert die Follikelentwicklung; ein LH-Anstieg löst typischerweise den Eisprung aus. Der Gelbkörper produziert vor allem Progesteron. In früher Schwangerschaft trägt hCG zum Erhalt des Gelbkörpers bei.",
+      "Beispiel: Ein Abfall von Progesteron und Östrogen am Ende eines Zyklus ohne Schwangerschaft begünstigt die Abstoßung der funktionellen Gebärmutterschleimhaut."
+    ],
+    "question": "Welche Funktion hat die Meiose bei der sexuellen Fortpflanzung?",
+    "answer": "Sie halbiert den Chromosomensatz und trägt zur genetischen Vielfalt bei."
+  },
+  {
+    "id": "bms-11",
+    "subject": "Biologie",
+    "title": "Evolution, Ökologie und Mikroorganismen",
+    "topic": "Vielfalt",
+    "paragraphs": [
+      "Evolution beschreibt die Veränderung vererbbarer Merkmale von Populationen über Generationen. Mutation schafft neue Varianten, Rekombination kombiniert sie. Selektion, genetische Drift und Genfluss verändern Allelhäufigkeiten. Individuen entwickeln sich nicht zielgerichtet weiter, weil sie ein Merkmal benötigen.",
+      "In Ökosystemen fließt Energie durch Nahrungsketten, während Stoffe in Kreisläufen zirkulieren. Produzenten bauen organische Stoffe auf, Konsumenten nutzen sie und Destruenten bauen Material ab. Bakterien sind prokaryotische Zellen; Viren besitzen keinen eigenständigen Zellstoffwechsel und benötigen Wirtszellen.",
+      "Beispiel: Antibiotika selektieren in einer Bakterienpopulation resistente Varianten. Sie erzeugen nicht gezielt die passende Resistenz und wirken nicht allgemein gegen Viren."
+    ],
+    "question": "Worin unterscheiden sich Energiefluss und Stoffkreislauf?",
+    "answer": "Energie wird unter anderem als Wärme abgegeben und muss laufend neu zugeführt werden; Stoffe können im System wiederverwendet werden."
+  }
+]

@@ -205,7 +205,7 @@ test("Lernstoff lesen, Verständnischeck und Lesefortschritt", async ({
 }) => {
   await page.goto("/");
   await page.getByRole("button", { name: "Jetzt verstehen" }).click();
-  await expect(page.locator(".lesson-tile")).toHaveCount(33);
+  await expect(page.locator(".lesson-tile")).toHaveCount(49);
   await page.getByRole("button", { name: /Zelle und Organellen/ }).click();
   await expect(page.locator(".lesson")).toContainText("Prokaryoten");
   await page.getByRole("button", { name: "Lösung ansehen" }).click();

@@ -1,0 +1,291 @@
+[
+  {
+    "id": "bio-respiration",
+    "subject": "Biologie",
+    "title": "Zellatmung und Atmungskette",
+    "topic": "Stoffwechsel",
+    "keywords": [
+      "zellatmung",
+      "atmungskette",
+      "oxidative phosphorylierung",
+      "citratzyklus",
+      "atp-synthase"
+    ],
+    "diagram": "respiration",
+    "prerequisites": ["Zelle, Membran und Enzyme", "Oxidation und Reduktion"],
+    "introduction": "Du lernst, wie chemische Energie aus Nährstoffen in ATP überführt wird und warum die innere Mitochondrienmembran dafür entscheidend ist.",
+    "paragraphs": [
+      "Die Glykolyse läuft im Cytosol ab und zerlegt ein Molekül Glucose in zwei Moleküle Pyruvat. Dabei entstehen netto zwei ATP sowie NADH. Unter aeroben Bedingungen wird Pyruvat in der Mitochondrienmatrix zu Acetyl-CoA oxidiert. Dabei wird CO₂ frei und weiteres NADH gebildet. Acetyl-CoA tritt in den Citratzyklus ein; seine Kohlenstoffatome werden über die Reaktionsfolge letztlich als CO₂ freigesetzt.",
+      "NADH und FADH₂ transportieren energiereiche Elektronen zur Atmungskette. Die Komplexe I, III und IV der inneren Membran koppeln Elektronenübertragung an Protonentransport aus der Matrix in den Intermembranraum. Komplex II liefert Elektronen, pumpt selbst aber keine Protonen. Sauerstoff ist am Ende der Kette der Elektronenakzeptor und wird zu Wasser reduziert.",
+      "Die gespeicherte Energie des elektrochemischen Protonengradienten treibt den Rückstrom durch die ATP-Synthase an. Dabei wird ADP mit anorganischem Phosphat zu ATP verknüpft. Das heißt oxidative Phosphorylierung. Die innere Membran muss für Protonen hinreichend dicht sein. Ein Entkoppler macht den Gradienten durch einen alternativen Rückweg kleiner: Die Kette kann weiterlaufen, während weniger ATP pro oxidiertem Substrat entsteht und mehr Energie als Wärme abgegeben wird.",
+      "Fehlt Sauerstoff, ist die Rückoxidation von NADH über die Atmungskette eingeschränkt. Gärung kann im Cytosol NAD⁺ regenerieren und dadurch die Glykolyse ermöglichen. Lactatbildung selbst liefert keine zusätzliche ATP-Ausbeute über die Glykolyse hinaus. Die ATP-Gesamtausbeute pro Glucose hängt von Shuttle-Systemen und Randbedingungen ab; eine universell starre Zahl ist irreführend."
+    ],
+    "formula": [
+      "Glucose + 6 O₂ → 6 CO₂ + 6 H₂O",
+      "Vereinfachte Gesamtbilanz der vollständigen Oxidation, nicht eine einzelne enzymatische Reaktion."
+    ],
+    "example": "Beispiel: Wird die innere Membran für Protonen durchlässig, fällt der Gradient ab. Obwohl Elektronenübertragungen weiter möglich sind, sinkt die Kopplung an die ATP-Bildung. Mehr Sauerstoffverbrauch bedeutet daher nicht zwingend mehr ATP.",
+    "mistake": "Sauerstoff wird am Ende der Elektronentransportkette benötigt, nicht als direktes Edukt der Glykolyse. Protonen werden nach außen gepumpt und fließen durch die ATP-Synthase in die Matrix zurück.",
+    "question": "Warum hemmt Sauerstoffmangel langfristig auch den Citratzyklus?",
+    "answer": "Weil NADH und FADH₂ nicht ausreichend rückoxidiert werden. Die oxidierten Cofaktoren NAD⁺ und FAD stehen für weitere Oxidationen dann nur eingeschränkt zur Verfügung.",
+    "summary": [
+      "Du lernst, wie chemische Energie aus Nährstoffen in ATP überführt wird und warum die innere Mitochondrienmembran dafür entscheidend ist.",
+      "Sauerstoff wird am Ende der Elektronentransportkette benötigt, nicht als direktes Edukt der Glykolyse. Protonen werden nach außen gepumpt und fließen durch die ATP-Synthase in die Matrix zurück."
+    ]
+  },
+  {
+    "id": "bio-photosynthesis",
+    "subject": "Biologie",
+    "title": "Photosynthese verstehen",
+    "topic": "Stoffwechsel",
+    "keywords": ["photosynthese", "chloroplast", "thylakoid", "calvin"],
+    "diagram": "photosynthesis",
+    "prerequisites": [
+      "Zellorganellen und Membranen",
+      "ATP und Redoxreaktionen"
+    ],
+    "introduction": "Du unterscheidest Lichtreaktionen von Kohlenstofffixierung und verfolgst Energie- und Stofffluss getrennt.",
+    "paragraphs": [
+      "Photosynthese überführt Lichtenergie in chemische Energie. In Chloroplasten befinden sich Thylakoidmembranen und das Stroma. An den Thylakoidmembranen laufen lichtabhängige Elektronenübertragungen ab. Das Photosystem II ersetzt abgegebene Elektronen durch Wasserspaltung. Dabei entsteht der freigesetzte Sauerstoff.",
+      "Die Elektronentransportkette trägt zum Aufbau eines Protonengradienten bei. Protonen sammeln sich im Thylakoidlumen und strömen über die ATP-Synthase ins Stroma zurück. Das Photosystem I ermöglicht nach erneuter Lichtanregung die Bildung von NADPH. ATP und NADPH sind damit Produkte der Lichtreaktionen und dienen als Energie- beziehungsweise Reduktionsquelle.",
+      "Der Calvin-Zyklus findet im Stroma statt. Rubisco bindet CO₂ an Ribulose-1,5-bisphosphat. Über mehrere Schritte entstehen unter Verbrauch von ATP und NADPH Triosephosphate; der Großteil dient zur Regeneration des CO₂-Akzeptors. Kohlenstofffixierung und Lichtreaktion sind räumlich und funktionell verbunden, aber keine identische Reaktion.",
+      "Der Ausdruck Dunkelreaktion bedeutet nicht, dass der Calvin-Zyklus nur nachts läuft. Er benötigt keine Photonen direkt als Reaktionspartner, hängt aber von den Produkten und der Regulation der Lichtreaktionen ab. Pflanzen betreiben auch Zellatmung."
+    ],
+    "formula": [
+      "6 CO₂ + 6 H₂O + Lichtenergie → C₆H₁₂O₆ + 6 O₂",
+      "Vereinfachte Nettobilanz; die tatsächlichen Reaktionswege und Zwischenprodukte sind komplexer."
+    ],
+    "example": "Beispiel: Bei Markierung des Sauerstoffs im Wasser erscheint die Markierung im freigesetzten O₂. Der abgegebene Sauerstoff stammt also aus Wasser, nicht aus der direkten Zerlegung von CO₂.",
+    "mistake": "Photosynthese ist nicht einfach der umgekehrte Ablauf der mitochondrialen Zellatmung. Die Reaktionswege und beteiligten Komplexe unterscheiden sich.",
+    "question": "Welche Stoffe liefern die Lichtreaktionen für den Calvin-Zyklus?",
+    "answer": "ATP und NADPH.",
+    "summary": [
+      "Du unterscheidest Lichtreaktionen von Kohlenstofffixierung und verfolgst Energie- und Stofffluss getrennt.",
+      "Photosynthese ist nicht einfach der umgekehrte Ablauf der mitochondrialen Zellatmung. Die Reaktionswege und beteiligten Komplexe unterscheiden sich."
+    ]
+  },
+  {
+    "id": "bio-action-potential",
+    "subject": "Biologie",
+    "title": "Aktionspotenzial Schritt für Schritt",
+    "topic": "Neurobiologie",
+    "keywords": [
+      "aktionspotenzial",
+      "aktionspotential",
+      "depolarisation",
+      "refraktär",
+      "repolarisation"
+    ],
+    "diagram": "potential",
+    "prerequisites": ["Membrantransport", "Ionen und elektrische Ladung"],
+    "introduction": "Du erklärst die einzelnen Phasen eines typischen neuronalen Aktionspotenzials und trennst Ionenstrom von langfristiger Gradientenerhaltung.",
+    "paragraphs": [
+      "Das Ruhepotenzial liegt bei vielen Nervenzellen ungefähr bei −70 mV, variiert aber je nach Zelltyp. Die Membran ist im Ruhezustand besonders für Kalium durchlässig. Zusammen mit den Ionengradienten entsteht ein negatives Zellinneres. Die Natrium-Kalium-ATPase erhält die Gradienten aufrecht, indem sie typischerweise drei Na⁺ hinaus und zwei K⁺ hinein transportiert.",
+      "Eine ausreichende Depolarisation öffnet spannungsabhängige Natriumkanäle. Der Na⁺-Einstrom verursacht weitere Depolarisation und öffnet zusätzliche Kanäle: positive Rückkopplung. Die Membranspannung steigt rasch an. Die Schwelle ist keine für alle Zellen fixe Zahl.",
+      "Natriumkanäle inaktivieren kurz nach ihrer Aktivierung. Verzögert öffnen Kaliumkanäle, K⁺ strömt hinaus und die Spannung wird wieder negativer. Die erhöhte Kaliumleitfähigkeit kann kurzzeitig eine Nachhyperpolarisation erzeugen. Die schnelle Repolarisation entsteht daher hauptsächlich durch Kanalzustände und Ionenströme, nicht durch einen sofortigen großen Pumpenstoß.",
+      "In der absoluten Refraktärzeit sind viele Natriumkanäle inaktiviert; ein weiteres normales Aktionspotenzial ist nicht auslösbar. In der relativen Refraktärzeit kann ein stärkerer Reiz nötig sein. Myelin begrenzt Stromverluste; die regenerierenden Aktionspotenziale entstehen vor allem an den Ranvier-Schnürringen."
+    ],
+    "formula": [
+      "Frequenz = Anzahl der Aktionspotenziale / Zeit",
+      "Die Reizstärke wird unter anderem über die Frequenz und die Zahl rekrutierter Fasern codiert, nicht über beliebig hohe Spitzen einzelner Aktionspotenziale."
+    ],
+    "example": "Beispiel: Blockiert ein Stoff spannungsabhängige Natriumkanäle, kann die schnelle Depolarisation ausbleiben. Ein noch vorhandenes Ruhepotenzial beweist nicht, dass eine normale Erregungsleitung möglich ist.",
+    "mistake": "Ein Aktionspotenzial ist kein Transport eines einzelnen Natriumions vom Zellkörper bis zum Axonende. Lokale Ströme aktivieren benachbarte Membranabschnitte.",
+    "question": "Was verursacht überwiegend die schnelle Repolarisation?",
+    "answer": "Die Abnahme des Natriumeinstroms durch Inaktivierung und die erhöhte Kaliumleitfähigkeit durch Öffnung spannungsabhängiger Kaliumkanäle.",
+    "summary": [
+      "Du erklärst die einzelnen Phasen eines typischen neuronalen Aktionspotenzials und trennst Ionenstrom von langfristiger Gradientenerhaltung.",
+      "Ein Aktionspotenzial ist kein Transport eines einzelnen Natriumions vom Zellkörper bis zum Axonende. Lokale Ströme aktivieren benachbarte Membranabschnitte."
+    ]
+  },
+  {
+    "id": "bio-replication",
+    "subject": "Biologie",
+    "title": "DNA-Replikation im Detail",
+    "topic": "Genetik",
+    "keywords": [
+      "replikation",
+      "helicase",
+      "polymerase",
+      "leitstrang",
+      "folgestrang",
+      "okazaki"
+    ],
+    "diagram": "dna",
+    "prerequisites": ["DNA-Struktur", "Basenpaarung und Strangrichtung"],
+    "introduction": "Du verstehst, warum beide neuen DNA-Stränge in gleicher chemischer Richtung entstehen, aber unterschiedlich organisiert werden.",
+    "paragraphs": [
+      "Vor der Zellteilung muss das Erbmaterial verdoppelt werden. Die Replikation ist semikonservativ: Jede neue Doppelhelix enthält einen alten und einen neu synthetisierten Strang. Helicase trennt die Stränge. Einzelstrangbindende Proteine stabilisieren die offenen Bereiche, Topoisomerasen verringern Torsionsspannung.",
+      "DNA-Polymerasen verlängern einen vorhandenen Strang am freien 3′-OH-Ende. Die Synthese verläuft daher immer in 5′→3′-Richtung, während der Matrizenstrang 3′→5′ gelesen wird. Primase erzeugt kurze RNA-Primer, die eine Startstelle bereitstellen.",
+      "Am Leitstrang erfolgt die Synthese in Richtung der Replikationsgabel weitgehend kontinuierlich. Am Folgestrang entstehen wiederholt kurze Okazaki-Fragmente. Nach Entfernung der Primer und Ersatz durch DNA verbindet Ligase die verbleibenden Unterbrechungen des Zucker-Phosphat-Rückgrats.",
+      "Korrekturmechanismen der Polymerasen und spätere Reparatursysteme reduzieren Fehler. DNA-Replikation ist von Transkription zu unterscheiden: Bei Transkription entsteht RNA; die Replikation erzeugt DNA für die Weitergabe des Genoms."
+    ],
+    "formula": null,
+    "example": "Beispiel: Der Matrizenabschnitt 3′-TACG-5′ wird durch die komplementäre Sequenz 5′-ATGC-3′ ergänzt. Der Folgestrang wird nicht chemisch rückwärts synthetisiert; die Unterbrechungen ermöglichen dieselbe 5′→3′-Synthese.",
+    "mistake": "Die DNA-Ligase synthetisiert keine vollständigen neuen Stränge. Sie schließt Unterbrechungen zwischen benachbarten DNA-Abschnitten.",
+    "question": "Warum sind am Folgestrang viele Primer erforderlich?",
+    "answer": "Weil in Richtung der sich öffnenden Gabel immer neue Matrizenabschnitte zugänglich werden, auf denen die 5′→3′-Synthese jeweils neu starten muss.",
+    "summary": [
+      "Du verstehst, warum beide neuen DNA-Stränge in gleicher chemischer Richtung entstehen, aber unterschiedlich organisiert werden.",
+      "Die DNA-Ligase synthetisiert keine vollständigen neuen Stränge. Sie schließt Unterbrechungen zwischen benachbarten DNA-Abschnitten."
+    ]
+  },
+  {
+    "id": "bio-protein-synthesis",
+    "subject": "Biologie",
+    "title": "Proteinbiosynthese und genetischer Code",
+    "topic": "Genetik",
+    "keywords": [
+      "proteinbiosynthese",
+      "translation",
+      "transkription",
+      "codon",
+      "trna"
+    ],
+    "diagram": "translation",
+    "prerequisites": ["DNA und RNA", "Aminosäuren und Proteine"],
+    "introduction": "Du verfolgst den Weg vom Gen zur Aminosäuresequenz und unterscheidest Codon und Anticodon.",
+    "paragraphs": [
+      "Bei der Transkription stellt RNA-Polymerase anhand eines DNA-Matrizenstrangs RNA her. Die Synthese erfolgt in 5′→3′-Richtung. Im eukaryotischen Zellkern entsteht bei protein-codierenden Genen zunächst prä-mRNA. Ein 5′-Cap, das Entfernen von Introns durch Spleißen und meist ein Poly-A-Ende gehören zu ihrer Verarbeitung.",
+      "Die reife mRNA gelangt ins Cytoplasma. Ribosomen lesen sie in Dreiergruppen, den Codons. Eine beladene tRNA trägt eine Aminosäure und besitzt ein passendes Anticodon. Aminoacyl-tRNA-Synthetasen sorgen für die korrekte Zuordnung von Aminosäure und tRNA.",
+      "Die Initiation legt den Leserahmen fest. Während der Elongation entstehen Peptidbindungen und das Ribosom rückt weiter. Beim Stoppcodon tritt ein Freisetzungsfaktor an die Stelle einer aminoacylbeladenen tRNA; die Kette wird freigesetzt. Faltung und Modifikationen beeinflussen das fertige Protein.",
+      "Der Code ist degeneriert: Mehrere Codons können dieselbe Aminosäure bezeichnen. Er ist jedoch nicht beliebig mehrdeutig; ein Codon besitzt im jeweiligen Codesystem eine festgelegte Bedeutung. Mutationen können stumm, missense oder nonsense sein; Insertionen und Deletionen können bei nicht durch drei teilbarer Länge das Leseraster verschieben."
+    ],
+    "formula": null,
+    "example": "Beispiel: Die mRNA 5′-AUG GCU UAA-3′ beginnt mit Methionin, codiert anschließend Alanin und endet am Stoppcodon UAA. Das Stoppcodon liefert keine zusätzliche Aminosäure.",
+    "mistake": "Codons werden auf der mRNA definiert, nicht als willkürliche DNA-Dreiergruppen ohne Strang- und Richtungsangabe.",
+    "question": "Warum kann eine einzelne Basenänderung ohne Änderung der Aminosäure bleiben?",
+    "answer": "Weil mehrere Codons dieselbe Aminosäure codieren können; die Mutation kann synonym sein.",
+    "summary": [
+      "Du verfolgst den Weg vom Gen zur Aminosäuresequenz und unterscheidest Codon und Anticodon.",
+      "Codons werden auf der mRNA definiert, nicht als willkürliche DNA-Dreiergruppen ohne Strang- und Richtungsangabe."
+    ]
+  },
+  {
+    "id": "bio-embryology",
+    "subject": "Biologie",
+    "title": "Embryonale Keimblätter und Organentwicklung",
+    "topic": "Entwicklung",
+    "keywords": [
+      "keimblatt",
+      "gastrulation",
+      "ektoderm",
+      "mesoderm",
+      "endoderm",
+      "neurulation"
+    ],
+    "prerequisites": [
+      "Meiose und Befruchtung",
+      "Zellteilung und Differenzierung"
+    ],
+    "introduction": "Du ordnest wichtige Entwicklungsschritte zeitlich und verstehst, wie aus anfangs ähnlichen Zellen unterschiedliche Gewebe entstehen.",
+    "paragraphs": [
+      "Nach der Befruchtung folgt die Furchung: Die Zygote wird durch mitotische Teilungen in kleinere Zellen aufgeteilt, zunächst ohne entsprechende Zunahme des Gesamtvolumens. Im menschlichen Embryo entstehen unter anderem Morula und Blastozyste. Die Blastozyste besteht aus einer äußeren Zellschicht und einer inneren Zellmasse; nach der Anheftung beginnt die Einnistung in die Gebärmutterschleimhaut.",
+      "Bei der Gastrulation werden drei Keimblätter angelegt. Aus dem Ektoderm entstehen unter anderem die Epidermis und das Nervensystem. Das Mesoderm liefert unter anderem Muskulatur, Knochen, Herz und große Teile des Urogenitalsystems. Das Endoderm trägt vor allem zum Epithel des Verdauungs- und Atemtrakts sowie zu Drüsenanlagen bei. Ein fertiges Organ besteht häufig aus Anteilen mehrerer Keimblätter.",
+      "Bei der Neurulation bildet sich aus spezialisiertem Ektoderm die Neuralplatte, daraus das Neuralrohr. Es ist die Anlage des zentralen Nervensystems. Neuralleistenzellen wandern aus und tragen unter anderem zu Teilen des peripheren Nervensystems bei. Zellwanderung, regulierter Zelltod und wechselseitige Signalgebung steuern die Formbildung.",
+      "Differenzierung bedeutet meist unterschiedliche Genaktivität bei weitgehend gleichem Genom. Entwicklung ist daher nicht das beliebige Austauschen der Erbinformation jeder Zelle. Kritische Entwicklungsphasen besitzen unterschiedliche Empfindlichkeiten gegenüber Störungen. Die Plazenta vermittelt Stoffaustausch zwischen mütterlichem und fetalem Organismus, ohne dass ihre Blutkreisläufe unter normalen Bedingungen einfach frei ineinander übergehen."
+    ],
+    "example": "Beispiel: Die Darmwand enthält endodermal entstandenes Epithel und mesodermal entstandene Muskel- und Bindegewebsanteile. Die Aussage „Der Darm stammt nur aus einem Keimblatt“ ist deshalb zu grob.",
+    "mistake": "Nicht jedes Epithel stammt aus dem Ektoderm. Die Keimblattzuordnung hängt von Lage und Entwicklung des jeweiligen Epithels ab.",
+    "question": "Aus welchem Keimblatt entsteht das Neuralrohr?",
+    "answer": "Aus spezialisiertem Ektoderm.",
+    "summary": [
+      "Du ordnest wichtige Entwicklungsschritte zeitlich und verstehst, wie aus anfangs ähnlichen Zellen unterschiedliche Gewebe entstehen.",
+      "Nicht jedes Epithel stammt aus dem Ektoderm. Die Keimblattzuordnung hängt von Lage und Entwicklung des jeweiligen Epithels ab."
+    ]
+  },
+  {
+    "id": "bio-senses",
+    "subject": "Biologie",
+    "title": "Detaillierte Sinnesphysiologie",
+    "topic": "Neurobiologie",
+    "keywords": [
+      "netzhaut",
+      "retina",
+      "stäbchen",
+      "zapfen",
+      "cochlea",
+      "haarzelle",
+      "sinnesphysiologie"
+    ],
+    "prerequisites": ["Nervenzellen und Synapsen", "Wellen und Licht"],
+    "introduction": "Du verfolgst, wie Licht und Schall in neuronale Signale übersetzt werden, und unterscheidest Reiz, Rezeptorpotenzial und Aktionspotenzial.",
+    "paragraphs": [
+      "Im Auge bündeln Hornhaut und Linse das Licht auf die Netzhaut. Stäbchen ermöglichen empfindliches Sehen bei geringer Helligkeit, Zapfen sind wesentlich für Farbsehen und hohe Sehschärfe bei Tageslicht. Die Fovea besitzt besonders hohe Zapfendichte. Am Austritt des Sehnervs fehlen Photorezeptoren: Dort liegt der blinde Fleck.",
+      "Licht verändert den Zustand von Photopigmenten und löst eine Signalkaskade aus. Bei Wirbeltier-Photorezeptoren führt Belichtung typischerweise zu einer Hyperpolarisation und verminderter Transmitterfreisetzung. Nachgeschaltete Nervenzellen verarbeiten die Information; Ganglienzellen senden Aktionspotenziale über den Sehnerv. Es ist daher falsch, jedes Rezeptorsignal mit einer Depolarisation gleichzusetzen.",
+      "Im Ohr überträgt das Trommelfell Schwingungen auf die Gehörknöchelchen und das ovale Fenster. In der Cochlea erzeugt die Wanderwelle ortsabhängige Auslenkungen. Hohe Frequenzen reizen stärker die basalen, tiefe stärker die apikalen Bereiche der Basilarmembran. Eine Ablenkung der Stereozilien von Haarzellen verändert mechanisch gekoppelte Ionenkanäle und damit das Rezeptorpotenzial.",
+      "Der Gleichgewichtssinn nutzt Haarzellen in Bogengängen sowie Maculaorganen. Die Bogengänge reagieren besonders auf Winkelbeschleunigung; Utriculus und Sacculus auf lineare Beschleunigung und Lage zur Schwerkraft. Geruch und Geschmack erkennen chemische Reize, verwenden aber unterschiedliche Rezeptorfamilien und Signalwege."
+    ],
+    "example": "Beispiel: Eine Kurzsichtigkeit lässt parallele Strahlen ohne Korrektur vor der Netzhaut zusammentreffen. Eine geeignete Zerstreuungslinse kann den Fokus auf die Netzhaut verschieben. Die optische Abbildung und die Verarbeitung des Signals sind zwei verschiedene Schritte.",
+    "mistake": "Photorezeptoren antworten auf Licht nicht wie typische erregte Nervenzellen mit einem Natriumeinstrom-getriebenen Aktionspotenzial. Ihre graduierte Antwort und die nachgeschaltete Verschaltung müssen getrennt betrachtet werden.",
+    "question": "Welcher Bereich der Cochlea reagiert besonders auf hohe Frequenzen?",
+    "answer": "Der basale Bereich nahe dem ovalen Fenster.",
+    "summary": [
+      "Du verfolgst, wie Licht und Schall in neuronale Signale übersetzt werden, und unterscheidest Reiz, Rezeptorpotenzial und Aktionspotenzial.",
+      "Photorezeptoren antworten auf Licht nicht wie typische erregte Nervenzellen mit einem Natriumeinstrom-getriebenen Aktionspotenzial. Ihre graduierte Antwort und die nachgeschaltete Verschaltung müssen getrennt betrachtet werden."
+    ]
+  },
+  {
+    "id": "bio-endocrine",
+    "subject": "Biologie",
+    "title": "Endokrine Regelkreise und Blutzucker",
+    "topic": "Mensch",
+    "keywords": [
+      "hypophyse",
+      "schilddrüse",
+      "nebennieren",
+      "glucagon",
+      "kortisol",
+      "endokrin"
+    ],
+    "prerequisites": [
+      "Rezeptoren und Signalübertragung",
+      "Negative Rückkopplung"
+    ],
+    "introduction": "Du verknüpfst Hormondrüse, Hormon und Zielwirkung und erklärst, warum ein Regelkreis mehrere Ebenen besitzt.",
+    "paragraphs": [
+      "Endokrine Zellen geben Hormone in den Extrazellulärraum und über das Blut an entfernte Zielorgane ab. Eine Zielzelle reagiert nur bei geeigneten Rezeptoren. Hydrophile Hormone wie viele Peptidhormone wirken meist an Membranrezeptoren; Steroidhormone und Schilddrüsenhormone können an intrazelluläre Rezeptoren binden und Genexpression beeinflussen.",
+      "Der Hypothalamus steuert über Releasing- und Inhibiting-Hormone Teile des Hypophysenvorderlappens. Beim Schilddrüsenregelkreis fördert TRH die TSH-Freisetzung und TSH die Bildung von Schilddrüsenhormonen. Steigende Hormonspiegel bremsen bei intaktem Regelkreis die übergeordneten Signale. Niedrige Zielhormone können je nach Ort der Störung mit hohen oder niedrigen Steuerhormonen einhergehen.",
+      "Insulin aus den Betazellen der Pankreasinseln begünstigt nach Nahrungsaufnahme unter anderem Glucoseaufnahme in Muskel- und Fettgewebe sowie Energiespeicherung. Glucagon aus Alphazellen fördert vor allem in der Leber die Bereitstellung von Glucose. Nicht alle Gewebe benötigen Insulin für jede Glucoseaufnahme. Erythrozyten und große Teile des Gehirns nutzen andere Regulationsmechanismen.",
+      "Die Nebennierenrinde produziert unter anderem Glucocorticoide und Mineralocorticoide; das Nebennierenmark setzt Catecholamine frei. Cortisol wirkt auf Stoffwechsel und Stressantwort, Aldosteron auf renale Elektrolytregulation. Die Hormone sind keine austauschbaren allgemeinen Stressstoffe."
+    ],
+    "example": "Beispiel: Bei primärer Unterfunktion der Schilddrüse können freie Schilddrüsenhormone vermindert und TSH erhöht sein. Bei einer zentralen Störung kann der erwartete TSH-Anstieg fehlen. Die Richtung der Rückkopplung erklärt den Unterschied.",
+    "mistake": "Insulin ist kein Enzym, das Glucose im Blut direkt abbaut. Es verändert über Rezeptorsignale die Stoffwechselaktivität von Zielgeweben.",
+    "question": "Welcher Teil der Nebenniere bildet Aldosteron?",
+    "answer": "Die Nebennierenrinde.",
+    "summary": [
+      "Du verknüpfst Hormondrüse, Hormon und Zielwirkung und erklärst, warum ein Regelkreis mehrere Ebenen besitzt.",
+      "Insulin ist kein Enzym, das Glucose im Blut direkt abbaut. Es verändert über Rezeptorsignale die Stoffwechselaktivität von Zielgeweben."
+    ]
+  },
+  {
+    "id": "bio-kidney",
+    "subject": "Biologie",
+    "title": "Nephron und Wasserhaushalt",
+    "topic": "Mensch",
+    "keywords": [
+      "nephron",
+      "glomerulus",
+      "henle",
+      "sammelrohr",
+      "adh",
+      "rückresorption"
+    ],
+    "prerequisites": ["Osmose und Membrantransport", "Blutkreislauf"],
+    "introduction": "Du unterscheidest Filtration, Rückresorption und Sekretion und ordnest ADH eine konkrete Wirkung zu.",
+    "paragraphs": [
+      "Das Nephron besteht aus Nierenkörperchen und Tubulussystem. Im Glomerulus wird Flüssigkeit über eine Filtrationsbarriere in den Raum der Bowman-Kapsel filtriert. Zellen und große Mengen von Plasmaproteinen werden normalerweise zurückgehalten. Das Filtrat enthält unter anderem Wasser, kleine Ionen, Glucose und Harnstoff.",
+      "Im proximalen Tubulus werden große Anteile der filtrierten Stoffe rückresorbiert. Die Rückresorption von Glucose nutzt gekoppelte Transportmechanismen und besitzt eine begrenzte Kapazität. Sekretion ist dagegen ein gerichteter Transport aus Blut beziehungsweise Interstitium in das Tubuluslumen. Ausscheidung ergibt sich aus Filtration minus Rückresorption plus Sekretion.",
+      "Die Henle-Schleife trägt gemeinsam mit weiteren Strukturen zum Konzentrationsgefälle im Nierenmark bei. Die unterschiedlichen Durchlässigkeiten ihrer Abschnitte sind entscheidend. Im Sammelrohr erhöht ADH die Wasserpermeabilität über Aquaporine. Wenn ein osmotisches Gefälle vorhanden ist, kann dadurch mehr Wasser rückresorbiert und der Urin konzentrierter werden.",
+      "Die Niere beeinflusst außerdem den Säure-Basen-Haushalt, den Blutdruck und die Bildung von Erythrozyten. Renin gehört zur Regulation des Renin-Angiotensin-Aldosteron-Systems; Erythropoetin stimuliert unter passenden Bedingungen die Erythrozytenbildung im Knochenmark."
+    ],
+    "example": "Beispiel: Von einer filtrierten Stoffmenge werden 90 Einheiten rückresorbiert und 5 zusätzlich sezerniert. Bei anfänglich 100 filtrierten Einheiten werden 100−90+5=15 Einheiten ausgeschieden.",
+    "mistake": "Rückresorption verläuft aus dem Tubuluslumen zurück zum Blut. Eine höhere Wasserpermeabilität allein erzeugt ohne treibendes Gefälle keinen beliebigen Wasserstrom.",
+    "question": "Welche drei Prozesse bestimmen die renale Ausscheidung einer Substanz?",
+    "answer": "Filtration minus Rückresorption plus Sekretion.",
+    "summary": [
+      "Du unterscheidest Filtration, Rückresorption und Sekretion und ordnest ADH eine konkrete Wirkung zu.",
+      "Rückresorption verläuft aus dem Tubuluslumen zurück zum Blut. Eine höhere Wasserpermeabilität allein erzeugt ohne treibendes Gefälle keinen beliebigen Wasserstrom."
+    ]
+  }
+]

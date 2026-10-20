@@ -1,0 +1,95 @@
+[
+  {
+    "id": "chem-equilibrium",
+    "subject": "Chemie",
+    "title": "Chemische Gleichgewichte wirklich verstehen",
+    "topic": "Reaktionen",
+    "keywords": [
+      "massenwirkung",
+      "gleichgewicht",
+      "le chatelier",
+      "reaktionsquotient"
+    ],
+    "diagram": "equilibrium",
+    "prerequisites": ["Reaktionsgleichungen", "Stoffmengenkonzentration"],
+    "introduction": "Du unterscheidest Reaktionsgeschwindigkeit, Gleichgewichtslage und die Wirkung von Konzentration, Temperatur und Katalysator.",
+    "paragraphs": [
+      "In einer umkehrbaren Reaktion werden gleichzeitig Produkte gebildet und wieder in Edukte zurückverwandelt. Im dynamischen Gleichgewicht sind beide Geschwindigkeiten gleich. Die Konzentrationen bleiben makroskopisch konstant, müssen aber nicht gleich groß sein.",
+      "Für aA+bB ⇌ cC+dD ist der Reaktionsquotient Q = a(C)^c·a(D)^d / (a(A)^a·a(B)^b). Im Gleichgewicht ist Q=K. Aktivitäten reiner Feststoffe und reiner Flüssigkeiten werden in der entsprechenden Standardzustandsbeschreibung als 1 behandelt. In geeigneten verdünnten Lösungen verwendet man häufig Näherungen mit relativen Konzentrationen.",
+      "Ist Q<K, überwiegt zunächst die Nettoreaktion zu den Produkten; bei Q>K läuft sie netto zu den Edukten. Nach Störung stellt sich unter passenden Bedingungen ein neues Gleichgewicht ein. Eine Konzentrationsänderung verändert Q, aber bei gleichbleibender Temperatur nicht die thermodynamische Gleichgewichtskonstante K.",
+      "Temperaturänderungen können K verändern. Eine Erwärmung begünstigt im Gleichgewicht die endotherme Richtung. Ein Katalysator beschleunigt die Einstellung, verändert aber weder K noch die durch die Thermodynamik bestimmte Gleichgewichtslage. Die Merkhilfe vom kleinsten Zwang ersetzt nicht die Prüfung der konkreten Bedingungen."
+    ],
+    "formula": [
+      "Q = Produktaktivitäten / Eduktaktivitäten; im Gleichgewicht Q = K",
+      "Die stöchiometrischen Koeffizienten erscheinen als Exponenten. K hängt unter festgelegter Standardzustandswahl von der Temperatur ab."
+    ],
+    "example": "Beispiel: A ⇌ B mit K=4. In einer idealisierten verdünnten Lösung seien [A]=1 und [B]=1 in denselben relativen Einheiten. Q=1<K: Es entsteht netto mehr B, bis das Verhältnis im Gleichgewicht 4 beträgt.",
+    "mistake": "Ein Gleichgewicht ist kein Reaktionsstillstand. Eine zusätzliche Produktmenge verschiebt das Gleichgewicht, macht K bei unveränderter Temperatur aber nicht größer.",
+    "question": "Was ändert ein Katalysator an einer bereits im Gleichgewicht befindlichen Mischung?",
+    "answer": "Er erhöht die Geschwindigkeiten beider Richtungen, verändert aber nicht die Gleichgewichtszusammensetzung.",
+    "summary": [
+      "Du unterscheidest Reaktionsgeschwindigkeit, Gleichgewichtslage und die Wirkung von Konzentration, Temperatur und Katalysator.",
+      "Ein Gleichgewicht ist kein Reaktionsstillstand. Eine zusätzliche Produktmenge verschiebt das Gleichgewicht, macht K bei unveränderter Temperatur aber nicht größer."
+    ]
+  },
+  {
+    "id": "chem-stereochemistry",
+    "subject": "Chemie",
+    "title": "Isomerie und räumliche Struktur",
+    "topic": "Organik",
+    "keywords": [
+      "isomer",
+      "stereochem",
+      "enantiomer",
+      "chiral",
+      "cis",
+      "trans"
+    ],
+    "diagram": "bond",
+    "prerequisites": ["Kovalente Bindungen", "Funktionelle Gruppen"],
+    "introduction": "Du trennst Unterschiede in der Verknüpfung von Unterschieden der räumlichen Anordnung.",
+    "paragraphs": [
+      "Konstitutionsisomere besitzen dieselbe Summenformel, aber unterschiedliche Bindungsverknüpfungen. Stereoisomere besitzen dieselbe Verknüpfung, unterscheiden sich aber räumlich. Konformationen können durch Rotation um geeignete Einfachbindungen ineinander übergehen, ohne kovalente Bindungen zu spalten.",
+      "Bei Doppelbindungen ist die freie Rotation eingeschränkt. Wenn an beiden Doppelbindungsatomen jeweils zwei unterschiedliche Substituenten sitzen, können unterschiedliche Anordnungen vorliegen. E/Z-Bezeichnungen verwenden die Prioritäten der Substituenten; einfache cis/trans-Bezeichnungen reichen nicht für jede Verbindung.",
+      "Ein chirales Molekül ist mit seinem Spiegelbild nicht deckungsgleich. Ein tetraedrisches Kohlenstoffatom mit vier unterschiedlichen Substituenten ist eine häufige Ursache von Chiralität. Spiegelbildisomere heißen Enantiomere. Mehrere stereogene Zentren machen eine Gesamtstruktur nicht automatisch chiral, da innere Symmetrie möglich ist.",
+      "Enantiomere können mit chiralen biologischen Partnern unterschiedlich wechselwirken. Gleiche Summenformel bedeutet daher weder gleiche Gestalt noch gleiche biologische Wirkung."
+    ],
+    "formula": null,
+    "example": "Beispiel: Ethanol und Dimethylether besitzen beide C₂H₆O, aber unterschiedliche Bindungsverknüpfungen. Sie sind Konstitutionsisomere, keine Enantiomere.",
+    "mistake": "Vier Bindungen an einem Kohlenstoff reichen nicht: Für das einfache tetraedrische Chiralitätskriterium müssen vier unterschiedliche Substituenten vorliegen.",
+    "question": "Sind zwei unterschiedlich gedrehte Zeichnungen desselben Moleküls automatisch Isomere?",
+    "answer": "Nein. Wenn sie durch zulässige räumliche Drehung oder Konformationsänderung dieselbe Struktur darstellen, sind es keine unterschiedlichen Konstitutionsisomere.",
+    "summary": [
+      "Du trennst Unterschiede in der Verknüpfung von Unterschieden der räumlichen Anordnung.",
+      "Vier Bindungen an einem Kohlenstoff reichen nicht: Für das einfache tetraedrische Chiralitätskriterium müssen vier unterschiedliche Substituenten vorliegen."
+    ]
+  },
+  {
+    "id": "chem-solubility",
+    "subject": "Chemie",
+    "title": "Löslichkeit und Löslichkeitsprodukt",
+    "topic": "Gleichgewichte",
+    "keywords": [
+      "löslichkeit",
+      "löslichkeitsprodukt",
+      "fällung",
+      "ionenprodukt"
+    ],
+    "prerequisites": ["Ionen und Salzformeln", "Chemisches Gleichgewicht"],
+    "introduction": "Du unterscheidest eine gesättigte Lösung von einem vollständig gelösten Salz und erkennst die Bedingung für eine Fällung.",
+    "paragraphs": [
+      "Ein schwer lösliches Salz kann mit seinen gelösten Ionen im Gleichgewicht stehen. Für AgCl(s) ⇌ Ag⁺(aq)+Cl⁻(aq) enthält das Löslichkeitsprodukt die Aktivitäten der beiden gelösten Ionen. Der reine Feststoff wird mit Aktivität 1 behandelt. Das Vorhandensein eines Feststoffs und die Temperatur gehören zu den Voraussetzungen der Gleichgewichtsaussage.",
+      "Bei unveränderter Temperatur ist K_L für ein definiertes System festgelegt. Das aktuelle Ionenaktivitätsprodukt Q_L kann durch Mischen oder Konzentrationsänderungen variieren. Bei Q_L>K_L ist die Bildung des Feststoffs thermodynamisch begünstigt; bei Q_L<K_L ist die Lösung bezüglich dieses Feststoffs untersättigt. Die Geschwindigkeit der Fällung kann zusätzlich von Keimbildung und Kinetik abhängen.",
+      "Für ein Salz mit der Formel AB und der Löslichkeit s ergibt die vereinfachte ideale Rechnung in reinem Wasser K_L≈s². Für AB₂ entstehen pro Formeleinheit ein A²⁺ und zwei B⁻; damit K_L≈s(2s)²=4s³. Die stöchiometrischen Koeffizienten ändern die Beziehung erheblich.",
+      "Die Zugabe eines gemeinsamen Ions kann die Löslichkeit reduzieren. Komplexbildung oder pH-Änderungen können die freie Ionenkonzentration verändern und die scheinbare Löslichkeit beeinflussen. Pauschal gilt deshalb nicht, dass jedes Salz in jeder Umgebung gleich gut löslich ist."
+    ],
+    "example": "Beispiel: Für ein idealisiertes AB-Salz mit K_L=10⁻⁸ in passenden relativen Konzentrationseinheiten ist s≈10⁻⁴ mol/l. Für AB₂ darf nicht einfach dieselbe Quadratwurzelbeziehung verwendet werden.",
+    "mistake": "Löslichkeit ist eine Stoffmenge oder Masse pro Volumen unter angegebenen Bedingungen; das Löslichkeitsprodukt ist eine Gleichgewichtsgröße. Die beiden Begriffe sind nicht identisch.",
+    "question": "Welche Bedingung begünstigt eine Fällung?",
+    "answer": "Das aktuelle Ionenaktivitätsprodukt ist größer als das Löslichkeitsprodukt.",
+    "summary": [
+      "Du unterscheidest eine gesättigte Lösung von einem vollständig gelösten Salz und erkennst die Bedingung für eine Fällung.",
+      "Löslichkeit ist eine Stoffmenge oder Masse pro Volumen unter angegebenen Bedingungen; das Löslichkeitsprodukt ist eine Gleichgewichtsgröße. Die beiden Begriffe sind nicht identisch."
+    ]
+  }
+]

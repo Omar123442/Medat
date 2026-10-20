@@ -1,0 +1,93 @@
+[
+  {
+    "id": "bms-19",
+    "subject": "Physik",
+    "title": "Größen, Einheiten und Bewegung",
+    "topic": "Mechanik",
+    "paragraphs": [
+      "Physikalische Größen bestehen aus Zahlenwert und Einheit. Wichtige SI-Basisgrößen sind Länge in m, Zeit in s, Masse in kg, Stromstärke in A und Temperatur in K. Vorsätze wie milli (10⁻³), mikro (10⁻⁶) und kilo (10³) verändern den Zahlenfaktor.",
+      "Bei gleichförmiger Bewegung gilt s = v·t. Bei konstanter Beschleunigung gilt v = v₀ + a·t und s = s₀ + v₀t + ½at². Geschwindigkeit ist eine gerichtete Größe. Im Weg-Zeit-Diagramm entspricht die Steigung der Geschwindigkeit.",
+      "Beispiel: 72 km/h entsprechen 20 m/s. Ein Körper mit v₀ = 0 und a = 2 m/s² legt in 3 s einen Weg von 9 m zurück."
+    ],
+    "question": "Was bedeutet eine waagrechte Linie im Ort-Zeit-Diagramm?",
+    "answer": "Der Ort bleibt konstant; die Geschwindigkeit ist null."
+  },
+  {
+    "id": "bms-20",
+    "subject": "Physik",
+    "title": "Kraft, Arbeit, Energie und Leistung",
+    "topic": "Mechanik",
+    "paragraphs": [
+      "Für konstante Masse gilt nach Newton F = m·a. Die Gewichtskraft nahe der Erdoberfläche ist F_G = m·g mit g ≈ 9,81 m/s². Masse und Gewichtskraft sind unterschiedliche Größen. Bei Kräftegleichgewicht ist die resultierende Kraft null; das bedeutet nicht zwingend Stillstand.",
+      "Bei konstanter paralleler Kraft gilt W = F·s. Kinetische Energie ist E_kin = ½mv², die Änderung der Lageenergie im homogenen Schwerefeld ΔE_pot = mgΔh. Leistung ist Energieumsatz pro Zeit: P = W/t. Energie bleibt insgesamt erhalten, kann aber in andere Formen übergehen.",
+      "Beispiel: Verdoppelt man die Geschwindigkeit, vervierfacht sich bei gleicher Masse die kinetische Energie. 100 J in 5 s entsprechen 20 W."
+    ],
+    "question": "Welche Einheit hat die Kraft?",
+    "answer": "Newton: 1 N = 1 kg·m/s²."
+  },
+  {
+    "id": "bms-21",
+    "subject": "Physik",
+    "title": "Druck, Flüssigkeiten und Gase",
+    "topic": "Fluide",
+    "paragraphs": [
+      "Druck ist Kraft pro Fläche: p = F/A. In einer ruhenden Flüssigkeit steigt der Druck mit der Tiefe um Δp = ρgΔh. Der Auftrieb entspricht der Gewichtskraft des verdrängten Fluids. Dichte ist Masse pro Volumen: ρ = m/V.",
+      "Für eine stationäre inkompressible Strömung ohne Quellen gilt die Kontinuitätsbeziehung A·v = konstant. Das ideale Gasgesetz lautet pV = nRT; die Temperatur muss in Kelvin eingesetzt werden. Reale Gase weichen besonders bei hohen Drücken und tiefen Temperaturen vom Idealmodell ab.",
+      "Beispiel: Halbiert sich in einem idealisierten Rohr die Querschnittsfläche, verdoppelt sich die mittlere Strömungsgeschwindigkeit bei gleichem Volumenstrom. 0 °C entsprechen 273,15 K."
+    ],
+    "question": "Wie ändert sich der Druck eines idealen Gases bei konstantem Volumen, wenn sich die absolute Temperatur verdoppelt?",
+    "answer": "Er verdoppelt sich."
+  },
+  {
+    "id": "bms-22",
+    "subject": "Physik",
+    "title": "Wärme und Thermodynamik",
+    "topic": "Wärme",
+    "paragraphs": [
+      "Temperatur beschreibt einen thermischen Zustand, Wärme eine Form der Energieübertragung aufgrund eines Temperaturunterschieds. Ohne Phasenwechsel gilt für Erwärmung näherungsweise Q = m·c·ΔT. Bei einem Phasenwechsel kann Energie umgesetzt werden, ohne dass sich die Temperatur dabei ändert.",
+      "Wärmeübertragung erfolgt durch Leitung, Konvektion und Strahlung. Der erste Hauptsatz beschreibt die Energiebilanz. Bei der Konvention „Arbeit am System positiv“ gilt ΔU = Q + W. Der zweite Hauptsatz legt unter anderem fest, dass Wärme nicht ohne weiteren Aufwand von kalt nach warm fließt.",
+      "Beispiel: Für 1 kg Wasser mit c ≈ 4,18 kJ/(kg·K) und ΔT = 10 K benötigt man ungefähr 41,8 kJ. Eine Temperaturdifferenz von 10 °C entspricht 10 K."
+    ],
+    "question": "Sind 20 °C doppelt so warm wie 10 °C im absoluten thermodynamischen Sinn?",
+    "answer": "Nein. Absolute Temperaturverhältnisse müssen mit Kelvin gebildet werden."
+  },
+  {
+    "id": "bms-23",
+    "subject": "Physik",
+    "title": "Elektrizität und Magnetismus",
+    "topic": "Elektrizität",
+    "paragraphs": [
+      "Stromstärke ist Ladungstransport pro Zeit: I = ΔQ/Δt. Spannung ist Energie pro Ladung. Für einen ohmschen Widerstand gilt U = R·I. Elektrische Leistung ist P = U·I. In einer Reihenschaltung addieren sich Widerstände, in einer Parallelschaltung ihre Kehrwerte.",
+      "Ein Kondensator speichert getrennte Ladung; C = Q/U. Bewegte Ladungen und Ströme erzeugen Magnetfelder. Auf bewegte Ladungen kann im Magnetfeld die Lorentzkraft wirken. Eine Änderung des magnetischen Flusses kann eine Spannung induzieren.",
+      "Beispiel: Zwei Widerstände mit je 100 Ω ergeben in Reihe 200 Ω und parallel 50 Ω. Bei 12 V und 2 A beträgt die Leistung 24 W."
+    ],
+    "question": "Welche Größe ist bei ideal parallel geschalteten Widerständen gleich?",
+    "answer": "Die Spannung an jedem Zweig."
+  },
+  {
+    "id": "bms-24",
+    "subject": "Physik",
+    "title": "Schwingungen, Wellen und Akustik",
+    "topic": "Wellen",
+    "paragraphs": [
+      "Die Frequenz f gibt Schwingungen pro Sekunde an, die Periodendauer T die Zeit für eine Schwingung; f = 1/T. Für eine Welle gilt v = λf. Bei mechanischen Wellen schwingen Teilchen um ihre Ruhelage, während sich Energie ausbreitet.",
+      "Schall benötigt ein Medium. Die Tonhöhe hängt wesentlich von der Frequenz ab. Intensität und wahrgenommene Lautstärke sind nicht identisch; der Schallpegel verwendet eine logarithmische Skala. Interferenz beschreibt Überlagerung, Resonanz eine verstärkte Antwort bei geeigneter Anregungsfrequenz.",
+      "Beispiel: Bei Schallgeschwindigkeit 340 m/s und Frequenz 170 Hz beträgt die Wellenlänge 2 m. Bei gleichbleibender Geschwindigkeit führt eine höhere Frequenz zu einer kürzeren Wellenlänge."
+    ],
+    "question": "Kann sich Schall im Vakuum ausbreiten?",
+    "answer": "Nein, da ein mechanisches Übertragungsmedium fehlt."
+  },
+  {
+    "id": "bms-25",
+    "subject": "Physik",
+    "title": "Optik und ionisierende Strahlung",
+    "topic": "Optik & Atomphysik",
+    "paragraphs": [
+      "Licht ist elektromagnetische Strahlung. Beim Übergang zwischen Medien können Reflexion und Brechung auftreten. Für Brechung gilt n₁ sin α = n₂ sin β. Sammellinsen können parallele Strahlen bündeln; die Brechkraft in Dioptrien ist D = 1/f mit f in Metern.",
+      "Photonen besitzen die Energie E = hf. Ionisierende Strahlung kann Elektronen aus Atomen oder Molekülen lösen. Radioaktiver Zerfall ist statistisch; nach jeder Halbwertszeit verbleibt im Mittel die Hälfte der noch nicht zerfallenen Kerne. Aktivität in Bq und absorbierte Dosis in Gy bezeichnen verschiedene Größen.",
+      "Beispiel: Eine Linse mit f = 0,5 m hat 2 dpt. Nach drei Halbwertszeiten verbleibt im Mittel 1/8 der ursprünglichen radioaktiven Kerne."
+    ],
+    "question": "Ändert sich die Frequenz von Licht beim Übergang in ein anderes ruhendes Medium?",
+    "answer": "Sie bleibt gleich; Geschwindigkeit und Wellenlänge können sich ändern."
+  }
+]
