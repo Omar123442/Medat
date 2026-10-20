@@ -33,6 +33,7 @@ import { importAnki } from "./import";
 import "./style.css";
 import "./logic/logic.css";
 import "./offline";
+import Books from "./books/Books";
 import Learn, { Preparation } from "./Learn";
 const LogicTrainer = lazy(() => import("./logic/LogicTrainer"));
 const KffHub = lazy(() => import("./kff/KffHub"));
@@ -126,10 +127,21 @@ function App() {
     [reveal, setReveal] = useState(false),
     [done, setDone] = useState(false),
     [stats, setStats] = useState(() => read("medat-progress", {})),
-    [goal, setGoal] = useState(() => read("medat-goal", 20)),
+    [goal, setGoal] = useState(() => {
+      const n = read("medat-goal", 20);
+      return Number.isSafeInteger(n) && n > 0 ? n : 20;
+    }),
+    [goalDraft, setGoalDraft] = useState(""),
     [modal, setModal] = useState(""),
     [mobile, setMobile] = useState(false);
   const file = useRef();
+  useEffect(() => {
+    if (modal === "settings") setGoalDraft(String(goal));
+  }, [modal, goal]);
+  const validGoal =
+    goalDraft.trim() !== "" &&
+    Number.isSafeInteger(Number(goalDraft)) &&
+    Number(goalDraft) > 0;
   const today = new Date().toLocaleDateString("sv");
   const daily = stats[today] || 0;
   const total = Object.values(stats).reduce((a, b) => a + b, 0);
@@ -278,6 +290,7 @@ function App() {
           {[
             [LayoutDashboard, "Übersicht"],
             [BookOpen, "Zuerst verstehen"],
+            [BookOpen, "Skriptbibliothek"],
             [Target, "Implikationen erkennen"],
             [Play, "KFF-Training"],
             [Layers, "Lernkarten"],
@@ -650,6 +663,7 @@ function App() {
               </section>
             </div>
           )}
+          {page === "Skriptbibliothek" && <Books />}
           {page === "Zuerst verstehen" && (
             <Learn cards={cards} onPractice={start} reviews={reviews} />
           )}
@@ -952,15 +966,9 @@ function App() {
                   <input
                     type="number"
                     min="1"
-                    value={goal}
-                    onChange={(e) => {
-                      const n = Math.max(
-                        1,
-                        Math.floor(Number(e.target.value) || 1),
-                      );
-                      setGoal(n);
-                      localStorage.setItem("medat-goal", JSON.stringify(n));
-                    }}
+                    aria-label="Karten pro Tag"
+                    value={goalDraft}
+                    onChange={(e) => setGoalDraft(e.target.value)}
                   />
                 </label>
                 <p className="muted">
@@ -970,7 +978,27 @@ function App() {
                   solange der Browser die Websitedaten behält. Das Tagesziel ist
                   keine Lernbegrenzung.
                 </p>
-                <button className="primary" onClick={() => setModal("")}>
+                {!validGoal && (
+                  <p role="status" className="muted">
+                    Gib eine positive ganze Zahl ein. Dein bisheriges Ziel
+                    bleibt bis zum Speichern erhalten.
+                  </p>
+                )}
+                <button
+                  className="primary"
+                  disabled={!validGoal}
+                  onClick={() => {
+                    if (!validGoal) return;
+                    const n = Number(goalDraft);
+                    try {
+                      localStorage.setItem("medat-goal", JSON.stringify(n));
+                      setGoal(n);
+                      setModal("");
+                    } catch {
+                      setError("Tagesziel konnte nicht gespeichert werden.");
+                    }
+                  }}
+                >
                   Fertig <Check size={16} />
                 </button>
               </>

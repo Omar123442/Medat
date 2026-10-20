@@ -1,0 +1,47 @@
+[
+  {
+    "id": "chemistry",
+    "fileName": "Chemie2020.pdf",
+    "title": "Chemie-Skript · ÖH Med Wien",
+    "year": 2020,
+    "printedOffset": 0,
+    "pages": 81,
+    "sha256": "a8562b98646e2f83447867555e6138ef235a9c11dafc0a1981bb1a82311f85de"
+  },
+  {
+    "id": "mathematics",
+    "fileName": "Mathe-Skirpt-Ueberarbeitungsversion-Juni-2022.pdf",
+    "title": "Mathematik-Skript · ÖH Med Wien",
+    "year": 2022,
+    "printedOffset": 4,
+    "pages": 57,
+    "sha256": "aa75dbe8f6896e3a46d077bc345130ba8e481188be6d0e086717e997cef95c93"
+  },
+  {
+    "id": "physics",
+    "fileName": "Physik-2018.pdf",
+    "title": "Physik-Skript · ÖH Med Wien",
+    "year": 2018,
+    "printedOffset": 2,
+    "pages": 52,
+    "sha256": "f6ccbce5d0d9a35736f9047b22e3396b83f2675083edc270cfd55533ef8fbc05"
+  },
+  {
+    "id": "kff",
+    "fileName": "KFFSkript2021.pdf",
+    "title": "KFF, SEK und TV · ÖH Med Wien",
+    "year": 2021,
+    "printedOffset": 0,
+    "pages": 28,
+    "sha256": "320519088b9783b86cb714225fecdcdb40f6223352a2dcd2de06dfe4956c2d8f"
+  },
+  {
+    "id": "biology",
+    "fileName": "Bioskript-Ueberarbeitungsversion-2022-Juni.pdf",
+    "title": "Biologie-Skript · ÖH Med Wien",
+    "year": 2022,
+    "printedOffset": 0,
+    "pages": 144,
+    "sha256": "b268a932ba9c2f0c9717941d9099588c29ddb26be07317733792fc00a7b2eef3"
+  }
+]

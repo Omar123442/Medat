@@ -25,3 +25,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+PDF.js (`pdfjs-dist`) wird unter Apache-2.0 ausgeliefert. Sein Lizenztext ist zusätzlich in `public/third-party-notices.txt` enthalten. Lokal importierte Originalskripte und deren Fremdbilder werden hierdurch nicht neu lizenziert; sie werden nicht mit dem Repository ausgeliefert.

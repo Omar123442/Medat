@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Check, ChevronLeft } from "lucide-react";
 import Visual from "./Visual";
+import ScriptMaterial from "../books/ScriptMaterial";
 import CardLinks from "../learning/CardLinks";
 import { sources } from "./sources";
 export default function Lesson({
@@ -45,6 +46,7 @@ export default function Lesson({
             <p key={i}>{p}</p>
           ))}
       </section>
+      <ScriptMaterial chapterId={c.id} />
       {c.diagram && (
         <section>
           <h3>4. Schritt für Schritt sehen</h3>

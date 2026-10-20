@@ -17,6 +17,7 @@ export const people = [
   allergy,
   number,
   avatar: i,
+  medication: i % 2 === 0 ? "Ja" : "Nein",
 }));
 export function memoryTasks(selected) {
   return selected.flatMap((p) =>

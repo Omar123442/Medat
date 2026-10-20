@@ -1,0 +1,129 @@
+.books-shelf > p {
+  line-height: 1.9;
+  font-size: 13px;
+}
+.books-shelf .source-grid {
+  margin-top: 28px;
+}
+.books-shelf .source-grid article {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+.books-shelf h3 {
+  font-size: 16px;
+  margin: 0;
+}
+.book-import-message {
+  white-space: pre-wrap;
+  background: #edf4e7;
+  padding: 15px;
+  border-radius: 7px;
+  font-size: 12px;
+  line-height: 1.9;
+}
+.book-figure {
+  margin: 22px 0;
+  border: 1px solid #dbe5d0;
+  border-radius: 10px;
+  background: #fff;
+  padding: 22px;
+}
+.book-figure h4 {
+  margin-top: 0;
+  line-height: 1.8;
+}
+.book-figure figcaption {
+  font-size: 10px;
+  line-height: 1.9;
+  color: #879578;
+  margin: 18px 0;
+}
+.pdf-canvas canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  background: white;
+}
+.pdf-canvas.missing {
+  padding: 22px;
+  background: #f1f5eb;
+  border: 1px dashed #ceddc1;
+  border-radius: 7px;
+}
+.pdf-canvas p {
+  font-size: 12px;
+  line-height: 1.9;
+  color: #7c8d6d;
+}
+.book-reader {
+  width: 1050px;
+  padding: 35px;
+  max-height: 94vh;
+}
+.book-reader h2 {
+  font-size: 21px;
+  padding-right: 15px;
+}
+.book-reader .pagination {
+  position: sticky;
+  top: -35px;
+  background: #fbfcf8;
+  padding: 18px 0;
+  border-bottom: 1px solid #e2e9d8;
+  z-index: 1;
+}
+.book-reader select {
+  padding: 7px;
+  border: 1px solid #d9e3cf;
+  border-radius: 5px;
+  background: white;
+  color: #506842;
+}
+.script-note {
+  padding: 20px;
+  background: #eef4e7;
+  border-left: 3px solid #7a9d5f;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 1.9;
+}
+.script-note small {
+  font-size: 10px;
+  color: #879b78;
+}
+.script-material > h3 {
+  line-height: 1.8;
+}
+@media (max-width: 600px) {
+  .book-figure {
+    padding: 14px;
+    margin: 18px 0;
+  }
+  .book-reader {
+    padding: 30px 14px;
+  }
+  .book-reader h2 {
+    font-size: 17px;
+  }
+  .book-reader .pagination {
+    top: -30px;
+    font-size: 9px;
+    gap: 6px;
+  }
+  .book-reader .pagination button {
+    font-size: 9px;
+  }
+  .script-note {
+    padding: 15px;
+    font-size: 12px;
+  }
+  .pdf-canvas.missing {
+    padding: 15px;
+  }
+  .books-shelf {
+    padding: 18px;
+  }
+}

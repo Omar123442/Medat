@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { foundations, logicTasks, sources } from "./tasks";
 import "./logic.css";
+import ScriptMaterial from "../books/ScriptMaterial";
 const load = () => {
   try {
     return JSON.parse(localStorage.getItem("medat-logic-history") || "[]");
@@ -320,6 +321,7 @@ export default function LogicTrainer() {
         {!run && tab === "Grundlagen" && (
           <>
             <Basics />
+            <ScriptMaterial kffArea="logic" />
             <button className="primary" onClick={() => setTab("Training")}>
               Verstanden – jetzt trainieren <ArrowRight size={16} />
             </button>

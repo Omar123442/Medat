@@ -42,7 +42,7 @@ Original-Deck und FSRS-Reviewzustände liegen in IndexedDB auf diesem Gerät. Ta
 npm test
 ```
 
-Baut die Website und führt 25 Playwright-Tests aus. Die Konfiguration startet Entwicklungs- und Produktionsserver und verwendet `/usr/bin/chromium`. Auf anderen Rechnern den Browserpfad in `playwright.config.js` anpassen. Node.js 24 wird auch für die moderne Anki-Kompression der Testfixtures benötigt. Die Testdateien werden synthetisch erzeugt; das Originaldeck war wegen des 32-MB-Transferlimits nicht direkt zugänglich.
+Baut die Website und führt 31 Playwright-Tests aus. Die Konfiguration startet Entwicklungs- und Produktionsserver und verwendet `/usr/bin/chromium`. Auf anderen Rechnern den Browserpfad in `playwright.config.js` anpassen. Node.js 24 wird auch für die moderne Anki-Kompression der Testfixtures benötigt. Die Testdateien werden synthetisch erzeugt; das Originaldeck war wegen des 32-MB-Transferlimits nicht direkt zugänglich.
 
 ## Importgrenzen
 
@@ -53,3 +53,9 @@ APKG mit SQLite (`collection.anki2`, `.anki21`, `.anki21b`), Zstandard, JSON-/Pr
 Der aktuelle offizielle MedAT-Stoff und die exakten aktuellen KFF-Formate konnten wegen HTTP-403-Netzwerksperren nicht geprüft werden. Zeiten und Aufgabenformen sind ausdrücklich Trainingsvorgaben. Die verlinkten Lehrbücher sind Referenzempfehlungen, keine Behauptung einer erfolgten Lizenz- oder Inhaltsprüfung. Keine Buchtexte, Originalprüfungsfragen oder Fremdbilder wurden übernommen. Die 49 Kapitel sind eigenständig verfasste Erklärungen mit offenem externem Fachprüfstatus. Keine Aussage über vollständige offizielle Stoffabdeckung.
 
 Der vollständige Umsetzungsstand und konkrete offene Punkte stehen in [docs/IMPLEMENTATION.md](docs/IMPLEMENTATION.md). Der bestehende Logiktrainer ist unter [src/logic/README.md](src/logic/README.md) dokumentiert.
+
+## Eigene hochgeladene Skripte und Originalbilder
+
+Unter **Skriptbibliothek** die fünf PDFs aus dem Chat einmal lokal auswählen. Sie werden anhand ihres Datei-Hashes erkannt und dauerhaft auf diesem Gerät gespeichert. Danach erscheinen Originalabbildungen mit Seitenangaben in verknüpften Kapiteln und passende historische KFF-Strategieabschnitte. Die Originalseite lässt sich vergrößern und durchblättern. Details und konkrete Inhaltskorrekturen stehen in [docs/UPLOADED_SCRIPTS.md](docs/UPLOADED_SCRIPTS.md). Die alten Ausgaben bestätigen keine aktuelle offizielle Stoffliste.
+
+PDF.js und sein Worker sind lokal gebündelt und im Produktionsbuild offline verfügbar. Für den Import wird ein sicherer Browserkontext benötigt (HTTPS oder localhost). Die vollständigen Bücher und Fremdbilder werden nicht mit dem Repository veröffentlicht. Beim Löschen der Websitedaten gehen auch die lokal importierten Skripte verloren.

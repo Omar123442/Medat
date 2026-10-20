@@ -95,10 +95,10 @@ export default function TaskView({ task, interactive }) {
           ))}
         </div>
         <p className="muted">
-          Jeder Buchstabe wird genau einmal verwendet. Ä/Ö/Ü werden
-          gegebenenfalls als AE/OE/UE geschrieben. Der eigene Wortpool wurde
-          redaktionell zusammengestellt, nicht mit einem vollständigen deutschen
-          Wörterbuch auf alle Anagramme geprüft.
+          Jeder Buchstabe wird genau einmal verwendet. Der Pool enthält keine
+          Umlaute oder ß und keine AE/OE/UE-Umschreibungen für Umlaute. Der
+          eigene Wortpool wurde redaktionell zusammengestellt, nicht mit einem
+          vollständigen deutschen Wörterbuch auf alle Anagramme geprüft.
         </p>
       </>
     );

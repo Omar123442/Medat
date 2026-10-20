@@ -80,6 +80,7 @@ export default function MemoryTrainer({
                   {[
                     ["Geburtsdatum", p.birthday],
                     ["Blutgruppe", p.blood],
+                    ["Medikamenteneinnahme", p.medication],
                     ["Land", p.country],
                     ["Allergie", p.allergy],
                     ["Ausweisnummer", p.number],

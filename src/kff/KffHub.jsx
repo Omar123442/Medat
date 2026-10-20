@@ -4,6 +4,7 @@ import { kffAreas, shuffle } from "./tasks";
 import Session, { Explanation, formatTime } from "./Session";
 import MemoryTrainer from "./MemoryTrainer";
 import "./kff.css";
+import ScriptMaterial from "../books/ScriptMaterial";
 const readHistory = () => {
   try {
     return JSON.parse(localStorage.getItem("medat-kff-history") || "[]");
@@ -174,6 +175,7 @@ export default function KffHub({ onLogic }) {
               </p>
             )}
           </div>
+          <ScriptMaterial kffArea={area} />
           <div className="mode-grid">
             <button
               className={mode === "learn" ? "mode selected" : "mode"}
