@@ -1,0 +1,36 @@
+{
+  "name": "medat",
+  "version": "1.0.0",
+  "description": "MedAT Lernstudio mit lokalem Anki-Import",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omar123442/Medat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Omar123442/Medat/issues"
+  },
+  "homepage": "https://github.com/Omar123442/Medat#readme",
+  "dependencies": {
+    "fflate": "^0.8.3",
+    "fzstd": "^0.1.1",
+    "lucide-react": "^1.59.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "sql.js": "^1.15.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "vite": "^8.3.4"
+  }
+}
