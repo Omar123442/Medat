@@ -1,0 +1,338 @@
+{
+  "bms-12": {
+    "citations": [
+      {
+        "book": "chemistry",
+        "pages": [8, 9, 10, 11, 12, 13],
+        "section": "Atombau und Periodensystem"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Ordnungszahl",
+        "definition": "Protonenzahl eines Atomkerns."
+      },
+      {
+        "term": "Massenzahl",
+        "definition": "Summe aus Protonen und Neutronen im betrachteten Kern."
+      },
+      {
+        "term": "Ion",
+        "definition": "Teilchen mit elektrischer Nettoladung."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Zuerst das Element, dann Ladung und Isotop",
+        "text": "Die Protonenzahl legt fest, zu welchem Element ein Atom gehört. Die Neutronenzahl kann bei gleichem Element variieren: Es entstehen Isotope. Eine Änderung der Elektronenzahl verändert dagegen die elektrische Ladung. Diese drei Angaben müssen getrennt bestimmt werden."
+      },
+      {
+        "title": "Das Periodensystem als Strukturhilfe nutzen",
+        "text": "Perioden und Gruppen spiegeln Regelmäßigkeiten der Elektronenstruktur wider. Bei Hauptgruppenelementen hängen typische Bindungen oft mit Valenzelektronen zusammen. Periodische Trends sind nützliche Orientierung, aber keine ausnahmslose Zahlenregel. Ein Ion muss bei seiner Elektronenkonfiguration mit seiner tatsächlichen Elektronenzahl betrachtet werden."
+      }
+    ],
+    "workedExample": {
+      "question": "Ein Natriumion ²³Na⁺ hat Ordnungszahl 11. Bestimme die Teilchenzahlen.",
+      "steps": [
+        "Die Ordnungszahl liefert 11 Protonen.",
+        "23 − 11 = 12 Neutronen.",
+        "Die einfach positive Ladung bedeutet ein Elektron weniger als beim neutralen Atom: 10 Elektronen."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Wird Natrium durch Elektronenabgabe zu einem anderen Element?",
+        "answer": "Nein. Die Protonenzahl bleibt 11; nur die Ladung verändert sich."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-13": {
+    "citations": [
+      {
+        "book": "chemistry",
+        "pages": [18, 19, 22, 23, 24, 25],
+        "section": "Bindungen und zwischenmolekulare Kräfte"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Elektronegativität",
+        "definition": "Maß für die Tendenz eines gebundenen Atoms, Bindungselektronen anzuziehen."
+      },
+      {
+        "term": "Dipol",
+        "definition": "Räumliche Trennung entgegengesetzter Ladungsschwerpunkte."
+      },
+      {
+        "term": "Wasserstoffbrücke",
+        "definition": "Besondere gerichtete Wechselwirkung mit geeignet gebundenem Wasserstoff und einem Elektronenpaarpartner."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Bindung im Molekül und Anziehung zwischen Molekülen trennen",
+        "text": "Eine kovalente Bindung verknüpft Atome über gemeinsame Elektronen. Zwischen verschiedenen Molekülen können zusätzlich schwächere Wechselwirkungen wirken. Wenn Wasser verdampft, werden nicht normalerweise alle O–H-Bindungen zerlegt; vor allem die zwischenmolekulare Anordnung ändert sich."
+      },
+      {
+        "title": "Molekülpolarität braucht eine räumliche Betrachtung",
+        "text": "Eine polare Bindung besitzt eine ungleiche Elektronenverteilung. Mehrere Bindungsdipole addieren sich gerichtet. Bei einer symmetrischen Anordnung können sie sich aufheben. Daher ist CO₂ trotz polarer Bindungen insgesamt unpolar, während das gewinkelte Wassermolekül ein permanentes Dipolmoment besitzt."
+      }
+    ],
+    "workedExample": {
+      "question": "Warum ist der Siedepunkt von Wasser nicht allein mit seiner Molekülmasse erklärt?",
+      "steps": [
+        "Beim Sieden müssen Moleküle voneinander getrennt werden.",
+        "Wasser kann ein ausgedehntes Netz von Wasserstoffbrücken ausbilden.",
+        "Diese Wechselwirkungen beeinflussen den Energiebedarf zusätzlich zur Molekülgröße."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Wird beim Schmelzen von Eis die Summenformel H₂O verändert?",
+        "answer": "Nein. Die Anordnung und Wechselwirkungen verändern sich; Wasser bleibt im normalen Schmelzvorgang H₂O."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-14": {
+    "citations": [
+      {
+        "book": "chemistry",
+        "pages": [27, 28, 29, 30],
+        "section": "Reaktionsgleichungen und Stöchiometrie"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Stoffmenge",
+        "definition": "Anzahl elementarer Einheiten, angegeben in mol."
+      },
+      {
+        "term": "Molare Masse",
+        "definition": "Masse pro Stoffmenge, beispielsweise in g/mol."
+      },
+      {
+        "term": "Limitierender Reaktand",
+        "definition": "Der Stoff, der bei gegebener Ausgangsmenge die maximal mögliche Produktmenge begrenzt."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Koeffizienten sind Stoffmengenverhältnisse",
+        "text": "Eine ausgeglichene Gleichung erhält die Zahl jeder Atomsorte. Die Koeffizienten geben Verhältnisse der Stoffmengen an, nicht automatisch gleiche Massen. Bei 2 H₂ + O₂ → 2 H₂O werden zwei Mol Wasserstoff pro Mol Sauerstoff benötigt. Die Indizes in den Formeln dürfen beim Ausgleichen nicht beliebig geändert werden."
+      },
+      {
+        "title": "Vom Gewicht zur Konzentration",
+        "text": "Rechne eine Masse zunächst über n=m/M in Stoffmenge um. Teile anschließend durch das Endvolumen der Lösung, wenn eine Stoffmengenkonzentration gesucht ist. Vor jeder Rechnung sollten Einheiten vereinheitlicht werden. Eine Verdünnung verändert bei unverändertem gelösten Stoff die Stoffmenge nicht, sondern verteilt sie auf ein anderes Volumen."
+      }
+    ],
+    "workedExample": {
+      "question": "2,0 g eines Stoffes mit M=40 g/mol werden auf 250 ml Lösung aufgefüllt. Bestimme c.",
+      "steps": [
+        "n=2,0 g /(40 g/mol)=0,050 mol.",
+        "250 ml sind 0,250 l Endvolumen.",
+        "c=0,050 mol /0,250 l =0,20 mol/l."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Warum sind 250 ml zugesetztes Wasser nicht in jedem Fall dasselbe wie 250 ml fertige Lösung?",
+        "answer": "Das Endvolumen kann sich beim Lösen ändern. Für c=n/V wird das Volumen der fertigen Lösung benötigt."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-15": {
+    "citations": [
+      {
+        "book": "chemistry",
+        "pages": [31, 32, 33, 34],
+        "section": "Gleichgewicht, Geschwindigkeit und Katalyse"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Aktivierungsenergie",
+        "definition": "Energiebarriere eines bestimmten Reaktionswegs."
+      },
+      {
+        "term": "Reaktionsquotient Q",
+        "definition": "Aktueller Ausdruck aus Aktivitäten der Reaktionspartner."
+      },
+      {
+        "term": "Gleichgewichtskonstante K",
+        "definition": "Wert von Q im Gleichgewicht bei festgelegter Temperatur und Standardzustandswahl."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Zwei verschiedene Fragen stellen",
+        "text": "Thermodynamik fragt, welche Richtung unter den Bedingungen begünstigt ist und wie das Gleichgewicht liegt. Kinetik fragt, wie schnell es erreicht wird. Eine stark begünstigte Reaktion kann wegen einer hohen Barriere langsam sein. Ein Katalysator senkt die Barriere eines geeigneten Weges, ändert aber nicht allein die Energiebilanz der Gesamtreaktion."
+      },
+      {
+        "title": "Ein Gleichgewicht reagiert auf eine Störung",
+        "text": "Eine Zugabe von Edukt verändert zunächst die Zusammensetzung und damit Q. Anschließend kann eine Nettoreaktion die Mischung wieder in Richtung Q=K bewegen. Die neue Gleichgewichtszusammensetzung kann anders sein, obwohl K bei unveränderter Temperatur gleich bleibt. Konstante Konzentrationen im Gleichgewicht bedeuten keinen molekularen Stillstand."
+      }
+    ],
+    "workedExample": {
+      "question": "Für A ⇌ B sei K=3, momentan aber Q=1. Welche Richtung ist netto begünstigt?",
+      "steps": [
+        "Q<K bedeutet zu wenig Produkt relativ zum Gleichgewichtsverhältnis.",
+        "Die Nettoreaktion läuft zunächst zur Produktseite.",
+        "Q nähert sich K; daraus folgt nicht, dass im Gleichgewicht gleich viel A und B vorhanden sein muss."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Kann ein Katalysator K von 3 auf 10 erhöhen?",
+        "answer": "Nicht allein durch Katalyse bei unveränderten thermodynamischen Bedingungen."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-16": {
+    "citations": [
+      {
+        "book": "chemistry",
+        "pages": [40, 41, 42, 43, 44, 45, 46],
+        "section": "Säuren, Basen und Puffer"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Konjugiertes Paar",
+        "definition": "Zwei Teilchen, die sich um ein Proton unterscheiden."
+      },
+      {
+        "term": "Säurestärke",
+        "definition": "Eigenschaft des Protolysegleichgewichts, nicht der eingesetzten Menge."
+      },
+      {
+        "term": "Pufferkapazität",
+        "definition": "Begrenzte Fähigkeit einer Mischung, Säure- oder Basenzugaben abzufangen."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Protonenübertragung als gemeinsame Sprache",
+        "text": "Eine Brønsted-Säure gibt ein Proton ab, eine Base nimmt eines auf. Nach der Abgabe entsteht die konjugierte Base der Säure. Wasser kann je nach Partner in beiden Rollen auftreten. Ein Stoff ist deshalb nicht unabhängig von jedem Reaktionspartner pauschal immer nur eine Säure oder eine Base."
+      },
+      {
+        "title": "Logarithmen und Grenzen der Näherung beachten",
+        "text": "Für einfache verdünnte starke einprotonige Säuren kann die Hydroniumkonzentration näherungsweise aus der eingesetzten Konzentration bestimmt werden. Bei schwachen Säuren ist ein Gleichgewicht nötig; bei sehr starken Verdünnungen muss auch Wasser berücksichtigt werden. Ein Puffer verbraucht zugegebene Säure oder Base innerhalb seiner Kapazität, verhindert aber nicht jede pH-Änderung."
+      }
+    ],
+    "workedExample": {
+      "question": "Eine idealisiert vollständig dissoziierte einprotonige Säure hat c=10⁻³ mol/l. Welcher pH ergibt sich näherungsweise?",
+      "steps": [
+        "Unter der genannten Näherung entspricht die Hydroniumkonzentration 10⁻³ mol/l.",
+        "pH=−log₁₀(10⁻³).",
+        "Der Wert ist 3. Die Aussage lässt sich nicht unverändert auf jede schwache Säure übertragen."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Ist eine zehnmal konzentriertere Lösung immer um zehn pH-Einheiten saurer?",
+        "answer": "Nein. Die pH-Skala ist logarithmisch. Unter passenden einfachen Bedingungen entspricht ein Faktor zehn einer pH-Einheit."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-17": {
+    "citations": [
+      {
+        "book": "chemistry",
+        "pages": [47, 48, 49, 50],
+        "section": "Redoxreaktionen und Elektrochemie"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Oxidation",
+        "definition": "Elektronenabgabe; die Oxidationszahl steigt."
+      },
+      {
+        "term": "Reduktion",
+        "definition": "Elektronenaufnahme; die Oxidationszahl sinkt."
+      },
+      {
+        "term": "Oxidationsmittel",
+        "definition": "Elektronenakzeptor, der dabei selbst reduziert wird."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Elektronen müssen bilanziert werden",
+        "text": "Eine Redoxreaktion kombiniert Oxidation und Reduktion. Schreibe zunächst passende Teilgleichungen und gleiche anschließend die Elektronenzahlen aus. Elektronen erscheinen nicht als frei neu erzeugte Teilchen in der Gesamtbilanz. Oxidationszahlen sind ein formales Hilfsmittel; sie sind nicht in jedem kovalenten Molekül identisch mit echten Ionenladungen."
+      },
+      {
+        "title": "Elektroden über den Vorgang definieren",
+        "text": "An der Anode findet Oxidation statt, an der Kathode Reduktion. Diese Definition gilt für galvanische Zellen und Elektrolyse. Die Vorzeichen unterscheiden sich aber je nach Betriebsart. Das Merken eines festen Plus- oder Minuszeichens ohne Zelltyp führt daher zu Fehlern."
+      }
+    ],
+    "workedExample": {
+      "question": "Zn wird zu Zn²⁺ oxidiert und Cu²⁺ zu Cu reduziert. Wie lautet die einfache Elektronenbilanz?",
+      "steps": [
+        "Zn → Zn²⁺ + 2 e⁻.",
+        "Cu²⁺ + 2 e⁻ → Cu.",
+        "Die zwei Elektronen kürzen sich: Zn + Cu²⁺ → Zn²⁺ + Cu."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Welches Teilchen ist in diesem Beispiel das Oxidationsmittel?",
+        "answer": "Cu²⁺, weil es Elektronen aufnimmt und dadurch reduziert wird."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-18": {
+    "citations": [
+      {
+        "book": "chemistry",
+        "pages": [55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66],
+        "section": "Organische Stoffklassen und Isomerie"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Funktionelle Gruppe",
+        "definition": "Ein Strukturmotiv, das viele typische Eigenschaften und Reaktionen beeinflusst."
+      },
+      {
+        "term": "Konstitutionsisomer",
+        "definition": "Gleiche Summenformel bei unterschiedlicher Verknüpfung der Atome."
+      },
+      {
+        "term": "Ester",
+        "definition": "Verbindung mit einer Esterfunktion, häufig aus Carbonsäure und Alkohol gebildet."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Nicht nur die Summenformel lesen",
+        "text": "Die Reihenfolge der Bindungen entscheidet mit über die Eigenschaften. Ethanol und Dimethylether besitzen dieselbe Summenformel, aber unterschiedliche funktionelle Gruppen. Zeichne daher beim Vergleichen möglichst eine Strukturformel. Eine kleine Änderung kann Löslichkeit, Wasserstoffbrückenfähigkeit und Reaktivität deutlich verändern."
+      },
+      {
+        "title": "Reaktionen an funktionellen Gruppen erkennen",
+        "text": "Ein primärer Alkohol kann unter geeigneten Bedingungen zunächst zum Aldehyd und weiter zur Carbonsäure oxidiert werden. Bei einer Veresterung reagieren Carbonsäure und Alkohol, häufig unter Wasserbildung. Entscheidend sind Reaktionsbedingungen und Gleichgewicht; nicht jede Mischung reagiert sofort vollständig und ausschließlich zum gewünschten Produkt."
+      }
+    ],
+    "workedExample": {
+      "question": "Warum haben Ethanol und Dimethylether trotz gleicher Summenformel unterschiedliche Eigenschaften?",
+      "steps": [
+        "Vergleiche die Bindungsverknüpfung.",
+        "Ethanol besitzt eine OH-Gruppe, Dimethylether eine C–O–C-Verknüpfung.",
+        "Damit unterscheiden sich unter anderem ihre Möglichkeiten zur Wasserstoffbrückenbildung."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Reicht dieselbe molare Masse aus, um zwei Stoffe als identisch zu bezeichnen?",
+        "answer": "Nein. Isomere und sogar verschiedene Summenformeln können gleiche oder sehr ähnliche molare Massen besitzen."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  }
+}

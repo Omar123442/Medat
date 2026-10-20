@@ -209,7 +209,7 @@ test("Lernstoff lesen, Verständnischeck und Lesefortschritt", async ({
   await page.getByRole("button", { name: /Zelle und Organellen/ }).click();
   await expect(page.locator(".lesson")).toContainText("Prokaryoten");
   await page.getByRole("button", { name: "Lösung ansehen" }).click();
-  await expect(page.locator(".comprehension")).toContainText("ATP");
+  await expect(page.locator(".comprehension").first()).toContainText("ATP");
   await page.getByRole("button", { name: "Verstanden und gelesen" }).click();
   await expect(
     page.getByRole("button", { name: "Als gelesen markiert" }),

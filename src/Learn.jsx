@@ -10,97 +10,11 @@ import { curriculum } from "./curriculum";
 import Lesson from "./content/Lesson";
 import Coverage from "./learning/Coverage";
 import CardLinks from "./learning/CardLinks";
-export function CardReading({ card }) {
-  return (
-    <article className="reading-card">
-      <small>
-        {card.subject} · {card.deck || "Beispielsammlung"}
-      </small>
-      <h3>{card.q}</h3>
-      {card.images?.map((u, i) => (
-        <img
-          className="study-image"
-          src={u}
-          key={"q" + i}
-          alt="Abbildung der Frage"
-        />
-      ))}
-      <div className="reading-answer">
-        {card.a || "Kein separater Antworttext vorhanden."}
-      </div>
-      {card.answerImages?.map((u, i) => (
-        <img
-          className="study-image"
-          src={u}
-          key={"a" + i}
-          alt="Abbildung der Antwort"
-        />
-      ))}
-      {card.unsupported && (
-        <p className="error">
-          Diese Spezialvorlage benötigt zur vollständigen Darstellung Anki. Die
-          Bildmaskierung kann hier abweichen.
-        </p>
-      )}
-    </article>
-  );
-}
-export function Preparation({ cards, onStart, onClose }) {
-  const [step, setStep] = useState(0);
-  const size = 10;
-  const pages = Math.ceil(cards.length / size);
-  return (
-    <div className="overlay">
-      <div className="study preparation">
-        <button className="close" onClick={onClose}>
-          ×
-        </button>
-        <div className="eyebrow">1 VERSTEHEN → 2 AKTIV ERINNERN</div>
-        <h2>Zuerst lesen und verstehen</h2>
-        <p className="muted">
-          Lies die Fragen mit ihren Antworten in Ruhe. Erkläre die Zusammenhänge
-          in eigenen Worten. Danach übst du dieselben Karten ohne sichtbare
-          Antwort.
-        </p>
-        <div className="prep-list">
-          {cards.slice(step * size, (step + 1) * size).map((c) => (
-            <CardReading key={c.id} card={c} />
-          ))}
-        </div>
-        <div className="pagination">
-          <button
-            disabled={!step}
-            onClick={() => {
-              setStep(step - 1);
-              document.querySelector(".preparation").scrollTop = 0;
-            }}
-          >
-            <ChevronLeft size={16} />
-            Zurück
-          </button>
-          <span>
-            Leseseite {step + 1} / {pages} · {cards.length} Karten
-          </span>
-          {step + 1 < pages ? (
-            <button
-              className="primary"
-              onClick={() => {
-                setStep(step + 1);
-                document.querySelector(".preparation").scrollTop = 0;
-              }}
-            >
-              Weiterlesen <ArrowRight size={16} />
-            </button>
-          ) : (
-            <button className="primary" onClick={onStart}>
-              Gelesen – Karten starten <Check size={16} />
-            </button>
-          )}
-        </div>
-      </div>
-    </div>
-  );
-}
+import Books from "./books/Books";
+import KffStudy from "./books/KffStudy";
+import { studyFor } from "./content/study";
+import { CardReading } from "./Reading";
+export { CardReading, Preparation } from "./Reading";
 export default function Learn({ cards, onPractice, reviews = {} }) {
   const [subject, setSubject] = useState("Alle"),
     [selected, setSelected] = useState(null),
@@ -150,6 +64,20 @@ export default function Learn({ cards, onPractice, reviews = {} }) {
         </div>
         <BookOpen size={24} />
       </div>
+      <div className="learn-welcome">
+        <div>
+          <span className="eyebrow">DEIN DIGITALES LERNSKRIPT</span>
+          <h2>Aus deinen Skripten verstehen – dann mit Karten festigen.</h2>
+          <p>
+            49 Lernkapitel mit Erklärungen, Begriffen, Lösungswegen und
+            Selbsttests. Die Texte sind sofort verfügbar; die PDFs ergänzen
+            Originalbilder und Originalseiten.
+          </p>
+        </div>
+        <button className="outline-button" onClick={() => setTab("books")}>
+          Deine fünf Skripte öffnen
+        </button>
+      </div>
       <div className="learning-tabs">
         <button
           className={tab === "course" ? "selected" : ""}
@@ -170,6 +98,31 @@ export default function Learn({ cards, onPractice, reviews = {} }) {
           Dein Deck als Lesestoff · {cards.length}
         </button>
       </div>
+      <div className="learning-tabs script-tabs">
+        <button
+          className={tab === "books" ? "selected" : ""}
+          onClick={() => setTab("books")}
+        >
+          Deine Skripte
+        </button>
+        <button
+          className={tab === "kff" ? "selected" : ""}
+          onClick={() => setTab("kff")}
+        >
+          KFF-Lernwissen
+        </button>
+      </div>
+      {tab === "books" && (
+        <>
+          {selected && (
+            <button className="text-button" onClick={() => setTab("course")}>
+              ← Zurück zu {selected.title}
+            </button>
+          )}
+          <Books />
+        </>
+      )}
+      {tab === "kff" && <KffStudy />}
       <div className="learning-tabs secondary-tabs">
         <button
           className={tab === "coverage" ? "selected" : ""}
@@ -250,6 +203,24 @@ export default function Learn({ cards, onPractice, reviews = {} }) {
               onBack={() => setSelected(null)}
               read={read.includes(selected.id)}
               onMark={mark}
+              onOpenScripts={() => setTab("books")}
+              onPrevious={
+                lessons.indexOf(selected) > 0
+                  ? () => {
+                      setSelected(lessons[lessons.indexOf(selected) - 1]);
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                    }
+                  : null
+              }
+              onNext={
+                lessons.indexOf(selected) >= 0 &&
+                lessons.indexOf(selected) < lessons.length - 1
+                  ? () => {
+                      setSelected(lessons[lessons.indexOf(selected) + 1]);
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                    }
+                  : null
+              }
             />
           ) : (
             <div className="lesson-grid">
@@ -266,6 +237,12 @@ export default function Learn({ cards, onPractice, reviews = {} }) {
                     {l.subject} · {l.topic}
                   </small>
                   <h3>{l.title}</h3>
+                  <p className="chapter-card-detail">
+                    {studyFor(l).citations.length
+                      ? "Mit Quellen aus deinen Skripten"
+                      : "Ergänzendes Lernwissen"}{" "}
+                    · Begriffe · Beispiel · Selbsttest
+                  </p>
                   <span>
                     {read.includes(l.id) ? (
                       <>

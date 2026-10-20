@@ -1,0 +1,578 @@
+{
+  "bms-0": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [17, 18, 19, 20, 21, 22, 23, 24],
+        "section": "Zellorganellen"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Kompartiment",
+        "definition": "Ein abgegrenzter Reaktionsraum innerhalb der Zelle."
+      },
+      {
+        "term": "Organell",
+        "definition": "Spezialisierte Zellstruktur; nicht jedes Organell besitzt eine Membran."
+      },
+      {
+        "term": "Sekretion",
+        "definition": "Abgabe von Stoffen aus einer Zelle, oft über Vesikel."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Warum Arbeitsteilung notwendig ist",
+        "text": "Eine Zelle muss zugleich Stoffe aufbauen, abbauen, transportieren und regulieren. Ein einziger unstrukturierter Reaktionsraum wäre dafür ungünstig. Membranen ermöglichen unterschiedliche Bedingungen: Ein Lysosom enthält etwa ein saures Milieu, während das Cytosol andere Bedingungen besitzt. Kompartimentierung organisiert Reaktionen, ohne dass jede Reaktion in einer eigenen Organelle stattfinden muss."
+      },
+      {
+        "title": "Den Weg eines Proteins verfolgen",
+        "text": "Ein für die Sekretion bestimmtes Protein beginnt an einem Ribosom. Ein passendes Signal lenkt den Synthesekomplex an das raue ER; das Protein wird in das ER eingeschleust. Vesikel bringen es zum Golgi-Apparat, wo es weiter verändert und sortiert wird. Ein sekretorisches Vesikel kann anschließend mit der Zellmembran verschmelzen. Das Ribosom baut also das Protein, der Golgi-Apparat übernimmt nicht die ursprüngliche Übersetzung der mRNA."
+      }
+    ],
+    "workedExample": {
+      "question": "Eine Drüsenzelle gibt große Proteinmengen ab. Welche Strukturen erwartest du besonders ausgeprägt?",
+      "steps": [
+        "Gesucht ist die Ausstattung für Synthese und Export, nicht bloß für Speicherung.",
+        "Viele Ribosomen am rauen ER unterstützen die Bildung geeigneter Exportproteine.",
+        "Ein ausgeprägter Golgi-Apparat und Vesikelverkehr unterstützen Verarbeitung und Ausschleusung."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Warum müssen nicht alle Proteine den Golgi-Apparat durchlaufen?",
+        "answer": "Viele Proteine erfüllen ihre Funktion im Cytosol oder werden über andere Wege in Organellen transportiert; der sekretorische Weg ist kein allgemeiner Weg für jedes Protein."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-1": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [19, 25, 26],
+        "section": "Membran und Stofftransport"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Konzentrationsgradient",
+        "definition": "Unterschied der Konzentration zwischen zwei Orten."
+      },
+      {
+        "term": "Elektrochemischer Gradient",
+        "definition": "Gemeinsame Wirkung von Konzentrationsunterschied und elektrischer Spannung."
+      },
+      {
+        "term": "Selektive Permeabilität",
+        "definition": "Unterschiedliche Durchlässigkeit einer Membran für verschiedene Stoffe."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Passiv bedeutet nicht ohne Transportprotein",
+        "text": "Ein Stoff kann durch eine Membran diffundieren oder einen Kanal beziehungsweise Carrier benutzen. Entscheidend für passiven Transport ist, dass der Nettofluss entlang des elektrochemischen Gradienten erfolgt. Ein Protein macht den Transport deshalb nicht automatisch aktiv. Umgekehrt muss bei einem Ion neben der Konzentration auch die elektrische Anziehung oder Abstoßung berücksichtigt werden."
+      },
+      {
+        "title": "Osmose richtig vorhersagen",
+        "text": "Betrachte zuerst, für welche Stoffe die Membran durchlässig ist. Können wirksame gelöste Teilchen die Membran nicht frei passieren, kann Wasser einen Konzentrationsunterschied teilweise ausgleichen. Eine höhere Konzentration solcher Teilchen außen kann einer tierischen Zelle Wasser entziehen. Tonizität hängt von wirksamen, nicht frei ausgleichbaren Stoffen ab und ist nicht einfach jede gemessene Gesamtteilchenzahl."
+      }
+    ],
+    "workedExample": {
+      "question": "Eine tierische Zelle kommt in eine hypertonische Umgebung. Was ändert sich zuerst?",
+      "steps": [
+        "Außen liegen mehr wirksame gelöste Teilchen pro Volumen vor.",
+        "Wasser kann die Zellmembran passieren und verlässt netto die Zelle.",
+        "Das Zellvolumen sinkt; die Zelle bildet dadurch keine neue Zellwand."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Ist ein Glucosetransporter ohne direkten ATP-Verbrauch immer passiv?",
+        "answer": "Nein. Bei gekoppeltem Transport kann die Energie aus einem anderen Ionengradienten stammen. Der gesamte gekoppelte Prozess muss betrachtet werden."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-2": {
+    "citations": [
+      {
+        "book": "chemistry",
+        "pages": [68, 69, 70, 72, 73, 74, 75],
+        "section": "Kohlenhydrate und Proteine"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Monomer",
+        "definition": "Ein Baustein, aus dem größere Moleküle zusammengesetzt werden können."
+      },
+      {
+        "term": "Aktives Zentrum",
+        "definition": "Bereich eines Enzyms, in dem Substratbindung und Reaktion stattfinden."
+      },
+      {
+        "term": "Denaturierung",
+        "definition": "Verlust der funktionsfähigen räumlichen Struktur eines Biomoleküls."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Struktur erklärt Funktion",
+        "text": "Proteine besitzen eine Aminosäuresequenz, die ihre Faltung mitbestimmt. Wasserstoffbrücken, elektrostatische Wechselwirkungen und der hydrophobe Effekt tragen zur Struktur bei. Eine Veränderung der Umgebung kann diese Struktur stören, ohne dass sofort jede Peptidbindung zerfällt. Deshalb sind Denaturierung und vollständiger Abbau in Aminosäuren nicht dasselbe."
+      },
+      {
+        "title": "Ein Enzym verändert den Weg, nicht das Ziel",
+        "text": "Substrate müssen für eine Reaktion eine Aktivierungsbarriere überwinden. Ein Enzym bietet einen günstigeren Reaktionsweg und beschleunigt so die Einstellung des Gleichgewichts. Es verändert aber nicht die Energiedifferenz zwischen Anfangs- und Endzustand. Stoffwechselregulation benötigt deshalb neben Enzymaktivität unter anderem Substratangebot und gegebenenfalls die Kopplung an andere Reaktionen."
+      }
+    ],
+    "workedExample": {
+      "question": "Ein Enzym wird erhitzt und verliert seine Aktivität. Muss seine Aminosäuresequenz zerstört sein?",
+      "steps": [
+        "Aktivität hängt von der räumlichen Struktur des aktiven Zentrums ab.",
+        "Wärme kann Wechselwirkungen und damit die Faltung stören.",
+        "Die Sequenz kann dabei erhalten bleiben; der Aktivitätsverlust beweist keinen vollständigen chemischen Abbau."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Kann ein Enzym die Gleichgewichtslage allein zur Produktseite verschieben?",
+        "answer": "Nein. Es beschleunigt beide Richtungen entsprechend dem katalysierten Reaktionsweg; die Gleichgewichtskonstante bleibt bei unveränderten Bedingungen gleich."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-3": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [92, 93, 94, 97, 98, 99, 100, 101],
+        "section": "DNA und Genexpression"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Matrizenstrang",
+        "definition": "Der Strang, dessen Basenfolge komplementär abgelesen wird."
+      },
+      {
+        "term": "Codon",
+        "definition": "Drei aufeinanderfolgende mRNA-Basen, die eine Bedeutung im genetischen Code haben."
+      },
+      {
+        "term": "Leseraster",
+        "definition": "Die Einteilung einer Nukleotidsequenz in aufeinanderfolgende Dreiergruppen."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Information ist gerichtet",
+        "text": "DNA- und RNA-Stränge haben ein 5′- und ein 3′-Ende. Die komplementären Stränge verlaufen antiparallel. Bei der Transkription wird der Matrizenstrang so abgelesen, dass die neue RNA in 5′→3′-Richtung entsteht. Ohne Angabe der Richtung und des gemeinten Strangs ist eine bloße Buchstabenfolge oft nicht eindeutig interpretierbar."
+      },
+      {
+        "title": "Vom RNA-Text zum Protein",
+        "text": "In einer eukaryotischen Zelle wird die prä-mRNA verarbeitet, bevor sie als reife mRNA ins Cytoplasma gelangt. Bei der Translation legt der Start den Leserahmen fest. Das Ribosom liest Codons, passende tRNAs liefern Aminosäuren und Stoppcodons beenden die Kette. Nicht jedes DNA-Stück wird zu Protein: Auch regulatorische Abschnitte und nicht protein-codierende RNAs haben Funktionen."
+      }
+    ],
+    "workedExample": {
+      "question": "Der Matrizenabschnitt lautet 3′-TAC GGA-5′. Welche mRNA entsteht?",
+      "steps": [
+        "Das RNA-Produkt verläuft antiparallel zum Matrizenstrang.",
+        "Bilde die passenden Basenpaare: T zu A, A zu U, C zu G und G zu C.",
+        "Die mRNA lautet 5′-AUG CCU-3′. Das sind zwei Codons."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Warum darfst du einen DNA-Matrizenstrang nicht einfach durch Ersetzen von T durch U in mRNA umwandeln?",
+        "answer": "Weil die RNA komplementär zum Matrizenstrang ist. Ein bloßer T/U-Austausch passt nur zur entsprechend ausgerichteten codierenden DNA-Sequenz."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-4": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [115, 116, 117, 118, 119, 120],
+        "section": "Mendel, Zellzyklus und Meiose"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Homologe Chromosomen",
+        "definition": "Chromosomen eines Paares mit entsprechenden Genorten, aber möglicherweise verschiedenen Allelen."
+      },
+      {
+        "term": "Schwesterchromatiden",
+        "definition": "Nach Replikation entstandene Kopien eines Chromosoms."
+      },
+      {
+        "term": "Allel",
+        "definition": "Eine Variante eines Gens an einem bestimmten Genort."
+      }
+    ],
+    "sections": [
+      {
+        "title": "DNA-Menge und Chromosomenzahl trennen",
+        "text": "In der S-Phase wird DNA verdoppelt. Solange die Schwesterchromatiden am gemeinsamen Zentromer verbunden sind, wird dieses Gebilde weiterhin als ein Chromosom gezählt. Eine diploide Zelle wird durch die Replikation daher nicht einfach tetraploid. Erst die Trennung verändert die Verteilung auf die entstehenden Zellen."
+      },
+      {
+        "title": "Warum Meiose Vielfalt erzeugt",
+        "text": "In Meiose I werden homologe Chromosomen aufgeteilt. Rekombination kann zuvor Abschnitte zwischen homologen Chromatiden austauschen. In Meiose II werden Schwesterchromatiden getrennt. Die zufällige Verteilung und Rekombination tragen zur Vielfalt bei. Mendels Unabhängigkeitsregel setzt passende genetische Bedingungen voraus; eng gekoppelte Gene lassen sich nicht beliebig als unabhängig behandeln."
+      }
+    ],
+    "workedExample": {
+      "question": "Zwei heterozygote Träger Aa bekommen ein Kind. Wie wahrscheinlich ist aa bei einem einfachen autosomal-rezessiven Erbgang?",
+      "steps": [
+        "Jeder Elternteil gibt A oder a mit Wahrscheinlichkeit 1/2 weiter.",
+        "Für aa müssen beide a weitergeben: 1/2 × 1/2.",
+        "Die Wahrscheinlichkeit beträgt 1/4. Frühere Schwangerschaften ändern dieses Modell für die nächste nicht."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Was wird in der ersten meiotischen Teilung getrennt?",
+        "answer": "Homologe Chromosomen. Die Schwesterchromatiden bleiben zunächst zusammen und werden normalerweise erst in Meiose II getrennt."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-5": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [29, 30, 31, 33, 56, 57, 66, 67, 68, 69, 71, 72],
+        "section": "Gewebe, Haut und Bewegungsapparat"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Extrazelluläre Matrix",
+        "definition": "Material zwischen Zellen, etwa Fasern und Grundsubstanz."
+      },
+      {
+        "term": "Antagonist",
+        "definition": "Ein funktioneller Gegenspieler, beispielsweise eines Muskels."
+      },
+      {
+        "term": "Isometrisch",
+        "definition": "Kontraktion mit Kraftentwicklung ohne Längenänderung des gesamten Muskels."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Gewebe nach Aufgabe unterscheiden",
+        "text": "Epithelien bilden dicht verbundene Zelllagen für Abgrenzung, Aufnahme und Sekretion. Binde- und Stützgewebe besitzen eine wichtige extrazelluläre Matrix. Muskelgewebe entwickelt Kraft, Nervengewebe verarbeitet und leitet Signale. Ein Organ kombiniert meist mehrere dieser Gewebe; ein Knochen ist also mehr als eine starre Kalkmasse."
+      },
+      {
+        "title": "Vom Muskelsignal zur Bewegung",
+        "text": "Bei der Skelettmuskelkontraktion erleichtert Calcium die Wechselwirkung von Aktin und Myosin. ATP wird unter anderem für den Querbrückenzyklus und die Wiederherstellung der Calciumverteilung benötigt. Filamente werden nicht einfach kürzer; ihre Überlappung verändert sich. Gelenkbewegungen entstehen durch Kräfte und Hebelverhältnisse, häufig mit mehreren zusammenwirkenden Muskeln."
+      }
+    ],
+    "workedExample": {
+      "question": "Du hältst eine Tasche ruhig mit gebeugtem Arm. Arbeiten die Muskeln, obwohl sich der Arm nicht bewegt?",
+      "steps": [
+        "Stillstand bedeutet nur, dass sich die Position nicht ändert.",
+        "Die Muskeln müssen weiterhin Kraft gegen die Belastung entwickeln.",
+        "Eine isometrische Haltearbeit kann ATP benötigen, obwohl die äußere Bewegung ausbleibt."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Warum besteht die Haut nicht nur aus einem Gewebetyp?",
+        "answer": "Die Epidermis ist ein Epithel, die Dermis enthält unter anderem Bindegewebe, Gefäße und Nerven. Ein Organ vereint mehrere Gewebe."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-6": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [42, 43, 44, 45, 46, 47],
+        "section": "Atmung und Herz-Kreislauf"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Partialdruck",
+        "definition": "Der Anteil einer Gaskomponente am Gesamtdruck eines Gasgemisches."
+      },
+      {
+        "term": "Herzzeitvolumen",
+        "definition": "Blutvolumen, das eine Herzhälfte pro Zeit fördert."
+      },
+      {
+        "term": "Kapillare",
+        "definition": "Kleines Blutgefäß mit besonderer Bedeutung für den Stoffaustausch."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Den Blutweg ohne Abkürzung erklären",
+        "text": "Vom Körper fließt Blut zum rechten Vorhof, in die rechte Kammer und über die Lungenarterie zur Lunge. Nach dem Gasaustausch gelangt es über Lungenvenen zum linken Vorhof, in die linke Kammer und über die Aorta in den Körper. Diese Reihenfolge erklärt, warum Lungenarterie und Lungenvene beim Sauerstoffgehalt von der oft gelernten Faustregel abweichen."
+      },
+      {
+        "title": "Belüftung und Gasaustausch sind verschieden",
+        "text": "Einatmung bewegt Luft durch Druckunterschiede in die Lunge. An den Alveolen werden Gase überwiegend durch Partialdruckgefälle ausgetauscht. Eine große Austauschfläche und kurze Diffusionsstrecke begünstigen diesen Prozess. Gute Belüftung allein reicht nicht, wenn die Durchblutung der betreffenden Lungenabschnitte fehlt."
+      }
+    ],
+    "workedExample": {
+      "question": "Bei 80 Schlägen/min und 65 ml Schlagvolumen: Wie groß ist das Herzzeitvolumen?",
+      "steps": [
+        "Multipliziere Frequenz und Volumen pro Schlag: 80 × 65 ml/min.",
+        "Das ergibt 5200 ml/min.",
+        "Umgerechnet sind das 5,2 l/min; die Einheit muss ein Volumen pro Zeit sein."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Warum kann der Sauerstoffgehalt nicht zur Definition einer Arterie dienen?",
+        "answer": "Die Lungenarterie führt sauerstoffarmes Blut vom Herzen weg. Die Richtung relativ zum Herzen ist entscheidend."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-7": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [34, 35, 36, 37, 39, 40, 73, 74],
+        "section": "Verdauung und Harnsystem"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Resorption",
+        "definition": "Aufnahme von Stoffen aus einem Hohlraum in den Organismus."
+      },
+      {
+        "term": "Filtration",
+        "definition": "Übertritt von Flüssigkeit und kleinen gelösten Stoffen durch eine Barriere."
+      },
+      {
+        "term": "Rückresorption",
+        "definition": "Rücktransport aus dem Tubuluslumen in Richtung Blut."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Zerlegen, aufnehmen, weiterverarbeiten",
+        "text": "Verdauung umfasst mechanische und chemische Schritte. Große Nährstoffmoleküle werden in kleinere Einheiten zerlegt, die aufgenommen werden können. Ein großer Teil der Aufnahme erfolgt im Dünndarm. Die Leber verarbeitet viele der aufgenommenen Stoffe weiter. Galle unterstützt Fettverdauung, ist aber kein proteinspaltendes Verdauungsenzym."
+      },
+      {
+        "title": "Ausscheidung ist eine Bilanz",
+        "text": "Die Niere filtriert Stoffe und verändert das Filtrat anschließend. Rückresorption entfernt Stoffe aus dem Tubuluslumen, Sekretion fügt dort Stoffe hinzu. Für eine Substanz gilt daher: ausgeschiedene Menge = filtrierte Menge − rückresorbierte Menge + sezernierte Menge. Ein hoher Wert im Primärharn bedeutet nicht automatisch eine hohe Ausscheidung."
+      }
+    ],
+    "workedExample": {
+      "question": "100 Einheiten einer Substanz werden filtriert, 85 rückresorbiert und 4 sezerniert. Wie viel wird ausgeschieden?",
+      "steps": [
+        "Beginne bei den 100 Einheiten im Filtrat.",
+        "Rückresorption zieht 85 ab; Sekretion fügt 4 hinzu.",
+        "100 − 85 + 4 = 19 Einheiten werden ausgeschieden."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Ist Sekretion in der Niere dasselbe wie die endgültige Ausscheidung?",
+        "answer": "Nein. Sekretion ist ein Transport in das Tubuluslumen; die endgültige Ausscheidung ergibt sich aus der gesamten Bilanz."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-8": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [51, 52, 53, 54, 59, 60, 61, 63, 64, 65],
+        "section": "Nervensystem, Sinne und Hormone"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Rezeptor",
+        "definition": "Struktur, die auf einen passenden Reiz oder Botenstoff reagiert."
+      },
+      {
+        "term": "Synapse",
+        "definition": "Spezialisierte Übertragungsstelle zwischen einer Zelle und ihrer Zielzelle."
+      },
+      {
+        "term": "Negative Rückkopplung",
+        "definition": "Eine Antwort hemmt ihren auslösenden Regelweg."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Elektrisches Signal und chemische Übertragung verbinden",
+        "text": "Ein Aktionspotenzial kann entlang eines Axons zur Synapse gelangen. Dort öffnet eine Depolarisation typischerweise spannungsabhängige Calciumkanäle. Calcium begünstigt die Freisetzung von Transmitter aus Vesikeln. Der Transmitter verändert über Rezeptoren die Zielzelle. Ein elektrisches Signal wird also an vielen Synapsen vorübergehend chemisch vermittelt."
+      },
+      {
+        "title": "Warum Hormone nicht überall gleich wirken",
+        "text": "Ein Hormon kann viele Körperbereiche erreichen, aber nur geeignete Zielzellen antworten über passende Rezeptoren und Signalwege. Eine Rückkopplung stabilisiert häufig den Hormonspiegel. Steigt das Zielhormon, kann das die übergeordneten Signale hemmen. Ein niedriger Zielhormonwert muss deshalb gemeinsam mit den Steuerhormonen interpretiert werden."
+      }
+    ],
+    "workedExample": {
+      "question": "Ein Hormon ist im Blut vorhanden. Warum reagiert nicht jede Zelle gleich stark?",
+      "steps": [
+        "Die Verteilung im Blut allein bestimmt die Wirkung nicht.",
+        "Zellen unterscheiden sich in Rezeptoren und nachgeschalteten Signalwegen.",
+        "Auch Stoffwechselzustand und Rückkopplung beeinflussen die Antwort."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Welche Rolle hat Calcium an einer typischen chemischen Synapse?",
+        "answer": "Sein Einstrom in die präsynaptische Endigung begünstigt die Vesikelfusion und die Freisetzung von Neurotransmitter."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-9": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [46, 47, 48, 49, 50, 51, 103, 104, 105, 106],
+        "section": "Blut und Immunabwehr"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Antigen",
+        "definition": "Eine Struktur, die von Komponenten der adaptiven Abwehr spezifisch erkannt werden kann."
+      },
+      {
+        "term": "Antikörper",
+        "definition": "Ein Immunglobulin mit spezifischer Bindungsfähigkeit."
+      },
+      {
+        "term": "Gedächtniszelle",
+        "definition": "Langlebige Zelle, die eine spätere spezifische Antwort erleichtert."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Angeboren und adaptiv arbeiten zusammen",
+        "text": "Haut, Schleimhäute und rasch reagierende Zellen bilden frühe Abwehrlinien. Die adaptive Abwehr entsteht spezifisch gegen erkannte Strukturen und benötigt bei einem Erstkontakt oft mehr Zeit. Antigenpräsentation und Signalgebung verbinden beide Systeme. Die Abwehr ist daher keine Auswahl zwischen zwei vollständig unabhängigen Alternativen."
+      },
+      {
+        "title": "Immunisierung logisch unterscheiden",
+        "text": "Bei aktiver Immunisierung reagiert das eigene Immunsystem auf einen geeigneten Reiz. Es kann Gedächtnis aufbauen. Passive Immunisierung liefert fertige Antikörper, die zeitlich begrenzt wirken. Sie ersetzt nicht automatisch eine langfristige aktive Antwort. Eine entzündliche Reaktion allein sagt nicht, welcher Erreger oder Mechanismus beteiligt ist."
+      }
+    ],
+    "workedExample": {
+      "question": "Eine Person bekommt fertige Antikörper. Was lässt sich daraus über langfristiges Gedächtnis schließen?",
+      "steps": [
+        "Fertige Antikörper wirken ohne die vollständige eigene Neubildung abwarten zu müssen.",
+        "Die Gabe allein erzeugt gewöhnlich keine eigene Gedächtniszellantwort.",
+        "Der zeitweilige Schutz ist daher von aktiv erworbenem Gedächtnis zu unterscheiden."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Sind Antikörper und B-Lymphozyten dasselbe?",
+        "answer": "Nein. B-Zellen können sich unter passenden Bedingungen zu Plasmazellen entwickeln, die Antikörper produzieren. Antikörper sind Moleküle, keine Zellen."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-10": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [75, 76, 77, 78, 79, 80, 81, 83, 84],
+        "section": "Fortpflanzung und Befruchtung"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Haploid",
+        "definition": "Mit einem einfachen Chromosomensatz."
+      },
+      {
+        "term": "Zygote",
+        "definition": "Zelle nach Vereinigung der elterlichen Keimzellkerne."
+      },
+      {
+        "term": "Gelbkörper",
+        "definition": "Aus dem ovulierten Follikel hervorgehende hormonaktive Struktur."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Chromosomensätze über Generationen erhalten",
+        "text": "Die Meiose reduziert den Chromosomensatz, damit die Vereinigung zweier Keimzellen die typische diploide Zahl wiederherstellt. Replikation und Reifeteilung sind dabei unterschiedliche Vorgänge. Die Zygote erhält genetisches Material aus beiden Keimzellkernen; mitochondriale Vererbung folgt im Regelfall einer anderen, überwiegend mütterlichen Linie."
+      },
+      {
+        "title": "Den Zyklus als Regelkreis betrachten",
+        "text": "Follikelentwicklung und Schleimhautveränderungen sind über Hormone koordiniert. Ein passender LH-Anstieg kann den Eisprung auslösen. Danach beeinflusst insbesondere Progesteron aus dem Gelbkörper die Gebärmutterschleimhaut. Der Verlauf ist nicht bei jeder Person exakt 28 Tage lang; ein Kalenderdatum allein bestimmt den biologischen Zustand nicht sicher."
+      }
+    ],
+    "workedExample": {
+      "question": "Eine normale menschliche Ei- und Samenzelle verschmelzen. Welche Chromosomenzahl erwartest du im Kern der Zygote?",
+      "steps": [
+        "Die Keimzellen besitzen normalerweise jeweils 23 Chromosomen.",
+        "Bei der Kernvereinigung werden die Sätze zusammengeführt.",
+        "Die diploide Zygote besitzt normalerweise 46 Chromosomen."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Warum verdoppelt sich die typische Chromosomenzahl nicht mit jeder Generation?",
+        "answer": "Weil die Meiose vor der Befruchtung den Chromosomensatz der Keimzellen halbiert."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-11": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [14, 136, 137, 140, 141, 142, 143, 144],
+        "section": "Zellarten, Evolution und Ökologie"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Population",
+        "definition": "Eine Gruppe artgleicher Individuen in einem gemeinsamen räumlich-zeitlichen Zusammenhang."
+      },
+      {
+        "term": "Selektion",
+        "definition": "Unterschiedlicher Fortpflanzungserfolg vererbbarer Varianten."
+      },
+      {
+        "term": "Ökologische Nische",
+        "definition": "Die Gesamtheit relevanter Umweltansprüche und Wechselbeziehungen einer Art."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Variation entsteht vor der passenden Auswahl",
+        "text": "Mutation und Rekombination erzeugen beziehungsweise kombinieren genetische Unterschiede. Selektionsbedingungen verändern, welche Varianten häufiger weitergegeben werden. Die benötigte Mutation entsteht nicht zielgerichtet, weil ein Organismus sie gerade brauchen würde. Auch zufällige Änderungen der Häufigkeiten durch Drift sind möglich."
+      },
+      {
+        "title": "Energiefluss von Stoffkreisläufen trennen",
+        "text": "Produzenten stellen organisches Material her, Konsumenten nutzen es, Destruenten bauen Material ab. Stoffatome können mehrfach in Kreisläufen verwendet werden. Energie wird dagegen bei Umwandlungen teilweise als Wärme abgegeben und muss langfristig neu zugeführt werden. Ein Nahrungspfeil steht deshalb nicht einfach für eine verlustfreie Weitergabe von Energie."
+      }
+    ],
+    "workedExample": {
+      "question": "Warum kann eine Antibiotikagabe resistente Bakterien in einer Population häufiger werden lassen?",
+      "steps": [
+        "In der Ausgangspopulation können resistente Varianten vorhanden sein oder unabhängig entstehen.",
+        "Empfindliche Varianten werden stärker gehemmt.",
+        "Resistente Varianten haben dann relativ bessere Vermehrungschancen; das Medikament erzeugt nicht gezielt die passende Mutation."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Beweist ein nützliches Merkmal, dass es zielgerichtet entstanden ist?",
+        "answer": "Nein. Ein heutiger Vorteil erklärt nicht eine zielgerichtete Entstehung der zugrunde liegenden Variante."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "bms-26": {
+    "citations": [
+      {
+        "book": "mathematics",
+        "pages": [6, 7, 8, 9, 10, 11, 20, 21],
+        "section": "Rechenarten, Prozent- und Bruchrechnung"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Grundwert",
+        "definition": "Der Bezugswert, auf den sich ein Prozentsatz bezieht."
+      },
+      {
+        "term": "Prozentwert",
+        "definition": "Der entsprechende Anteil des Grundwerts."
+      },
+      {
+        "term": "Antiproportional",
+        "definition": "Zwei Größen mit konstantem Produkt unter dem betrachteten Modell."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Den Bezugswert ausdrücklich nennen",
+        "text": "Ein Prozentsatz ist ohne Grundwert unvollständig. Bei einer prozentualen Änderung wird der aktuelle Wert mit einem Faktor multipliziert. Zehn Prozent Zunahme bedeuten den Faktor 1,10. Aufeinanderfolgende Änderungen werden deshalb mit Faktoren verknüpft und nicht blind addiert."
+      },
+      {
+        "title": "Brüche als Zahlen behandeln",
+        "text": "Zum Addieren werden Brüche auf einen gemeinsamen Nenner gebracht. Beim Multiplizieren können Faktoren gekürzt werden; innerhalb einer bloßen Summe darf nicht beliebig gekürzt werden. Beim Dividieren durch einen von null verschiedenen Bruch wird mit dessen Kehrwert multipliziert."
+      }
+    ],
+    "workedExample": {
+      "question": "Ein Preis von 80 € steigt um 25 % und sinkt danach um 20 %. Was ist der Endpreis?",
+      "steps": [
+        "Nach dem Anstieg: 80×1,25=100 €.",
+        "Die Senkung bezieht sich auf 100 €: 100×0,80.",
+        "Der Endpreis ist 80 €. Dass es hier ausgeht, liegt an 1,25×0,80=1 und gilt nicht für beliebige gleiche Prozentsätze."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Warum ergeben +10 % und −10 % nicht den ursprünglichen Wert?",
+        "answer": "Weil die zweite Änderung einen anderen Grundwert verwendet. Der Gesamtfaktor ist 1,1×0,9=0,99."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-27": {
+    "citations": [
+      {
+        "book": "mathematics",
+        "pages": [12, 13, 14, 33],
+        "section": "Potenzen, Logarithmen und Rechenregeln"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Exponent",
+        "definition": "Die Hochzahl einer Potenz."
+      },
+      {
+        "term": "Logarithmus",
+        "definition": "Die Hochzahl, mit der eine festgelegte Basis ein gegebenes Argument ergibt."
+      },
+      {
+        "term": "Definitionsbereich",
+        "definition": "Menge der zulässigen Eingabewerte."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Regeln brauchen einen passenden Definitionsbereich",
+        "text": "Bei gleicher Basis werden Exponenten beim Multiplizieren addiert. Beim Potenzieren einer Potenz werden sie multipliziert. Für Logarithmen im Reellen muss das Argument positiv sein; die Basis ist positiv und ungleich 1. Eine Umformung ist nur dann gültig, wenn alle beteiligten Ausdrücke definiert bleiben."
+      },
+      {
+        "title": "Wurzeln nicht als Vorzeichenlöscher missverstehen",
+        "text": "Die Quadratwurzel bezeichnet die nichtnegative Hauptwurzel. Daher ist √(x²)=|x|. Die Gleichung x²=9 besitzt trotzdem zwei Lösungen, weil sowohl 3 als auch −3 beim Quadrieren 9 ergeben. Ein Ausdruck und die Lösung einer Gleichung sind verschiedene Aufgaben."
+      }
+    ],
+    "workedExample": {
+      "question": "Vereinfache 10³×10⁻⁵ und bestimme den Zehnerlogarithmus des Ergebnisses.",
+      "steps": [
+        "Gleiche Basis: Exponenten addieren, 3+(−5)=−2.",
+        "Das Produkt ist 10⁻²=0,01.",
+        "log₁₀(0,01)=−2."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Warum gilt log(x+y)=log(x)+log(y) im Allgemeinen nicht?",
+        "answer": "Die Summenregel gehört zu Produkten: log(xy)=log(x)+log(y) im passenden Definitionsbereich. Für eine Summe gibt es diese Regel nicht."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-28": {
+    "citations": [
+      {
+        "book": "mathematics",
+        "pages": [21, 22, 23],
+        "section": "Gleichungen, Ungleichungen und Textaufgaben"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Äquivalenzumformung",
+        "definition": "Umformung mit unveränderter Lösungsmenge."
+      },
+      {
+        "term": "Definitionsausschluss",
+        "definition": "Wert, für den der ursprüngliche Ausdruck nicht definiert ist."
+      },
+      {
+        "term": "Scheinlösung",
+        "definition": "Wert, der nach einer nicht äquivalenten Umformung erscheint, aber die Ausgangsaufgabe nicht erfüllt."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Vor dem Umformen den Ausgangsausdruck prüfen",
+        "text": "Nenner dürfen nicht null sein. Wird ein Faktor gekürzt, muss ein vorhandener Definitionsausschluss erhalten bleiben. Beim Quadrieren kann Information über Vorzeichen verloren gehen; dadurch können zusätzliche Lösungskandidaten entstehen. Eine Probe in der ursprünglichen Gleichung ist dann entscheidend."
+      },
+      {
+        "title": "Ungleichungen als Ordnungsbeziehungen verstehen",
+        "text": "Beim Addieren derselben Zahl bleibt die Richtung erhalten. Beim Multiplizieren mit einer negativen Zahl kehrt sie sich um. Wenn ein Faktor selbst eine Variable ist, steht sein Vorzeichen nicht immer fest. Dann ist gegebenenfalls eine Fallunterscheidung nötig statt eines unbemerkten Richtungswechsels."
+      }
+    ],
+    "workedExample": {
+      "question": "Löse −3x+6<15.",
+      "steps": [
+        "Subtrahiere 6 auf beiden Seiten: −3x<9.",
+        "Teile durch −3 und kehre das Ungleichheitszeichen um.",
+        "x>−3. Prüfe beispielsweise x=0: 6<15 stimmt."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Warum muss x=0 bei (x²)/x=0 ausgeschlossen bleiben?",
+        "answer": "Der ursprüngliche Nenner ist dann null. Ein späteres Kürzen darf diesen nicht erlaubten Wert nicht nachträglich zulässig machen."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-29": {
+    "citations": [
+      {
+        "book": "mathematics",
+        "pages": [25, 26, 28, 29, 32, 33],
+        "section": "Funktionen und Diagramme"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Nullstelle",
+        "definition": "Eingabewert, bei dem der Funktionswert null ist."
+      },
+      {
+        "term": "Steigung",
+        "definition": "Änderung des Funktionswerts bezogen auf die Änderung des Arguments."
+      },
+      {
+        "term": "Exponentielles Wachstum",
+        "definition": "Gleicher Multiplikationsfaktor in gleichen Zeitintervallen."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Parameter mit einer beobachtbaren Wirkung verbinden",
+        "text": "Bei f(x)=mx+b legt b den Wert bei x=0 fest. m gibt an, wie stark sich f bei einer Änderung von x verändert. Ein negativer Wert von m bedeutet fallenden Verlauf. Die Nullstelle ist ein x-Wert und darf nicht mit dem y-Achsenabschnitt verwechselt werden."
+      },
+      {
+        "title": "Linear und exponentiell unterscheiden",
+        "text": "Lineares Wachstum addiert in gleichen Schritten denselben Betrag. Exponentielles Wachstum multipliziert mit demselben Faktor. Prüfe in einer Tabelle daher sowohl Differenzen als auch Quotienten. Die optische Steilheit eines Diagramms hängt zusätzlich von der Achsenskalierung ab."
+      }
+    ],
+    "workedExample": {
+      "question": "Bestimme Nullstelle und y-Achsenabschnitt von f(x)=3x−12.",
+      "steps": [
+        "Der y-Achsenabschnitt ist f(0)=−12.",
+        "Für die Nullstelle setze 0=3x−12.",
+        "3x=12 und damit x=4."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Ist die Nullstelle dieser Funktion −12?",
+        "answer": "Nein. −12 ist der y-Achsenabschnitt; die Nullstelle ist der Eingabewert x=4."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-30": {
+    "citations": [
+      {
+        "book": "mathematics",
+        "pages": [41, 42, 43, 44, 45, 46, 47, 48, 49],
+        "section": "Winkelfunktionen und Geometrie"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Hypotenuse",
+        "definition": "Die dem rechten Winkel gegenüberliegende Seite eines rechtwinkligen Dreiecks."
+      },
+      {
+        "term": "Gegenkathete",
+        "definition": "Die einem ausgewählten spitzen Winkel gegenüberliegende Kathete."
+      },
+      {
+        "term": "Ähnlichkeit",
+        "definition": "Übereinstimmung der Form bei möglicherweise verschiedener Größe."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Eine Skizze ist Teil der Lösung",
+        "text": "Beschrifte den bekannten Winkel und die gegebenen Seiten. Erst danach entscheidest du zwischen Pythagoras, Sinus, Kosinus und Tangens. Gegen- und Ankathete hängen vom betrachteten Winkel ab; die Hypotenuse bleibt dieselbe. Ein allgemeines Dreieck darf nicht ohne Begründung als rechtwinklig behandelt werden."
+      },
+      {
+        "title": "Skalierung von Länge, Fläche und Volumen",
+        "text": "Werden alle Längen mit dem Faktor k multipliziert, wachsen Flächen mit k² und Volumina mit k³. Das erklärt sowohl geometrische Vergrößerung als auch Einheitenumrechnung. Ein größerer Körper hat deshalb nicht automatisch dasselbe Oberfläche-zu-Volumen-Verhältnis."
+      }
+    ],
+    "workedExample": {
+      "question": "Ein rechtwinkliges Dreieck hat Katheten 5 cm und 12 cm. Bestimme die Hypotenuse.",
+      "steps": [
+        "c²=5²+12² in cm².",
+        "25+144=169 cm².",
+        "c=13 cm. Die Wurzel liefert wieder eine Länge."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Warum sind 1 m³ nicht 100 cm³?",
+        "answer": "Ein Meter sind 100 Zentimeter. Für Volumen wird der Faktor dreimal angewendet: 1 m³=100³ cm³=1.000.000 cm³."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-31": {
+    "citations": [
+      {
+        "book": "mathematics",
+        "pages": [50, 51, 52],
+        "section": "Vektorrechnung"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Komponente",
+        "definition": "Ein Zahlenanteil eines Vektors in einem gewählten Koordinatensystem."
+      },
+      {
+        "term": "Betrag",
+        "definition": "Länge eines Vektors."
+      },
+      {
+        "term": "Orthogonal",
+        "definition": "Senkrecht zueinander; bei geeigneten Vektoren durch ein Skalarprodukt von null beschrieben."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Richtung und Länge getrennt erfassen",
+        "text": "Ein Vektor ist nicht nur eine gewöhnliche Zahl. Addition erfolgt komponentenweise. Sein Betrag wird mit dem Satz des Pythagoras aus den Komponenten bestimmt. Negative Komponenten beschreiben eine Richtung im Koordinatensystem, nicht eine negative Länge."
+      },
+      {
+        "title": "Das Skalarprodukt geometrisch lesen",
+        "text": "Das Skalarprodukt verbindet die Komponentenrechnung mit dem Winkel. Bei zwei von null verschiedenen senkrechten Vektoren ist es null. Der Nullvektor besitzt keinen eindeutig bestimmten Winkel zu einem anderen Vektor; diese Voraussetzung darf bei einer Winkelrechnung nicht ignoriert werden."
+      }
+    ],
+    "workedExample": {
+      "question": "Berechne Betrag und Skalarprodukt der Vektoren a=(3,4) und b=(4,−3).",
+      "steps": [
+        "|a|=√(9+16)=5 und |b|=√(16+9)=5.",
+        "a·b=3×4+4×(−3)=0.",
+        "Beide sind von null verschieden und deshalb orthogonal."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Ist das Skalarprodukt selbst wieder ein Vektor?",
+        "answer": "Nein. Es liefert einen Skalar, während die Vektoraddition wieder einen Vektor ergibt."
+      }
+    ],
+    "sourceNote": "Eigenständig formulierte Erläuterungen zu den genannten Skriptabschnitten; keine wörtliche Abschrift. Aussagen werden im Zusammenhang erklärt und bekannte Skriptfehler nicht ungeprüft übernommen."
+  },
+  "bms-32": {
+    "citations": [],
+    "terms": [
+      {
+        "term": "Unabhängigkeit",
+        "definition": "Das Eintreten eines Ereignisses verändert die Wahrscheinlichkeit des anderen nicht."
+      },
+      {
+        "term": "Bedingte Wahrscheinlichkeit",
+        "definition": "Wahrscheinlichkeit unter einer bereits gegebenen Information."
+      },
+      {
+        "term": "Median",
+        "definition": "Ein zentraler Wert der sortierten Daten, der sie in zwei Hälften teilt."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Das richtige Ereignis formulieren",
+        "text": "Bei mindestens einem Erfolg ist es oft einfacher, zuerst keinen Erfolg zu berechnen und das Ergebnis von 1 abzuziehen. Die Multiplikationsregel mit unbedingten Einzelwahrscheinlichkeiten darf nur bei Unabhängigkeit verwendet werden. Ohne sie muss die Information nach dem ersten Ereignis berücksichtigt werden."
+      },
+      {
+        "title": "Eine Datensammlung nicht durch eine einzige Zahl erklären",
+        "text": "Mittelwert und Median beschreiben unterschiedliche Aspekte. Ein großer Ausreißer kann den Mittelwert stark verändern, während der Median vergleichsweise stabil bleibt. Zusätzlich sind Streuung, Stichprobengröße und Auswahlverfahren wichtig. Ein statistischer Zusammenhang beweist noch keine Ursache."
+      }
+    ],
+    "workedExample": {
+      "question": "Wie wahrscheinlich ist mindestens eine Sechs bei zwei unabhängigen fairen Würfen?",
+      "steps": [
+        "Das Gegenereignis ist zweimal keine Sechs.",
+        "P(keine Sechs zweimal)=(5/6)²=25/36.",
+        "Gesucht ist 1−25/36=11/36."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Darf man bei Ziehen ohne Zurücklegen immer unverändert dieselbe Trefferwahrscheinlichkeit multiplizieren?",
+        "answer": "Nein. Die Zusammensetzung verändert sich nach dem ersten Ziehen; die zweite Wahrscheinlichkeit ist dann bedingt."
+      }
+    ],
+    "sourceNote": "Ergänzendes Lernkapitel: In den hochgeladenen Skripten ist hierfür kein passender vollständiger Fachabschnitt zugeordnet. Keine direkte Skriptabdeckung behauptet."
+  }
+}

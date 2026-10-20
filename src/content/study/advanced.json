@@ -1,0 +1,624 @@
+{
+  "bio-respiration": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [19, 20, 121],
+        "section": "Mitochondrien: Bau und Grundfunktion"
+      }
+    ],
+    "sectionTitles": [
+      "Glykolyse und Acetyl-CoA",
+      "Elektronenlieferanten und Komplexe",
+      "Protonengefälle und ATP-Synthase",
+      "Grenzen der Kopplung"
+    ],
+    "terms": [
+      {
+        "term": "Reduktionsäquivalent",
+        "definition": "Elektronentragender Cofaktor wie NADH."
+      },
+      {
+        "term": "Chemiosmose",
+        "definition": "Kopplung von Ionengefälle und Energieumwandlung."
+      }
+    ],
+    "workedExample": {
+      "question": "Ein Entkoppler macht die innere Membran für Protonen durchlässiger. Wie ändert sich die ATP-Ausbeute?",
+      "steps": [
+        "Der Protonenrückfluss durch die ATP-Synthase konkurriert mit einem alternativen Rückweg.",
+        "Ein Teil der gespeicherten Gradientenenergie wird ohne ATP-Bildung abgebaut.",
+        "Die ATP-Ausbeute pro oxidiertem Substrat sinkt; Elektronentransport und Sauerstoffverbrauch müssen nicht gleichzeitig zum Stillstand kommen."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Warum ist eine dichte innere Membran wichtig?",
+        "answer": "Sie erhält das elektrochemische Protonengefälle, dessen Energie für die ATP-Synthese genutzt wird."
+      }
+    ],
+    "sourceNote": "Die genannten Seiten sind zugeordnete Grundlagen oder Vertiefungen. Die darüber hinausgehende Erklärung ist eigenständig formuliert; der Umfang des Skriptabschnitts ist nicht mit vollständiger Abdeckung des Kapitels gleichzusetzen."
+  },
+  "bio-photosynthesis": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [132],
+        "section": "Ergänzende Photosyntheseabbildungen auf der Skriptseite"
+      }
+    ],
+    "sectionTitles": [
+      "Ort und Reaktionsräume",
+      "Lichtreaktionen",
+      "Calvin-Zyklus",
+      "Zusammenhang mit Zellatmung"
+    ],
+    "terms": [
+      {
+        "term": "Thylakoid",
+        "definition": "Membransystem des Chloroplasten für die Lichtreaktionen."
+      },
+      {
+        "term": "Kohlenstofffixierung",
+        "definition": "Einbau von anorganischem Kohlenstoff in organische Verbindungen."
+      }
+    ],
+    "workedExample": {
+      "question": "Wasser mit markiertem Sauerstoff wird für die Photosynthese verwendet. Wo kann die Markierung auftauchen?",
+      "steps": [
+        "Bei der Lichtreaktion wird Wasser gespalten.",
+        "Aus dem Sauerstoff des Wassers entsteht der freigesetzte molekulare Sauerstoff.",
+        "Die Markierung kann daher im abgegebenen O₂ erscheinen; sie beweist keine direkte Spaltung von CO₂ zu O₂."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Warum ist die Bezeichnung Dunkelreaktion leicht missverständlich?",
+        "answer": "Der Calvin-Zyklus benötigt Licht nicht unmittelbar als Reaktionspartner, ist aber von Produkten und Regulation der Lichtreaktionen abhängig."
+      }
+    ],
+    "sourceNote": "Die genannten Seiten sind zugeordnete Grundlagen oder Vertiefungen. Die darüber hinausgehende Erklärung ist eigenständig formuliert; der Umfang des Skriptabschnitts ist nicht mit vollständiger Abdeckung des Kapitels gleichzusetzen."
+  },
+  "bio-action-potential": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [32, 51, 52],
+        "section": "Nervengewebe und Nervenfasern"
+      }
+    ],
+    "sectionTitles": [
+      "Ruhe und Gradienten",
+      "Positive Rückkopplung",
+      "Repolarisation",
+      "Refraktärzeit und Leitung"
+    ],
+    "terms": [
+      {
+        "term": "Depolarisation",
+        "definition": "Verschiebung des Membranpotenzials zu weniger negativen Werten."
+      },
+      {
+        "term": "Refraktärzeit",
+        "definition": "Phase eingeschränkter erneuter Erregbarkeit."
+      }
+    ],
+    "workedExample": {
+      "question": "Ein zweiter Reiz trifft während der absoluten Refraktärzeit ein. Warum entsteht kein normales zweites Aktionspotenzial?",
+      "steps": [
+        "Viele spannungsabhängige Natriumkanäle befinden sich im inaktivierten Zustand.",
+        "Sie können nicht sofort erneut wie aus dem Ruhezustand öffnen.",
+        "Ein bloß stärkerer Reiz hebt diese zeitabhängige Kanalzustandsbegrenzung nicht einfach auf."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Stellt die Natrium-Kalium-Pumpe allein die schnelle Repolarisation her?",
+        "answer": "Nein. Die schnelle Rückkehr beruht wesentlich auf Kanalzuständen und Ionenströmen. Die Pumpe erhält langfristig die Gradienten."
+      }
+    ],
+    "sourceNote": "Die genannten Seiten sind zugeordnete Grundlagen oder Vertiefungen. Die darüber hinausgehende Erklärung ist eigenständig formuliert; der Umfang des Skriptabschnitts ist nicht mit vollständiger Abdeckung des Kapitels gleichzusetzen."
+  },
+  "bio-replication": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [93, 94, 95],
+        "section": "Replikation und Termination"
+      }
+    ],
+    "sectionTitles": [
+      "Semikonservative Verdopplung",
+      "Startstelle und Syntheserichtung",
+      "Leit- und Folgestrang",
+      "Genauigkeit und Abgrenzung"
+    ],
+    "terms": [
+      {
+        "term": "Primer",
+        "definition": "Kurzes Startstück mit verlängerbarem 3′-Ende."
+      },
+      {
+        "term": "Okazaki-Fragment",
+        "definition": "Ein einzelner DNA-Abschnitt der diskontinuierlichen Folgestrangsynthese."
+      }
+    ],
+    "workedExample": {
+      "question": "Eine DNA-Polymerase trifft auf eine nackte einzelsträngige Matrize ohne Primer. Reicht die Vorlage für den üblichen Start?",
+      "steps": [
+        "Die Matrize gibt die Basenreihenfolge vor.",
+        "Eine typische DNA-Polymerase benötigt zusätzlich ein vorhandenes geeignetes 3′-OH-Ende.",
+        "Ein Primer stellt die Startmöglichkeit bereit; die Vorlage allein ersetzt ihn nicht."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Wird der Folgestrang in 3′→5′-Richtung aufgebaut?",
+        "answer": "Nein. Seine einzelnen Abschnitte entstehen ebenfalls 5′→3′, nur in diskontinuierlicher Organisation."
+      }
+    ],
+    "sourceNote": "Die genannten Seiten sind zugeordnete Grundlagen oder Vertiefungen. Die darüber hinausgehende Erklärung ist eigenständig formuliert; der Umfang des Skriptabschnitts ist nicht mit vollständiger Abdeckung des Kapitels gleichzusetzen."
+  },
+  "bio-protein-synthesis": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [97, 98, 99, 100, 101, 102],
+        "section": "Genetischer Code und Genexpression"
+      }
+    ],
+    "sectionTitles": [
+      "Transkription und Verarbeitung",
+      "Codon und tRNA",
+      "Start, Verlängerung und Ende",
+      "Mutationsfolgen"
+    ],
+    "terms": [
+      {
+        "term": "Anticodon",
+        "definition": "Basentriplett einer tRNA, das zu einem mRNA-Codon passt."
+      },
+      {
+        "term": "Spleißen",
+        "definition": "Entfernen von Introns und Verknüpfen von Exonabschnitten einer RNA."
+      }
+    ],
+    "workedExample": {
+      "question": "Eine einzelne Base wird in einem codierenden Bereich ausgetauscht. Muss das Protein eine andere Länge haben?",
+      "steps": [
+        "Eine Substitution verändert nicht automatisch die Zahl der Nukleotide.",
+        "Sie kann dieselbe Aminosäure, eine andere Aminosäure oder ein Stoppsignal ergeben.",
+        "Eine andere Proteinlänge ist möglich, aber nicht zwingend; das konkrete Codon entscheidet."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Warum ist ein Stoppcodon keine besondere letzte Aminosäure?",
+        "answer": "Es wird als Abbruchsignal durch passende Freisetzungsfaktoren erkannt und liefert selbst keine zusätzliche Aminosäure."
+      }
+    ],
+    "sourceNote": "Die genannten Seiten sind zugeordnete Grundlagen oder Vertiefungen. Die darüber hinausgehende Erklärung ist eigenständig formuliert; der Umfang des Skriptabschnitts ist nicht mit vollständiger Abdeckung des Kapitels gleichzusetzen."
+  },
+  "bio-embryology": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [83, 84, 85, 86, 87, 88, 89],
+        "section": "Befruchtung, Keimblätter und Plazenta"
+      }
+    ],
+    "sectionTitles": [
+      "Furchung und Einnistung",
+      "Drei Keimblätter",
+      "Neurulation",
+      "Differenzierung und Stoffaustausch"
+    ],
+    "terms": [
+      {
+        "term": "Gastrulation",
+        "definition": "Entwicklungsprozess zur Anlage der Keimblätter."
+      },
+      {
+        "term": "Neurulation",
+        "definition": "Bildung des Neuralrohrs aus spezialisiertem Ektoderm."
+      }
+    ],
+    "workedExample": {
+      "question": "Warum ist die Aussage „Der Darm stammt vollständig aus dem Endoderm“ ungenau?",
+      "steps": [
+        "Ein Organ besteht aus mehreren Gewebekomponenten.",
+        "Sein Epithel kann eine andere embryonale Herkunft als Muskulatur und Bindegewebe besitzen.",
+        "Beim Darm stammen wichtige Epithelanteile aus Endoderm, Muskel- und Bindegewebsanteile dagegen aus Mesoderm."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Bedeutet Differenzierung normalerweise, dass jede neue Zellart ein völlig neues Genom erhält?",
+        "answer": "Nein. Meist unterscheiden sich Genaktivität und Zellorganisation bei weitgehend gleichem Genom."
+      }
+    ],
+    "sourceNote": "Die genannten Seiten sind zugeordnete Grundlagen oder Vertiefungen. Die darüber hinausgehende Erklärung ist eigenständig formuliert; der Umfang des Skriptabschnitts ist nicht mit vollständiger Abdeckung des Kapitels gleichzusetzen."
+  },
+  "bio-senses": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [56, 57, 58, 59, 60, 61, 62, 63],
+        "section": "Sinnesorgane"
+      }
+    ],
+    "sectionTitles": [
+      "Auge und Rezeptortypen",
+      "Licht in elektrische Signale übersetzen",
+      "Cochlea und Tonhöhe",
+      "Gleichgewicht und chemische Sinne"
+    ],
+    "terms": [
+      {
+        "term": "Transduktion",
+        "definition": "Umwandlung eines Reizes in ein zelluläres Signal."
+      },
+      {
+        "term": "Tonotopie",
+        "definition": "Räumliche Zuordnung verschiedener Frequenzen im Hörsystem."
+      }
+    ],
+    "workedExample": {
+      "question": "Ein hoher Ton trifft auf das Ohr. Wo ist die Basilarmembran besonders empfindlich dafür?",
+      "steps": [
+        "Die Cochlea ist entlang ihrer Länge mechanisch unterschiedlich aufgebaut.",
+        "Hohe Frequenzen werden besonders basal nahe dem ovalen Fenster repräsentiert.",
+        "Tiefe Frequenzen liegen weiter apikal; die Orte sind nicht beliebig austauschbar."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Welche Netzhautzellen leiten ihre Aktionspotenziale über den Sehnerv weiter?",
+        "answer": "Die Ganglienzellen. Die Photorezeptoren liefern vorher überwiegend graduierte Rezeptorsignale."
+      }
+    ],
+    "sourceNote": "Die genannten Seiten sind zugeordnete Grundlagen oder Vertiefungen. Die darüber hinausgehende Erklärung ist eigenständig formuliert; der Umfang des Skriptabschnitts ist nicht mit vollständiger Abdeckung des Kapitels gleichzusetzen."
+  },
+  "bio-endocrine": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [63, 64, 65],
+        "section": "Endokrines System"
+      }
+    ],
+    "sectionTitles": [
+      "Rezeptoren bestimmen Zielwirkung",
+      "Übergeordnete Regelkreise",
+      "Insulin und Glucagon",
+      "Nebenniere als Beispiel"
+    ],
+    "terms": [
+      {
+        "term": "Endokrin",
+        "definition": "Abgabe eines Botenstoffs mit Wirkung über den Kreislauf."
+      },
+      {
+        "term": "Steuerhormon",
+        "definition": "Hormon, das die Aktivität einer anderen hormonbildenden Struktur reguliert."
+      }
+    ],
+    "workedExample": {
+      "question": "Die Schilddrüse produziert bei intakter übergeordneter Regulation zu wenig Zielhormon. Was kann mit TSH passieren?",
+      "steps": [
+        "Die hemmende Rückmeldung der Schilddrüsenhormone ist vermindert.",
+        "Die übergeordnete Regulation kann die Stimulation verstärken.",
+        "TSH kann erhöht sein; bei zentralen Störungen muss dieses Muster nicht gelten."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Werden Aldosteron und Adrenalin im gleichen Teil der Nebenniere gebildet?",
+        "answer": "Nein. Aldosteron entsteht in der Rinde, Catecholamine wie Adrenalin im Mark."
+      }
+    ],
+    "sourceNote": "Die genannten Seiten sind zugeordnete Grundlagen oder Vertiefungen. Die darüber hinausgehende Erklärung ist eigenständig formuliert; der Umfang des Skriptabschnitts ist nicht mit vollständiger Abdeckung des Kapitels gleichzusetzen."
+  },
+  "bio-kidney": {
+    "citations": [
+      {
+        "book": "biology",
+        "pages": [73, 74],
+        "section": "Harnsystem: Anatomie und Grundfunktionen"
+      }
+    ],
+    "sectionTitles": [
+      "Filtrationsbarriere",
+      "Rückresorption und Sekretion",
+      "Konzentrationsvermögen und ADH",
+      "Weitere Regulationsaufgaben"
+    ],
+    "terms": [
+      {
+        "term": "Glomerulus",
+        "definition": "Kapillarknäuel im Nierenkörperchen."
+      },
+      {
+        "term": "Aquaporin",
+        "definition": "Membranprotein, das den Wassertransport erleichtert."
+      }
+    ],
+    "workedExample": {
+      "question": "ADH erhöht die Wasserpermeabilität des Sammelrohrs. Warum genügt dies allein nicht für beliebig starke Wasseraufnahme?",
+      "steps": [
+        "Eine höhere Permeabilität erleichtert den Transport.",
+        "Die Richtung und Stärke benötigen zusätzlich ein wirksames osmotisches Gefälle.",
+        "Ohne dieses Gefälle kann die Permeabilitätsänderung nicht beliebig Wasser gegen die Bedingungen bewegen."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Was bedeutet Sekretion in der Nierenphysiologie?",
+        "answer": "Transport aus Blut beziehungsweise Interstitium in das Tubuluslumen. Sie ist nicht mit endgültiger Ausscheidung gleichzusetzen."
+      }
+    ],
+    "sourceNote": "Die genannten Seiten sind zugeordnete Grundlagen oder Vertiefungen. Die darüber hinausgehende Erklärung ist eigenständig formuliert; der Umfang des Skriptabschnitts ist nicht mit vollständiger Abdeckung des Kapitels gleichzusetzen."
+  },
+  "chem-equilibrium": {
+    "citations": [
+      {
+        "book": "chemistry",
+        "pages": [31, 32, 33, 34],
+        "section": "Gleichgewicht und Katalyse"
+      }
+    ],
+    "sectionTitles": [
+      "Dynamisches Gleichgewicht",
+      "Q und K vergleichen",
+      "Eine Störung auswerten",
+      "Temperatur und Katalyse unterscheiden"
+    ],
+    "terms": [
+      {
+        "term": "Aktivität",
+        "definition": "Thermodynamisch geeignete relative wirksame Konzentrationsgröße."
+      },
+      {
+        "term": "Nettoreaktion",
+        "definition": "Verbleibende Änderung aus gleichzeitiger Hin- und Rückreaktion."
+      }
+    ],
+    "workedExample": {
+      "question": "A ⇌ B hat bei gegebener Temperatur K=4. Aktuell gilt näherungsweise [B]/[A]=8. Was folgt?",
+      "steps": [
+        "Q=8 ist größer als K=4.",
+        "Relativ zum Gleichgewicht liegt zu viel B vor.",
+        "Die Mischung reagiert netto zur Eduktseite, bis Q wieder K entspricht."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Ist ein konstant bleibendes K mit einer veränderten Gleichgewichtszusammensetzung vereinbar?",
+        "answer": "Ja. Nach einer Konzentrationsstörung kann sich eine neue Zusammensetzung mit demselben K bei gleicher Temperatur einstellen."
+      }
+    ],
+    "sourceNote": "Die genannten Seiten sind zugeordnete Grundlagen oder Vertiefungen. Die darüber hinausgehende Erklärung ist eigenständig formuliert; der Umfang des Skriptabschnitts ist nicht mit vollständiger Abdeckung des Kapitels gleichzusetzen."
+  },
+  "chem-stereochemistry": {
+    "citations": [
+      {
+        "book": "chemistry",
+        "pages": [65, 66, 67],
+        "section": "Isomerie und räumliche Anordnung"
+      }
+    ],
+    "sectionTitles": [
+      "Verknüpfung und räumliche Lage",
+      "Doppelbindung und Rotation",
+      "Chiralität",
+      "Biologische Bedeutung"
+    ],
+    "terms": [
+      {
+        "term": "Enantiomere",
+        "definition": "Nicht deckungsgleiche Spiegelbildisomere."
+      },
+      {
+        "term": "Konformation",
+        "definition": "Räumliche Anordnung, die durch geeignete Drehungen ohne Bindungsspaltung verändert werden kann."
+      }
+    ],
+    "workedExample": {
+      "question": "Ein tetraedrisches C-Atom trägt H, OH, CH₃ und noch einmal H. Ist es nach dem einfachen Kriterium ein Chiralitätszentrum?",
+      "steps": [
+        "Vergleiche alle vier Substituenten.",
+        "Zwei davon sind identisch: H und H.",
+        "Das einfache Kriterium vier verschiedener Substituenten ist nicht erfüllt."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Ist jede Drehung einer Molekülzeichnung eine neue chemische Verbindung?",
+        "answer": "Nein. Eine bloße räumliche Drehung ändert die Identität der Struktur nicht."
+      }
+    ],
+    "sourceNote": "Die genannten Seiten sind zugeordnete Grundlagen oder Vertiefungen. Die darüber hinausgehende Erklärung ist eigenständig formuliert; der Umfang des Skriptabschnitts ist nicht mit vollständiger Abdeckung des Kapitels gleichzusetzen."
+  },
+  "chem-solubility": {
+    "citations": [],
+    "sectionTitles": [
+      "Feststoff und gelöste Ionen",
+      "Ionenprodukt und Sättigung",
+      "Stöchiometrie im Produkt",
+      "Einfluss der Umgebung"
+    ],
+    "terms": [
+      {
+        "term": "Gesättigte Lösung",
+        "definition": "Lösung im Gleichgewicht mit dem betreffenden Feststoff unter den angegebenen Bedingungen."
+      },
+      {
+        "term": "Löslichkeitsprodukt",
+        "definition": "Gleichgewichtsgröße des Auflösens eines schwer löslichen Stoffes."
+      }
+    ],
+    "workedExample": {
+      "question": "Ein idealisiertes Salz AB₂ hat molare Löslichkeit s. Welche Beziehung ergibt sich in reinem Wasser näherungsweise?",
+      "steps": [
+        "Ein Formeleinheit liefert ein A und zwei B.",
+        "Die relativen Konzentrationen sind proportional zu s und 2s.",
+        "Das Produkt lautet näherungsweise s(2s)²=4s³; nicht einfach s²."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Bedeutet eine Fällung, dass danach gar keine Ionen in Lösung bleiben?",
+        "answer": "Nein. Das verbleibende Lösungsgleichgewicht kann weiterhin gelöste Ionen enthalten."
+      }
+    ],
+    "sourceNote": "Eigenständige Ergänzung: In den fünf bereitgestellten Skripten ist kein passender vollständiger Abschnitt für dieses Thema zugeordnet."
+  },
+  "phys-lenses": {
+    "citations": [
+      {
+        "book": "physics",
+        "pages": [41, 42],
+        "section": "Sammel- und Zerstreuungslinsen"
+      }
+    ],
+    "sectionTitles": [
+      "Drei Konstruktionsstrahlen",
+      "Reelle und virtuelle Bilder",
+      "Linsengleichung",
+      "Brechkraft und Einheiten"
+    ],
+    "terms": [
+      {
+        "term": "Reelles Bild",
+        "definition": "Bildpunkt an einem tatsächlichen Schnitt austretender Strahlen."
+      },
+      {
+        "term": "Virtuelles Bild",
+        "definition": "Bildpunkt aus gedachten rückwärtigen Verlängerungen von Strahlen."
+      }
+    ],
+    "workedExample": {
+      "question": "Eine Sammellinse hat f=10 cm, der Gegenstand steht bei g=20 cm. Wo liegt das Bild?",
+      "steps": [
+        "1/b=1/f−1/g=1/10−1/20 cm⁻¹.",
+        "1/b=1/20 cm⁻¹, also b=20 cm.",
+        "Das Bild ist im Dünnlinsenmodell reell und betragsmäßig gleich groß."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Warum sind 10 cm Brennweite nicht 0,1 Dioptrien?",
+        "answer": "Die Brechkraft ist der Kehrwert der Brennweite in Metern: 1/0,10 m=10 dpt."
+      }
+    ],
+    "sourceNote": "Die genannten Seiten sind zugeordnete Grundlagen oder Vertiefungen. Die darüber hinausgehende Erklärung ist eigenständig formuliert; der Umfang des Skriptabschnitts ist nicht mit vollständiger Abdeckung des Kapitels gleichzusetzen."
+  },
+  "phys-torque": {
+    "citations": [],
+    "sectionTitles": [
+      "Hebelarm und Winkel",
+      "Kraft- und Momentenbilanz",
+      "Hebelgesetz",
+      "Einheiten und Modellgrenzen"
+    ],
+    "terms": [
+      {
+        "term": "Hebelarm",
+        "definition": "Senkrechter Abstand der Wirkungslinie einer Kraft zum Drehpunkt."
+      },
+      {
+        "term": "Drehmoment",
+        "definition": "Maß für die Drehwirkung einer Kraft um einen Bezugspunkt."
+      }
+    ],
+    "workedExample": {
+      "question": "Eine Kraft von 50 N wirkt senkrecht in 0,20 m Abstand. Wie groß ist das Moment?",
+      "steps": [
+        "Bei senkrechter Wirkung ist der wirksame Hebelarm 0,20 m.",
+        "M=F·l=50 N×0,20 m.",
+        "M=10 N·m. Das beschreibt die Drehwirkung, nicht bereits eine geleistete Arbeit."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Welche zwei Bedingungen benötigt statisches Gleichgewicht eines starren Körpers?",
+        "answer": "Die resultierende Kraft und die Summe der Drehmomente müssen null sein."
+      }
+    ],
+    "sourceNote": "Eigenständige Ergänzung: In den fünf bereitgestellten Skripten ist kein passender vollständiger Abschnitt für dieses Thema zugeordnet."
+  },
+  "math-formulas": {
+    "citations": [
+      {
+        "book": "mathematics",
+        "pages": [21, 22, 23],
+        "section": "Gleichungen und Textaufgaben"
+      }
+    ],
+    "sectionTitles": [
+      "Gegeben und gesucht festhalten",
+      "Erlaubt umformen",
+      "Einheiten prüfen",
+      "Ergebnis kontrollieren"
+    ],
+    "terms": [
+      {
+        "term": "Modellannahme",
+        "definition": "Voraussetzung, unter der eine Formel auf eine Situation passt."
+      },
+      {
+        "term": "Dimensionsprüfung",
+        "definition": "Kontrolle, ob die Einheitenstruktur zur gesuchten Größe passt."
+      }
+    ],
+    "workedExample": {
+      "question": "Stelle E=½mv² nach v für die nichtnegative Geschwindigkeit um.",
+      "steps": [
+        "Multipliziere mit 2: 2E=mv².",
+        "Teile für m>0 durch m: v²=2E/m.",
+        "Ziehe die nichtnegative Wurzel: v=√(2E/m), sofern E≥0."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Beweist eine passende Einheit allein die richtige Formel?",
+        "answer": "Nein. Verschiedene Ausdrücke können dieselbe Dimension besitzen. Die physikalischen oder mathematischen Voraussetzungen müssen ebenfalls stimmen."
+      }
+    ],
+    "sourceNote": "Die genannten Seiten sind zugeordnete Grundlagen oder Vertiefungen. Die darüber hinausgehende Erklärung ist eigenständig formuliert; der Umfang des Skriptabschnitts ist nicht mit vollständiger Abdeckung des Kapitels gleichzusetzen."
+  },
+  "math-combinatorics": {
+    "citations": [],
+    "sectionTitles": [
+      "Reihenfolge und Wiederholung",
+      "Auswahlen ohne Rollen",
+      "Auswahlen mit Wiederholung",
+      "Zählen und Wahrscheinlichkeit"
+    ],
+    "terms": [
+      {
+        "term": "Permutation",
+        "definition": "Anordnung unterschiedlicher Elemente unter beachteter Reihenfolge."
+      },
+      {
+        "term": "Kombination",
+        "definition": "Auswahl, bei der die Reihenfolge nicht als Unterschied zählt."
+      }
+    ],
+    "workedExample": {
+      "question": "Drei von fünf Personen werden als gleichberechtigtes Team gewählt. Wie viele Teams gibt es?",
+      "steps": [
+        "Zunächst gäbe es 5×4×3 geordnete Auswahlen.",
+        "Jedes Team wird dabei in 3!=6 Reihenfolgen gezählt.",
+        "60/6=10 Teams. Bei drei verschiedenen Ämtern wären es dagegen 60 Möglichkeiten."
+      ]
+    },
+    "checks": [
+      {
+        "question": "Was sind die ersten zwei Fragen bei einer Zählaufgabe?",
+        "answer": "Zählt die Reihenfolge, und darf ein Element mehrfach vorkommen?"
+      }
+    ],
+    "sourceNote": "Eigenständige Ergänzung: In den fünf bereitgestellten Skripten ist kein passender vollständiger Abschnitt für dieses Thema zugeordnet."
+  }
+}

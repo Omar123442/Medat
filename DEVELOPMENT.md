@@ -42,7 +42,7 @@ Original-Deck und FSRS-Reviewzustände liegen in IndexedDB auf diesem Gerät. Ta
 npm test
 ```
 
-Baut die Website und führt 31 Playwright-Tests aus. Die Konfiguration startet Entwicklungs- und Produktionsserver und verwendet `/usr/bin/chromium`. Auf anderen Rechnern den Browserpfad in `playwright.config.js` anpassen. Node.js 24 wird auch für die moderne Anki-Kompression der Testfixtures benötigt. Die Testdateien werden synthetisch erzeugt; das Originaldeck war wegen des 32-MB-Transferlimits nicht direkt zugänglich.
+Baut die Website und führt 37 Playwright-Tests aus. Die Konfiguration startet Entwicklungs- und Produktionsserver und verwendet `/usr/bin/chromium`. Auf anderen Rechnern den Browserpfad in `playwright.config.js` anpassen. Node.js 24 wird auch für die moderne Anki-Kompression der Testfixtures benötigt. Die Testdateien werden synthetisch erzeugt; das Originaldeck war wegen des 32-MB-Transferlimits nicht direkt zugänglich.
 
 ## Importgrenzen
 
@@ -59,3 +59,7 @@ Der vollständige Umsetzungsstand und konkrete offene Punkte stehen in [docs/IMP
 Unter **Skriptbibliothek** die fünf PDFs aus dem Chat einmal lokal auswählen. Sie werden anhand ihres Datei-Hashes erkannt und dauerhaft auf diesem Gerät gespeichert. Danach erscheinen Originalabbildungen mit Seitenangaben in verknüpften Kapiteln und passende historische KFF-Strategieabschnitte. Die Originalseite lässt sich vergrößern und durchblättern. Details und konkrete Inhaltskorrekturen stehen in [docs/UPLOADED_SCRIPTS.md](docs/UPLOADED_SCRIPTS.md). Die alten Ausgaben bestätigen keine aktuelle offizielle Stoffliste.
 
 PDF.js und sein Worker sind lokal gebündelt und im Produktionsbuild offline verfügbar. Für den Import wird ein sicherer Browserkontext benötigt (HTTPS oder localhost). Die vollständigen Bücher und Fremdbilder werden nicht mit dem Repository veröffentlicht. Beim Löschen der Websitedaten gehen auch die lokal importierten Skripte verloren.
+
+## Detailliertes „Zuerst verstehen“
+
+Der Lernbereich enthält jetzt direkt **Deine Skripte** und **KFF-Lernwissen**. Alle 49 BMS-Kapitel besitzen einen strukturierten Leitfaden mit Begriffen, gelöstem Beispiel und zwei Selbsttestfragen; die 33 kurzen Grundlagenkapitel wurden textlich erweitert. Lerntexte sind ohne PDF-Import lesbar. Konkrete Upload-Quellen und Seiten stehen vor der Erklärung, zusätzliche Literatur ist getrennt aufgeführt. Fünf nicht passend abgedeckte Themen sind als eigenständige Ergänzung markiert. Details: [docs/STUDY_GUIDES.md](docs/STUDY_GUIDES.md).

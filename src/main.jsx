@@ -34,7 +34,8 @@ import "./style.css";
 import "./logic/logic.css";
 import "./offline";
 import Books from "./books/Books";
-import Learn, { Preparation } from "./Learn";
+import { Preparation } from "./Reading";
+const Learn = lazy(() => import("./Learn"));
 const LogicTrainer = lazy(() => import("./logic/LogicTrainer"));
 const KffHub = lazy(() => import("./kff/KffHub"));
 import ReviewDashboard from "./learning/ReviewDashboard";
@@ -665,7 +666,9 @@ function App() {
           )}
           {page === "Skriptbibliothek" && <Books />}
           {page === "Zuerst verstehen" && (
-            <Learn cards={cards} onPractice={start} reviews={reviews} />
+            <Suspense fallback={<p>Lade Lernbibliothek …</p>}>
+              <Learn cards={cards} onPractice={start} reviews={reviews} />
+            </Suspense>
           )}
           {page === "Implikationen erkennen" && (
             <Suspense fallback={<p>Lade Logiktrainer …</p>}>
