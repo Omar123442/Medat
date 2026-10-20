@@ -32,6 +32,7 @@ import {
 import { importAnki } from "./import";
 import "./style.css";
 import Learn, { Preparation } from "./Learn";
+import LogicTrainer from "./logic/LogicTrainer";
 import { loadDeck, saveDeck } from "./storage";
 const demo = [
   {
@@ -258,6 +259,7 @@ function App() {
           {[
             [LayoutDashboard, "Übersicht"],
             [BookOpen, "Zuerst verstehen"],
+            [Target, "Implikationen erkennen"],
             [Layers, "Lernkarten"],
             [BookOpen, "Fachbereiche"],
             [ChartNoAxesCombined, "Fortschritt"],
@@ -630,6 +632,7 @@ function App() {
           {page === "Zuerst verstehen" && (
             <Learn cards={cards} onPractice={start} />
           )}
+          {page === "Implikationen erkennen" && <LogicTrainer />}
           {page === "Lernkarten" && (
             <section className="library">
               <div className="section-heading">

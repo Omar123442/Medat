@@ -42,3 +42,7 @@ Beliebiges JavaScript in Anki-Vorlagen, verschachtelte Spezialfilter, Image-Occl
 Die vier Beispielkarten stammen nicht aus dem Tanki-Deck. Die hochgeladene Originaldatei überschreitet das 32-MB-Transferlimit der Agent-Umgebung und konnte deshalb hier nicht direkt untersucht werden. Sie muss im Browser importiert werden; ihre spezifische Darstellung wurde nicht geprüft. Die Testdateien belegen die unterstützten Importfälle, nicht die Vollständigkeit einer unbekannten Originaldatei.
 
 Die 33 Grundlagenkapitel sind ergänzendes Lernmaterial, kein als vollständig oder fachlich unabhängig geprüft ausgewiesenes Lehrbuch. Die aktuelle offizielle BMS-Stichwortliste unter https://www.medizinstudieren.at/ bleibt der Maßstab für die Vorbereitung. Inhalte aus dem importierten Deck sind im separaten Lesemodus zugänglich. KFF, TV und SEK sind nicht Teil dieses BMS-Lernstudios.
+
+## KFF: Implikationen erkennen
+
+Über die Navigation erreichbar. Fünf Grundlagenlektionen, 30 eigene Aufgabenvarianten aus zehn logischen Mustern, Lernmodus ohne Zeitdruck und ein zeitbegrenzter Prüfungsmodus mit automatischer Auswertung. Der Aufgabenpool wird mittels endlicher Mengenmodelle auf zwingende Schlüsse geprüft. Details zu Formatstand, Semantik, Quellen und Grenzen stehen in `src/logic/README.md`. Das aktuelle offizielle MedAT-H-Format konnte wegen HTTP-403-Zugriffssperren nicht verifiziert werden; Voreinstellungen sind als Trainingsvorgaben gekennzeichnet. `npm test` führt jetzt auch die Logik- und Timerprüfungen aus.
